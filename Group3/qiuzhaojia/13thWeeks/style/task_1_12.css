@@ -1,0 +1,99 @@
+/*重置默认样式*/
+body,ul,p {
+	margin :0;
+}
+th,td,ul {
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+/*列表*/
+table {
+	margin: 50px auto;
+}
+tr:nth-child(odd) {
+	background: #cdcdcd;
+}
+tr:nth-child(2),tr:nth-child(3),tr:nth-child(4) {
+	color: #f33;
+}
+tr:first-of-type {
+	background: #000;
+	color: #fff;
+	font-weight: bolder;
+}
+/*input*/
+input {
+	height: 18px;
+	width: 96px;
+	display: block;
+	margin: 50px auto;
+	transition: width 1s;
+
+}
+input:focus {
+	width: 200px;
+}
+/*banner1*/
+div {
+	width: 272px;
+	height: 110px;
+	border: solid #f33 1px;
+	margin: 50px auto;
+	overflow: hidden;
+	position: relative;
+}
+ul a {
+	display: inline-block;
+	text-decoration: none;
+	background: #cdcdcd;
+	text-align: center;
+	line-height: 26px;
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	bottom: 0;
+}
+a:nth-of-type(1) {
+	right: 54px;
+}
+a:nth-of-type(2) {
+	right: 27px;
+}
+a:nth-of-type(3) {
+	right: 0;
+}
+ul {
+	width: 272px;
+	height: 110px;
+	-webkit-animation: banner 6s infinite ;
+}
+@-webkit-keyframes banner {
+	0% { 
+		background: url(../img/1.jpg);
+		-webkit-background-size:270px 110px;
+	}
+	50% {
+		background: url(../img/2.jpg);
+		-webkit-background-size:270px 110px;
+	}
+	100% {
+		background: url(../img/3.jpg);
+		-webkit-background-size:270px 110px;
+	}
+}
+/*banner2*/
+marquee {
+	width: 272px;
+	height: 110px;
+	margin: 50px auto !important;
+	display: block;
+	border: 1px solid #000;
+}
+p {
+	width: 272px;
+	height: 110px;
+	display: inline-block;
+	-webkit-background-size: 270px 110px;
+}
