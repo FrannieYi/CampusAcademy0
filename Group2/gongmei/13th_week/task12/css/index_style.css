@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*表格*/
+th{
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid #fff;
+}
+.tr1{
+    background: #fff;
+    border: 1px solid #fff;
+}
+.tr2{
+    background: #cdcdcd;
+    border: 1px solid #fff;
+}
+#red1,#red2,#red3{
+    color: red;
+    border: 1px solid #fff;
+}
+td,th{
+    padding: 2px 10px 2px 5px;
+    border: 1px solid #fff;
+}
+/*输入框*/
+.text{
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    margin-bottom: 50px;
+    left: 80px;
+}
+.text input{
+    width: 100px;
+    transition: border,border-radius .5s;
+    transition: 1s;
+}
+.text input:hover{
+    border: 2px solid #86bcf8;
+    transform: scale(1.5,1);
+    border-radius: 4px;
+}
+/*轮播*/
+.slides{
+    position: relative;
+}
+.slides .tupian{
+    display: block;
+    width: 280px;
+    height: 170px;
+    overflow: hidden;
+}
+.slides .inside{
+    display: block;
+    width: 840px;
+}
+.inside img{
+    float: left;
+    position: relative;
+}
+.slides ul{
+    position: absolute;
+    top: 138px;
+    left: 183px;
+}
+.slides li{
+    float: left;
+    width: 30px;
+    line-height: 30px;
+    list-style: none;
+    background-color: #eee;
+    text-align: center;
+    margin-right: 1px;
+    border: 1px solid #666;
+}
+.lunbo1,.lunbo2,.lunbo3{
+    animation: lunbo 10s linear infinite alternate;
+}
+a{
+    text-decoration: none;
+}
+@keyframes lunbo{
+    0% {left: 0;}
+    20%{left: 0;}
+    50%{left: -280px;}
+    60%{left: -280px;}
+    90%{left: -560px;}
+    100%{left: -560px;}
+}
