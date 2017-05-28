@@ -1,0 +1,81 @@
+*{margin:0;padding:0;}
+:root{display:flex;justify-content:space-between;align-items:center;flex-flow:column}
+.website{text-align:left}
+.task1 .th1{color:#fff;background:#0e0e0e}
+.task1 tr{font-weight:bold}
+.task1 tr:nth-child(even){background-color:#ccc}
+.task1 tr:nth-child(2),.task1 tr:nth-child(3),.task1 tr:nth-child(4){color:#e42b31}
+		
+.task2{margin-top:100px;width:218px;height:58px;}
+.task2 .input1{transition:2s;
+				-moz-transition: 2s; 
+				-webkit-transition:2s; 
+				-o-transition:2s;
+				transition-timing-function: ease;
+				-moz-transition-timing-function: ease;
+				-webkit-transition-timing-function: ease;
+				-o-transition-timing-function: ease;
+				cursor:pointer;
+				display:block;
+				margin:auto;
+				width:50px;
+				height:30px;
+				border:1px solid ##ff99ff;
+				outline:none
+			}
+.task2 .input1:hover{width:100px;background:#ffcc33;}
+.task2 .input2{display:block;width:200px;height:50px;border:2px solid #660000;outline:none}
+.task2 .input2:focus{transition:2s;
+					-moz-transition: 2s; 
+					-webkit-transition:2s; 
+					-o-transition:2s;
+					width:100px;
+					background:#cc3300;
+					cursor:pointer;
+				}
+
+
+.task3{width:200px;height:100px;background:008100;margin:100px auto}
+.task3 .box{width:100px;height:100px;float:right;
+			animation:mythird 10s;
+			-moz-animation:mythird 10s; /* Firefox */
+			-webkit-animation:mythird 10s; /* Safari and Chrome */
+			-o-animation:mythird 10s; /* Opera */
+			animation-fill-mode:both;
+			animation-direction:alternate;
+			animation-play-state:running;
+			animation-iteration-count:infinite;
+		}
+@keyframes mythird{from {background:#008100;}
+					to {background:#0100fe;}
+			}
+
+
+.task3 .box span{position:relative;top:68px;background:#66cc66;font-weight:bold;text-align:center;margin-right:4px;float:right;display:block;color:#fff;width:27px;height:30px;
+				animation:mysecond 10s;
+				-moz-animation:mysecond 10s; /* Firefox */
+				-webkit-animation:mysecond 10s; /* Safari and Chrome */
+				-o-animation:mysecond 10s; /* Opera */
+				animation-fill-mode:both;
+				animation-direction:alternate;
+				animation-play-state:running;
+				animation-iteration-count:infinite
+			}
+@keyframes mysecond{from {background:#66cc66;}
+					to {background:#8179ff;}
+				}
+
+
+.task3 .box1{width:100px;float:left;height:100px;background:#008100;
+			animation:myfirst 5s;
+			-moz-animation:myfirst 5s; /* Firefox */
+			-webkit-animation:myfirst 5s; /* Safari and Chrome */
+			-o-animation:myfirst 5s; /* Opera */
+			animation-fill-mode:both;
+			animation-direction:alternate;
+			animation-play-state:running;
+			animation-iteration-count:infinite
+		}
+@keyframes myfirst{from {background:#008100;}
+					to {background:#0100fe;}
+			}
