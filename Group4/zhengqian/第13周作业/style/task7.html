@@ -1,0 +1,848 @@
+<!Doctype html>
+<html>
+<head>
+	<title>new world</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{
+		margin: 0 ;
+		padding: 0;
+	}
+
+	a{
+		text-decoration: none;
+		
+	}
+	.clear{
+		clear: both;
+	}
+	.header{
+		position: relative;
+		margin-top:13px;
+		width: 1280px;
+		height: 58px;
+		margin: 0 auto;
+	}
+	.header img{
+		margin: 0 10px 13px 58px;
+	}
+	.header .nav{
+		margin-right: 42px;
+	}
+	.header .nav {
+		float: right;
+		font-size: 14px;
+		font-family: "微软雅黑";
+		margin-top:10px;		
+	}
+	.header .nav li{
+		float: left;
+		padding: 0 25px;
+		list-style: none; 		
+	}
+	.header .nav span{
+		padding-right: 10px;
+	}
+	.header .nav .logo{
+		padding: 0px;
+	}
+	.header .nav a{
+		color: #000;
+	}
+
+	.first{
+		position: relative;
+		margin: 0 auto;
+		background: url("../img/first_bg.gif") no-repeat;
+		height: 692px;
+		width: 1280px;
+		/*未加宽度时居中无效*/
+	}
+	.first .font_text1{
+		
+	}
+	.first .first_font1{
+		position: absolute;
+		top: 234px;
+		left: 116px;
+		font-family: "微软雅黑";
+		font-size: 60px;
+		color: #fff;
+	}
+	.first .first_font2{
+		position: absolute;
+		top: 310px;
+		left: 116px;
+		font-family: "微软雅黑";
+		font-size: 21px;
+		color: #fff;
+	}
+	.first .first_font3{
+		position: absolute;
+		top: 438px;
+		left: 206px;
+		font-family: "微软雅黑";
+		font-size:30px;
+		color: #fff;
+	}
+	.first img{
+		position: absolute;
+		top: 428px;
+		left: 116px;
+	}
+
+	.second{
+		margin: 0 auto;
+		width: 1280px;
+		height: 250px;
+		position: relative;
+	}
+	.second .second_nav{
+		margin: 0 auto;
+		float: left;
+		padding: 48px 85px;
+	}
+	.second .second_nav li{
+		float: left;
+		list-style: none;
+		width: 240px;
+		font-size: 14px;
+		font-family: "黑体";
+		line-height: 18px;
+	}
+	/*清浮动，在浮动元素的父级结束之前加上<div class="clear"></div>*/
+	.second img{
+		margin: 0 auto;
+		padding-bottom: 44px;
+	}
+	.second .second_nav p{
+		margin: 0 auto;
+		float: left;
+		width: 126px;
+		text-align:center;
+	}
+
+	.third{
+		margin: 0 auto;
+		position: relative;
+		width: 1280px;
+		height: 360px;
+		background: #ededec;
+	}
+	.third img{
+		padding-top: 90px;
+		padding-left: 600px;
+	}
+	.third .third_text1{
+		font-size:54px;
+		font-family: "黑体";
+		color: #a1a1a1;
+		text-align: center;
+	}
+	/*设置宽度后居中效果没用。*/
+	.forth{
+		background:url(../img/forth_bg.gif) no-repeat;
+		margin: 0 auto;
+		width: 1280px;
+		height: 340px;
+		position: relative;
+	}
+	.forth .forth_mid{
+		margin: 0 auto;
+		width: 340px;
+	}
+	.forth .forth_text1{
+		font-size: 21px;
+		font-family: "微软雅黑"；
+		color:#fff;
+		text-align: center;
+		padding:20px 0;
+	}
+	.forth hr{
+		width: 30px;
+		color: #fff;
+		margin-top: 20px;
+		size: 2px;
+		border-color: #dbcac8;
+		margin: 0 auto;
+	}
+	.forth .forth_text2{
+		font-size: 12px;
+		font-family: "微软雅黑";
+		color: #fff;
+		margin-top: 18px;
+		margin-bottom:50px;
+	}
+	.forth .forth_table{
+		margin: 0 auto;
+	}
+	.forth tr{
+		margin-left: 111px;
+	}
+	.forth td{
+		padding: 0 13px;
+		background-color: #fff;
+	}
+	.forth select{
+		width: 236px;
+		height: 36px;
+		border: 1px solid #bf746d;
+		background-image: url(../img/8.gif) no-repeat right:5px;	
+	}
+	.forth option{
+		border: 1px solid #bf746d;
+		background-color: #e3e2e4;
+	}
+	.forth option:hover{
+		background-color: #be4e48;
+		color: #fff;
+	}
+	.forth .forth_searth{
+		background-color: #be4e48;
+		color:#fff;
+	}
+	.fifth{
+		width: 1280px;
+		height: 604px;
+		background-color: #f7f7f7;
+		margin: 0 auto;
+		position:relative;
+	}
+	.fifth ul{
+		width:1280px;
+		height: 606px;
+		float: left;
+	}
+	.fifth li{
+		float: left;
+		list-style: none;
+		margin: 100px 38px;
+	}
+	.fifth div{
+		width: 220px;
+		background: #fff;
+		border: 1px solid #e1e1e1;
+	}
+	.fifth img{
+		padding: 8px;
+	}
+	.fifth .fifth_font10{
+		font-family: "微软雅黑";
+		font-size: 14px;
+		line-height: 20px;
+		color: #646464;
+		text-align: center;
+	}
+	.fifth .fifth_font11{
+		font-family: "微软雅黑";
+		font-size: 12px;
+		line-height: 20px;
+		color: #888989;
+		text-align: center;
+	}
+	.fifth .fifth_font20{
+		font-family: "微软雅黑";
+		font-size: 20px;
+		color: #959595;
+		text-align: center;
+	}
+	.fifth .fifth_font21{
+		font-family: "微软雅黑";
+		font-size: 12px;
+		color: #9e9f9f;
+		text-align: center;
+	}
+		
+	.sixth{
+		width: 1280px;
+		height: 568px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.sixth .left{
+		float: left;
+		background: url(../img/6-1.gif);
+		width: 852px;
+		height: 568px;
+	}
+	.sixth p{
+		margin: 0;
+		padding:0;
+	}
+	.sixth .sixth_font00{
+		font-size: 50px;
+		font-family: "微软雅黑";
+		color: #fff;
+		text-align: center;
+		padding-top: 136px;
+	}
+	.sixth .sixth_font01{
+		font-size: 158px;
+		font-family: "微软雅黑";
+		color: #fff;
+		text-align: center;		
+	}
+	.sixth .sixth_font02{
+		font-size: 22px;
+		font-family: "微软雅黑";
+		color: #fff;
+		text-align: center;
+	}
+	.sixth .sixth_font03{
+		font-size: 22px;
+		font-family: "微软雅黑";
+		color: #fff;
+		text-align: center;
+		padding-bottom: 156px;
+	}
+	.sixth .right{
+		float: left;
+		width: 428px;
+		height:570px;
+		position: relative;
+		left: 72px;
+	}/*加浮动元素之间padding,margin会改变浮动；position：relative;可解决。*/
+	.sixth .sixth_font10{
+		font-size: 22px;
+		font-family: "微软雅黑";
+		color: #323333;
+		line-height: 30px;
+		padding-top: 116px;
+		text-align: center;
+	}
+	.sixth span{
+		font-size: 22px;
+		font-family: "宋体";
+		color: #e74f4d;
+		line-height: 44px;
+		text-align: center;
+	}
+	.sixth .sixth_font11{
+		font-size: 12px;
+		font-family: "宋体";
+		color: #b7b7b7;
+		line-height: 30px;
+		width: 392px;
+		text-align: center;
+	}
+	.sixth .sixth_font12{
+		font-size: 12px;
+		font-family: "微软雅黑";
+		padding-top: 52px;
+		padding-bottom: 35px;
+		text-align: center;
+	}
+	.seventh{
+		width: 1280px;
+		height: 520px;
+		position:relative;
+		margin: 0 auto;
+	}
+	.seventh .seventh_left{
+		width: 420px;
+		height: 520px;
+		float: left;
+		background-color: #e74f4d;
+		color: #fff;
+	}
+	.seventh .seventh_font10{
+		font-size: 21px;
+		font-family: "黑体";
+		line-height: 30px;
+		text-align: center;
+		position: relative;
+		padding-top: 184px;padding-top: 174px;
+	}
+	.seventh .seventh_font11{
+		font-size: 21px;
+		font-family: "黑体";
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.seventh .hr1{
+		width: 30px;
+		size: 2px;
+		margin: 0 auto;
+	}
+	.seventh .seventh_div{
+		border: 1px solid #fdf4f4;
+		width: 170px;
+		height: 40px;
+		margin-top: 10px;
+		margin-left:130px;
+	}
+	.seventh .seventh_font12{
+		font-size: 21px;
+		font-family: "黑体";
+		text-align: center;
+		vertical-align: middle;/*垂直居中*/
+	}
+	.seventh .seventh_mid{
+		width: 420px;
+		height: 520px;
+		float: left;
+		background-color: #fff;
+		color: #6d6e6e;
+		text-align: center;
+	}
+	.seventh .seventh_font20{
+		font-size: 21px;
+		font-family: "黑体";
+		line-height: 30px;
+		text-align: center;
+		padding-top:172px;
+		padding-bottom: 10px; 		
+	}
+	.seventh .seventh_font21{
+		font-size: 21px;
+		font-family: "黑体";
+		line-height: 30px;
+		text-align: center;
+	}
+	.seventh .hr2{
+		width: 30px;
+		size: 2px;
+		margin: 0 auto;
+	}
+	.seventh .div2{
+		border: 1px solid #e74f4d;
+		width: 170px;
+		height: 40px;
+		margin-top: 10px;
+		margin-left:130px;
+	}
+	.seventh .seventh_font22{
+		font-size: 21px;
+		font-family: "黑体";
+		color: #e74f4d;
+		text-align: center;
+		padding-bottom: 14px;
+	}
+	
+	.seventh .seventh_right{
+		width: 425px;
+		float: left;
+		height: 520px;
+	}
+
+	.eighth{
+		width: 1280px;
+		height: 750px;
+		position:relative;
+		margin: 0 auto;		
+	}
+	.eighth .top{
+		height:300px;
+		margin: 0 auto;
+	}
+	.eighth .font_01{
+		font-size:21px;
+		font-family: "黑体";
+		line-height: 30px;
+		color: #6d6e6e;
+		text-align: center;
+		padding-top: 120px;
+		padding-bottom: 10px;
+	}
+	.eighth .hr{
+		width: 30px;
+		color: #e74f4d;
+		margin:0 auto;
+		margin-bottom: 15px;
+	}
+	.eighth .font_02{
+		font-size: 12px;
+		font-family: "微软雅黑";
+		color: #b7b7b7;
+		width: 420px;
+		padding-left: 430px;
+		text-align: center;
+	}
+	/*加上width属性后只用text-align:center;无法使文字居中*/
+	.eighth .bottom{
+		height: 446px;
+		width: 1280px;
+		margin: 0 auto;
+		position:relative;
+		margin-left: 10px;
+	}
+	.eighth .left{
+		position:relative;
+		height: 446px;
+		width: 290px;
+		padding-left: 50px;
+	}
+	.eighth .font_10{
+		font-size: 14px;
+		font-family: "黑体";
+		color:#807c7c;
+		padding-bottom: 28px; 
+	}
+	.eighth .font_11{
+		font-size: 12px;
+		font-family: "宋体";
+		color: #b5b3b3;
+	}
+	.eighth .font_12{
+		font-size: 12px;
+		font-family: "宋体";
+		color: #b5b5b3;	
+		padding-left: 260px;	
+	}
+	.eighth img{
+		padding-left: 238px;
+		padding-top: 10px;
+	}
+	.eighth .left_01{
+		padding-left: 138px;
+		padding-bottom: 56px;
+		
+	}
+	.eighth .left_02{
+		padding-left: 138px;
+		padding-bottom: 56px;
+		position: relative;
+	}
+	.eighth .left_03{
+		position: relative;
+	}
+	.eighth .right{
+		position:relative;
+		width: 854px;
+		height: 446px;
+		left: 290px;
+		bottom: 446px;
+		padding-left: 200px;
+	}
+	.eighth table{
+		width: 644px;
+		height: 280px;
+		background-color: #fff;
+		border-collapse: 10px;
+	}
+	.eight tr{
+		width: 640px;
+		height:40px;
+	}
+	.ninth td{
+		width: 310px;
+		height: 40px;
+		color: #837f80;
+		padding:10px;
+	}
+	.eighth input{
+		height:38px;
+		color: #979595;
+		font-size: 12px;
+		margin: 8px;
+		padding-left: 14px;
+		background: #ededef;
+	}
+	.eighth textarea{
+		width:600px;
+		height:100px;
+		background-color:#ededef;
+		font-size:12px;
+		color: #837f80;
+	}
+	.eighth .submit{
+		margin-left: 310px;
+	}
+	.ninth{
+		width: 1280px;
+		height: 416px;
+		position:relative;
+		margin: 0 auto;
+		clear: both;
+	}
+	.ninth .top{
+		width: 1280px;
+		height: 358px;
+		background: #32363F;
+		margin: 0 auto;
+		
+	}
+	.ninth .font_1{
+		font-size: 21px;
+		font-family: "黑体";
+		color: #fff;
+		text-align: center;
+		padding-top: 50px;
+	}
+	.ninth .font_2{
+		position:relative;
+		font-size: 12px;
+		font-family: "宋体";
+		color: #ebebec;
+		text-align: center;
+		line-height: 30px;
+		padding-top:10px;
+		padding-left: 150px;
+		margin-right:22px;
+	}
+	.ninth .input{
+		width:431px;
+		height:41px;
+		background-color:#fff;
+		border:0;
+		margin-left:280px;
+		font-size:12px;
+		color:#787878;
+	}
+	.ninth .submit{
+		width:80px;
+		height:41px;
+		background-color:#6F7278;
+		border:0;
+		font-size:15px;
+		color:#fff;
+		padding-bottom:5px;
+	}
+	.ninth .img{
+		float:left;
+		position:relative;
+		top: 50px;
+		left: 560px;
+	}
+	.ninth li{
+		float:left;
+		list-style: none;
+		height: 30px;
+		padding:10px;
+	}
+	.ninth .bottom{
+		height: 36px;
+		background-color: #2f2f38;
+	}
+	.ninth .font_3{
+		font-size: 12px;
+		font-family: "宋体";
+		color: #d5d5d6;
+		padding-left: 100px;
+		padding-top: 28px;
+		display:inline; 
+	}
+	.ninth .font_4{
+		font-size: 12px;
+		font-family: "宋体";
+		color: #ebebeb;
+		padding-left: 1000px;
+		display: inline;
+	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img src="../img/1.gif">
+		<ul class="nav">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">最新活动</a></li>
+			<li><a href="#">项目介绍</a></li>
+			<li><a href="#">爱心社区</a></li>
+			<li><a href="#">关于我们</a></li>
+			<li class="logo"><a href="#"><span><img src="../img/2.gif"></span>登录</a></li>
+		</ul>
+	</div>
+	<div class="first">
+		<div class="first_text1">
+			<p class="first_font1">time of new life</p>
+			<p class="first_font2">新时代，年轻的人们让我们一起体验新生活</p>
+			<div><img src="../img/first_1.gif"></div>
+			<p class="first_font3">开始体验</p>
+		</div>
+	</div>
+	<div class="second">
+		<ul class="second_nav">
+			<li>
+				<div class="second_img1">
+					<a href="#"><img src="../img/3.gif"></a>
+				</div>
+				<p>打开全新世界观，让你更爱你的生活</p>
+			</li>
+			<li>
+				<div class="second_img2">
+					<a href="#"><img src="../img/4.gif"></a>
+				</div>
+				<p>丰富多彩的公益活动，发挥新世界的主人公意识</p>
+			</li>
+			<li>
+				<div class="second_img3">
+					<a href="#"><img src="../img/5.gif"></a>
+				</div>
+				<p>时尚的新理念，超前体验未知的生活</p>
+			</li>
+			<li>
+				<div class="second_img4">
+					<a href="#"><img src="../img/6.gif"></a>
+				</div>
+				<p>完善的培养机制，培养你全新的世界观</p>
+			</li>
+		</ul>
+	<div class="clear"></div>
+	</div>
+	<div class="third">
+		<img src="../img/7.gif">
+		<p class="third_text1">关于新世界，你不知道的还有什么？</p>
+	</div>
+	<div class="forth">
+		<div class="forth_mid">
+			<p class="forth_text1">查找新世界城市活动信息</p>
+			<hr class="hr">
+			<p class="forth_text2">每个城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
+		</div>
+		<table class="forth_table">
+			<tr>
+				<td>
+					<select>
+						<option>中国</option>
+						<option>美国</option>
+						<option>韩国</option>
+						<option>加拿大</option>
+						<option>巴西</option>
+					</select>
+				</td>
+				<td>
+					<select>
+						<option>北京市</option>
+						<option>天津市</option>
+						<option>河北省</option>
+						<option>山西省</option>
+						<option>内蒙古自治区</option>
+						<option>辽宁省</option>
+					</select>
+				</td>
+				<td>
+					<select>
+						<option>城市</option>
+						<option>北京</option>
+						<option>天津</option>
+						<option>成都</option>
+						<option>杭州</option>
+					</select>
+				</td>
+				<td class="forth_search">搜索</td>
+			</tr>
+		</table>
+	</div>
+	<div class="fifth">
+		<ul>
+			<li>
+				<div><img src="../img/5-1.gif"></div>
+				<p class="fifth_font10">北京活动</p>
+				<p class="fifth_font11">新社区大联盟</p>
+			</li>
+			<li>
+				<p class="fifth_font20">上海活动</p>
+				<p class="fifth_font21">夜上海新景观探索</p>
+				<div><img src="../img/5-2.gif"></div>
+			</li>
+			<li>
+				<div><img src="../img/5-3.gif"></div>
+				<p class="fifth_font10">深圳活动</p>
+				<p class="fifth_font11">全新海岸线观点站</p>
+			</li>
+			<li>
+				<div><img src="../img/5-4.gif"></div>
+				<p class="fifth_font10">深圳活动</p>
+				<p class="fifth_font11">全新海岸线观点站</p>
+			</li>
+		</ul>
+		<div class="clear"></div>	
+	</div>
+	<div class="sixth">
+		<div class="left">
+			<p class="sixth_font00">新世界</p>
+			<p class="sixth_font01">TIME</p>
+			<p class="sixth_font02">@新世界-北京</p>
+			<p class="sixth_font03">2016.04.01</p>
+		</div>
+		<div class="right">
+			<p class="sixth_font10">新世界/<span>10</span></p>
+			<p class="sixth_font11">新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界</p>
+			<p class="sixth_font12">更多详情</p>
+		</div>
+	</div>
+	<div class="seventh">
+		<div class="seventh_left">
+			<p class="seventh_font10">新时代</p>
+			<p class="seventh_font11">关于爱生活的我们</p>
+			<hr class="hr1">
+			<div class="seventh_div">
+				<p class="seventh_font12">查看更多</p>
+			</div>
+		</div>
+		<div class="seventh_mid">
+			<p class="seventh_font20">新时代</p>
+			<p class="seventh_font21">关于爱生活的我们</p>
+			<hr class="hr2">
+			<div class="div2">
+				<p class="seventh_font22">查看更多</p>
+			</div>
+		</div>
+		<div class="seventh_right">
+			<img src="../img/7-1.gif">
+		</div>
+	</div>
+	<div class="eighth">
+		<div class="top">
+			<p class="font_01">成为我们的志愿者</p>
+			<hr class="hr">
+			<p class="font_02">新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情那就不要犹豫，快来加入我们，成为改变所有人生活的人 </p>
+		</div>
+		<div class="bottom">
+			<div class="left">
+				<div class="left01">
+					<p class="font_10">新世界志愿者协议</p>
+					<p class="font_11">加入新世界志愿者的人员必须遵守中华人民共共和国的相关法律法规，并且本着平等资源的原则</p>
+					<img src="../img/8-1.gif"><p class="font_12">more</p>
+				</div>
+				<div class="left02">
+					<p class="font_10">新世界志愿者权利</p>
+					<p class="font_11">新世界志愿者享受新世界内部所有资源共享的权利，并且享受所在四新世界活动的优先参与资格</p>
+					<img src="../img/8-1.gif"><p class="font_12">more</p>
+				</div>
+				<div class="left03">
+					<p class="font_10">更多条款</p>
+					<img src="../img/8-1.gif"><p class="font_12">more</p>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<table>
+				<tr>
+					<td>姓名：<input type="text"></td>
+					<td>年龄：<input type="text"></td>
+				</tr>
+				<tr>
+					<td>联系方式：<input type="text"></td>
+					<td>联系地址：<input type="text"></td>
+				</tr>
+				<tr>
+					<td><textarea>请简单描述您的梦想生活：</textarea></td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="tijao" value="提交申请" class="submit"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="ninth">
+		<div class="top">
+			<p class="font_1">联系我们</p>
+			<p class="font_2">为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯也可以通过以下任何方式关注我们动态</p>
+			<input type="text" value="someone@email.com" class="input"><input type="submit" name="tijiao" value="提交" class="submit">
+			<ul class="img">
+				<li><a href="#"><img src="../img/img1.gif"></a></li>
+				<li><a href="#"><img src="../img/img2.gif"></a></li>
+				<li><a href="#"><img src="../img/img3.gif"></a></li>
+				<li><a href="#"><img src="../img/img4.gif"></a></li>
+			</ul>
+		</div>
+		<div class="bottom">
+			<p class="font_3">@2016新世界</p>
+			<p class="font_4">Back to top</p>
+		</div>
+	</div>
+</body>
+</html>
