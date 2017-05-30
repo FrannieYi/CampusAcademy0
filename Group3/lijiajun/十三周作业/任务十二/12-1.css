@@ -1,0 +1,8 @@
+body{ padding: 0; margin: 0;  }
+table{ width: 218px;  border: 0; margin: 0; border-collapse: collapse; border-spacing: 0; font-style: 黑体; }
+table th{ background: #000000;  color: #ffffff;  font-weight: normal; } 
+table tr:nth-child(odd){ background: #cdcbcc;  }
+table td, table th{ border:1px solid #ffffff; }
+table tr:nth-child(2){ color: #ff1b2c; }
+table tr:nth-child(3){ color: #ff1b2c; }
+table tr:nth-child(4){ color: #ff1b2c; }
