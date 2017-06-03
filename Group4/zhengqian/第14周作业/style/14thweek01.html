@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>校园说</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	   *{
+	   	margin: 0;
+	   	padding:0;
+	   	font-family: "微软雅黑";
+	   }
+	   a{
+	   	text-decoration: none;
+	   }
+	   a:hover{
+	   	text-decoration: underline;
+	   }
+		.ftop{
+			width: 1920px;
+			height: 36px;
+			background: #34495e;
+		}
+		.wrap{
+			margin: 0 auto;
+			width: 1190px;
+		}
+		.ftop .span1{
+			font-size: 14px;
+			color: #fff;
+		}
+		.ftop .span2 ,.span3{
+			font-size: 14px;	
+			line-height: 36px;		
+		}
+		.ftop .span2{
+			position:relative;
+			padding-left: 826px;
+		}
+		.ftop .fg{
+			display: inline-block;
+			width: 2px;
+			height: 14px;
+			background: #d8dbde;
+			margin: 0 20px;
+		}
+		.ftop a{
+			text-decoration: none;
+			color: #d8dbde;
+		}
+		.ftop a:hover{
+			text-decoration: underline;
+			color:#67d8c2;
+		}
+
+		.nav{
+			width: 1920px;
+			height: 70px;
+			background: #fff;
+		}
+		.nav .left{
+			padding-top: 10px;
+			float: left;
+		}
+		.nav span{
+			width: 2px;
+			height: 40px;
+			background: #dddddd;
+			display: inline-block;
+			position:relative;
+		}
+		.nav #school{
+			font-size:14px;
+			border: none;
+			display: inline-block;	
+		}
+		.nav #switch{
+			font-size: 12px;
+			color: #b9b9b9;
+			border: none;
+			background: #fff;
+		}
+		.nav .list{
+			padding-left: 550px;
+			float: left;
+		}
+		.nav li{
+			float: left;
+			padding:0 10px;
+			list-style: none;
+			line-height: 70px;
+		}
+		.nav a{
+			text-decoration: none;
+			font-size: 16px;
+			color:#5c5c5c;
+		}
+		.nav a:hover{
+			text-decoration: underline;
+			color:#67d8c2;
+		}
+
+		.ad{
+			width: 1920px;
+			height: 342px;
+			background:#a5e7f3; 
+		}
+		.ad .wrap{
+			position:relative;
+			background: url(../img1/ad_bg.gif);
+			width: 1190px;
+			height: 342px;
+			margin: 0 auto;
+		}
+		.ad .left{
+			position: absolute;
+			top: 150px;
+			left: 0;
+		}
+		.ad .right{
+			position:absolute;
+			top: 150px;
+			right: 0;
+		}
+		.content{
+			width: 1920px;
+			background: #fff;
+		}
+		.content .pic_list{
+			position:relative;
+			width: 1190px;
+			height: 254px;
+			margin: 0 auto;
+			padding:40px 0;
+		}
+		.pic_list .top{
+			width: 1190px;
+			height: 42px;
+			line-height: 42px;
+		}
+		.pic_list .fg{
+			display: inline-block;
+			width: 2px;
+			height: 20px;
+			background: #00caab;
+			margin: 0 10px;
+		}
+		.pic_list .span1{
+			font-size: 20px;
+			color:#5f5f5f;
+		}
+		.pic_list .span2{
+			font-size: 12px;
+			position:absolute;
+			right: 100px;
+		}
+		.pic_list .span2 a{
+			color:#00caab;
+		}
+		.pic_list ul{
+			float: left;
+			height: 210px;
+		}
+		.pic_list li{
+			float:left;
+			width: 202px;
+			height: 210px;
+			list-style: none;
+			padding:0 10px;
+			background: #fafafa;
+		}
+		.pic_list .first{
+			background: url(../img1/1.gif);
+		}
+		.pic_list .font1{
+			padding-top: 15px;
+			font-size: 30px;
+			font-family: "宋体";
+			color: #fff;
+		}
+		.pic_list .font1 span{
+			font-size: 12px;
+			color: #fff;
+			float: right;
+		}
+		.pic_list .font2{
+			font-size: 16px;
+			color: #fff;
+		}
+		.pic_list .font3{
+			color: #5c5c5c;
+			font-size: 14px;
+			line-height: 32px;
+		}
+		.pic_list .font4{
+			color: #5c5c5c;
+			font-size: 12px;
+			line-height: 21px;
+			padding-right: 10px;
+		}
+		.pic_list .font5{
+			color: #f6a561;
+			font-size: 12px;
+			display: inline-block;
+			width: 125px;
+			height: 21px;
+			border-radius: 10px;
+			border: 2px solid #f6a561;
+			text-align:center;
+		}
+		.pic_list .font6{
+			color: #5c5c5c;
+			font-size: 12px;
+			line-height: 24px;
+			padding-right:96px;
+		}
+		.pic_list .font7{
+			color: #fca825;
+			font-size: 20px;
+
+		}
+		.pic_list .first2{
+			background: url(../img1/2.gif);
+		}
+		.pic_list .first3{
+			background: url(../img1/3.gif);
+		}
+		.pic_list .first4{
+			background: url(../img1/4.gif);
+		}
+		.pic_list .first5{
+			background: url(../img1/5.gif);
+		}
+		.foot{
+			position:relative;
+			width: 1920px;
+			height: 140px;
+			background: #34495e;
+			margin-top: 60px;
+		}
+		.foot .wrap{
+			width: 1190px;
+			height: 140px;
+			margin: 0 auto;
+		}
+		.foot .left{
+			padding-top: 30px;
+			display: inline-block;
+		}
+		.foot span{
+			padding:0 25px;
+		}
+		.foot .right{
+			position: absolute;
+			float:left;
+			top: 30px;
+			left: 380px;
+		}
+		.foot .font1{
+			float:left;
+			padding-left: 700px;
+		}
+		.foot li{
+			float:left;
+			list-style: none;
+			font-size: 14px;
+			padding:0 30px;
+			line-height: 20px;
+		}
+		.foot a{
+			color: #fff;
+		}
+		.foot .font2{
+			font-size: 12px;
+			font-family: "arial";
+			color: #fff;
+			padding-left: 700px;
+			line-height: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="ftop">
+		<div class="wrap">
+			<img src="../img1/logo1.gif">
+			<span class="span1">首页</span>
+			<span class="span2"><a href="#">什么是校园说</a></span>
+			<span class="fg"></span>
+			<span class="span3"><a href="#">登录/注册</a></span>
+		</div>
+	</div>
+	<div class="nav">
+		<div class="wrap">
+			<div class="left">
+				<img src="../img1/logo2.gif">
+				<span></span>
+				<span>
+					<form>
+						<input type="text" name="school" id="school" value="重庆邮电大学">
+						<input type="button" name="switch" id="switch" value="切换学校">
+					</form>
+				</span>
+			</div>
+			<ul class="list">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">听听堂</a></li>
+				<li><a href="#">话题社</a></li>
+				<li><a href="#">发布talking</a></li>
+				<li><a href="#">我的校园说</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ad">
+		<div class="wrap">
+			<span class="left"><a href="#"><img src="../img1/left_bar.gif"></a></span>
+			<span class="right"><a href="#"><img src="../img1/right_bar.gif"></a></span>
+		</div>
+	</div>
+	<div class="content">
+		<div class="pic_list">
+			<div class="top">
+				<span class="fg"></span>
+				<span class="span1">创业</span>			
+				<span class="span2"><a href="#">更多<<</a></span>
+			</div>
+			<ul>
+				<li class="first">
+					<p class="font1">创业<span>更多<<</span></p>
+					<p class="font2">世界那么大我想去看看</p>
+				</li>
+				<li>
+					<img src="../img1/pic1.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic2.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic3.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic4.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+			</ul>
+		</div>
+
+		<div class="pic_list">
+			<div class="top">
+				<span class="fg"></span>
+				<span class="span1">创业</span>			
+				<span class="span2"><a href="#">更多<<</a></span>
+			</div>
+			<ul>
+				<li class="first2">
+					<p class="font1">创业<span>更多<<</span></p>
+					<p class="font2">世界那么大我想去看看</p>
+				</li>
+				<li>
+					<img src="../img1/pic1.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic2.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic3.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic4.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="pic_list">
+			<div class="top">
+				<span class="fg"></span>
+				<span class="span1">创业</span>			
+				<span class="span2"><a href="#">更多<<</a></span>
+			</div>
+			<ul>
+				<li class="first3">
+					<p class="font1">创业<span>更多<<</span></p>
+					<p class="font2">世界那么大我想去看看</p>
+				</li>
+				<li>
+					<img src="../img1/pic1.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic2.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic3.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic4.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="pic_list">
+			<div class="top">
+				<span class="fg"></span>
+				<span class="span1">创业</span>			
+				<span class="span2"><a href="#">更多<<</a></span>
+			</div>
+			<ul>
+				<li class="first4">
+					<p class="font1">创业<span>更多<<</span></p>
+					<p class="font2">世界那么大我想去看看</p>
+				</li>
+				<li>
+					<img src="../img1/pic1.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic2.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic3.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic4.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+			</ul>
+		</div>
+		<div class="pic_list">
+			<div class="top">
+				<span class="fg"></span>
+				<span class="span1">创业</span>			
+				<span class="span2"><a href="#">更多<<</a></span>
+			</div>
+			<ul>
+				<li class="first5">
+					<p class="font1">创业<span>更多<<</span></p>
+					<p class="font2">世界那么大我想去看看</p>
+				</li>
+				<li>
+					<img src="../img1/pic1.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic2.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic3.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+				<li>
+					<img src="../img1/pic4.gif">
+					<p class="font3">做好创业职业规划</p>
+					<p><span class="font4">刘智鹏</span><span class="font5">保研重大啦啦啦啦啦</span></p>
+					<span class="font6">时间等着你来约</span><span class="font7">$58</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="foot">
+		
+		<div class="wrap">
+			<div class="left">
+				<span><img src="../img1/logo2.gif"></span>
+				<span><img src="../img1/logo4.gif"></span>
+				<span><img src="../img1/logo5.gif"></span>
+			</div>
+			<div class="right">
+				<ul class="font1">
+					<li><a href="#">关于校园说</a></li>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				<p class="font2">Copyrights &nbsp;&nbsp; &copy;2015-2016 &nbsp;&nbsp;CampusSay &nbsp;&nbsp;Co.,Ltd. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
