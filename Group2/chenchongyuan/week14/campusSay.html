@@ -1,0 +1,576 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CampusSay</title>
+<link rel="stylesheet" href="CSS/campusSay.css">
+<script type="text/javascript" src="JS/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="headerTop">
+			<div class="container">
+				<a href=""><img src="images/campusSay/campusSay_01.png" style="display: block; float: left; margin-top: 10px; margin-right: 3px;"></a>
+				<a class="homepage" href="">首页</a>
+				<ul class="headerTopNav">
+					<li><a href="">什么是校园说？</a></li>
+					<li style="position: relative; width: 1px; height: 12px; background-color: white; top: 12px; padding: 0;"></li>
+					<li><a href="">登录/注册</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="headerBottom">
+			<div class="container">
+				<ul class="headerBottomLeft">
+					<li><a href=""><img src="images/campusSay/campusSay_02_03.png"></a></li>
+					<li style="position: relative; width: 1px; height: 40px; background-color: #dddddd; top: 16px; padding: 0;"></li>
+					<li style="padding: 10px 18px;">
+						<p style="font-family: '微软雅黑'; font-size: 14px; color: #5c5c5c;">重庆邮电大学</p>
+						<a class="altSchoolButton" href="">切换学校</a>
+					</li> 
+				</ul>
+				<ul class="headerBottomRight">
+					<li><a href="">首页</a></li>
+					<li><a href="">听听堂</a></li>
+					<li><a href="">话题社</a></li>
+					<li><a href="">发布Talking</a></li>
+					<li><a href="">我的校园说</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div id="banner">
+			<div id="topCarousel" class="container">
+				<div id="topCarouselPicture" style="left: -1180px;">			
+					<a href=""><img src="images/campusSay/campusSay_03.png" alt="1"/></a>
+					<a href=""><img src="images/campusSay/campusSay_03.png" alt="1"/></a>
+					<a href=""><img src="images/campusSay/campusSay_03.png" alt="2"/></a>
+					<a href=""><img src="images/campusSay/campusSay_03.png" alt="3"/></a>
+					<a href=""><img src="images/campusSay/campusSay_03.png" alt="4"/></a>
+					<a href=""><img src="images/campusSay/campusSay_03.png" alt="4"/></a>
+				</div>
+				<div id="topCarouselCircle">
+					<span index="1" class="on"></span>
+					<span index="2"></span>
+					<span index="3"></span>
+					<span index="4"></span>
+				</div>
+				<div id="topCarouselButtonL">
+					<a href="javascript:;" id="prev1" class="arrow">&lt;</a>	
+				</div>
+				<div id="topCarouselButtonR">
+					<a href="javascript:;" id="next1" class="arrow">&gt;</a>
+				</div>
+			</div>
+		</div>
+		<div class="bar container">
+			<div class="barTop">
+				<ul class="barTopLeft">
+					<li class="spacer"></li>
+					<li>创业</li>
+				</ul>
+				<ul class="barTopRight">
+					<li><a href="">更多&gt;&gt;</a></li>
+				</ul>
+			</div>
+			<div class="barBottom">
+				<div class="block1">
+					<p class="block1Title">创业</p>
+					<p class="block1Comment">创造改变世界</p>
+					<a class="more" href="">更多&gt;</a>
+					<img class="whiteLine" src="images/campusSay/campusSay_04.png">
+					<img src="images/campusSay/campusSay_05.png" style="position: absolute; margin-top: 85px; margin-left: 75px;">
+					<img src="images/campusSay/campusSay_06.png" style="position: absolute; margin-top: 140px; margin-left: 114px;">
+				</div>
+				<div class="block2">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 480px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 720px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 960px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bar container" id="bar2">
+			<div class="barTop">
+				<ul class="barTopLeft">
+					<li class="spacer"></li>
+					<li>就业</li>
+				</ul>
+				<ul class="barTopRight">
+					<li><a href="">更多&gt;&gt;</a></li>
+				</ul>
+			</div>
+			<div class="barBottom">
+				<div class="block1" style="background-color: #ffbc53;">
+					<p class="block1Title">就业</p>
+					<p class="block1Comment">毕业去哪儿</p>
+					<a class="more" href="">更多&gt;</a>
+					<img class="whiteLine" src="images/campusSay/campusSay_04.png">
+					<img src="images/campusSay/campusSay_08.png" style="position: absolute; margin-top: 85px; margin-left: 75px;">
+				</div>
+				<div class="block2">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 480px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 720px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 960px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bar container">
+			<div class="barTop">
+				<ul class="barTopLeft">
+					<li class="spacer"></li>
+					<li>留学</li>
+				</ul>
+				<ul class="barTopRight">
+					<li><a href="">更多&gt;&gt;</a></li>
+				</ul>
+			</div>
+			<div class="barBottom">
+				<div class="block1" style="background-color: #78b8fb; overflow: hidden;">
+					<p class="block1Title">留学</p>
+					<p class="block1Comment">我想出去看看</p>
+					<a class="more" href="">更多&gt;</a>
+					<img class="whiteLine" src="images/campusSay/campusSay_04.png">
+					<img src="images/campusSay/campusSay_09.png" style="position: absolute; margin-top: 105px; margin-left: 75px;">
+				</div>
+				<div class="block2">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 480px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 720px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 960px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bar container">
+			<div class="barTop">
+				<ul class="barTopLeft">
+					<li class="spacer"></li>
+					<li>保研</li>
+				</ul>
+				<ul class="barTopRight">
+					<li><a href="">更多&gt;&gt;</a></li>
+				</ul>
+			</div>
+			<div class="barBottom">
+				<div class="block1" style="background-color: #ff8282; overflow: hidden;">
+					<p class="block1Title">保研</p>
+					<p class="block1Comment">狭路相逢勇者胜</p>
+					<a class="more" href="">更多&gt;</a>
+					<img class="whiteLine" src="images/campusSay/campusSay_04.png">
+					<img src="images/campusSay/campusSay_10.png" style="position: absolute; margin-top: 95px; margin-left: 75px;">
+				</div>
+				<div class="block2">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 480px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 720px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 960px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bar container">
+			<div class="barTop">
+				<ul class="barTopLeft">
+					<li class="spacer"></li>
+					<li>考研</li>
+				</ul>
+				<ul class="barTopRight">
+					<li><a href="">更多&gt;&gt;</a></li>
+				</ul>
+			</div>
+			<div class="barBottom">
+				<div class="block1" style="background-color: #c5b6ff; overflow: hidden;">
+					<p class="block1Title">考研</p>
+					<p class="block1Comment">一分耕耘一分收获</p>
+					<a class="more" href="">更多&gt;</a>
+					<img class="whiteLine" src="images/campusSay/campusSay_04.png">
+					<img src="images/campusSay/campusSay_11.png" style="position: absolute; margin-top: 85px; margin-left: 75px;">
+				</div>
+				<div class="block2">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 480px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">时间等你来约</p>
+						<a class="classComment" href="">保研重大啦啦啦啦啦</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 720px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+				<div class="block2" style=" margin-left: 960px">
+					<a class="classPic" href="">
+						<div class="classHover" >
+							<span class="scoreTag"><span style="font-size: 20px;">9</span>.5分</span>
+							<span class="joinedNum">已有15人参加</span>
+						</div>
+					</a>
+					<div class="class">
+						<p class="className">做好未来职业规划</p>
+						<p class="teacherName">刘智鹏</p>
+						<p class="classTime">8月20日&nbsp;&nbsp;13:00-14:00</p>
+						<a class="classComment" href="">保研重大</a>
+						<p class="classPrice">￥50</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<a href="" style="position: absolute; margin-top: 47px;"><img src="images/campusSay/campusSay_13.png"></a>
+			<a href="" style="position: absolute; margin-top: 60px; margin-left: 156px; z-index: 10;"><img src="images/campusSay/campusSay_14.png"></a>
+			<a href="" style="position: absolute; margin-top: 50px; margin-left: 149px;"><img src="images/campusSay/campusSay_16.png"></a>
+			<a href="" style="position: absolute; margin-top: 60px; margin-left: 211px; z-index: 10;"><img src="images/campusSay/campusSay_15.png"></a>
+			<a href="" style="position: absolute; margin-top: 50px; margin-left: 203px;"><img src="images/campusSay/campusSay_16.png"></a>
+			<ul class="footerLink">
+				<li><a href="">关于校园说</a></li>
+				<li><a href="">帮助中心</a></li>
+				<li><a href="">联系我们</a></li>
+			</ul>
+			<span class="company">Copyrights&nbsp;&copy;&nbsp;2015-2016&nbsp;&nbsp;&nbsp;CampusSay&nbsp;&nbsp;Co.,Ltd.&nbsp;All&nbsp;Rights&nbsp;Reserved.</span>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		//轮播图
+		$(function () {
+            var topCarousel = $('#topCarousel');
+            var topCarouselPicture = $('#topCarouselPicture');
+            var topCarouselCircle = $('#topCarouselCircle span');
+            var prev1 = $('#prev1');
+            var next1 = $('#next1');
+            var index = 1;
+            var len = 4;
+            var interval = 3000;
+            var timer;
+
+            function animate (offset) {
+                var left = parseInt(topCarouselPicture.css('left')) + offset;
+                if (offset>0) {
+                    offset = '+=' + offset;
+                }
+                else {
+                    offset = '-=' + Math.abs(offset);
+                }
+                topCarouselPicture.animate({'left': offset}, 300, function () {
+                    if(left > -200){
+                        topCarouselPicture.css('left', -1180 * len);
+                    }
+                    if(left < (-1180 * len)) {
+                        topCarouselPicture.css('left', -1180);
+                    }
+                });
+            }
+
+            function showButton() {
+                topCarouselCircle.eq(index-1).addClass('on').siblings().removeClass('on');
+            }
+
+            function play() {
+                timer = setTimeout(function () {
+                    next1.trigger('click');
+                    play();
+                }, interval);
+            }
+            function stop() {
+                clearTimeout(timer);
+            }
+
+            next1.bind('click', function () {
+                if (topCarouselPicture.is(':animated')) {
+                    return;
+                }
+                if (index == 4) {
+                    index = 1;
+                }
+                else {
+                    index += 1;
+                }
+                animate(-1180);
+                showButton();
+            });
+
+            prev1.bind('click', function () {
+                if (topCarouselPicture.is(':animated')) {
+                    return;
+                }
+                if (index == 1) {
+                    index = 4;
+                }
+                else {
+                    index -= 1;
+                }
+                animate(1180);
+                showButton();
+            });
+
+            topCarouselCircle.each(function () {
+                 $(this).bind('click', function () {
+                     if (topCarouselPicture.is(':animated') || $(this).attr('class')=='on') {
+                         return;
+                     }
+                     var myIndex = parseInt($(this).attr('index'));
+                     var offset = -1180 * (myIndex - index);
+
+                     animate(offset);
+                     index = myIndex;
+                     showButton();
+                 });
+            });
+            topCarousel.hover(stop, play);
+            play();
+        });
+	</script>
+</body> 
+</html>

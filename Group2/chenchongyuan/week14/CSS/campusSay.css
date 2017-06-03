@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 样式重置*/
+* { margin: 0; padding: 0;}
+a { text-decoration: none;}
+ul { list-style: none;}
+li { float: left;}
+
+/* 居中容器 */
+.container { position: relative; width: 1180px; height: inherit; left: 50%; margin-left: -590px;}
+
+/* 顶部 */
+.headerTop { height: 36px; background-color: #34495e;}
+.homepage { line-height: 36px; font-family: "微软雅黑"; font-size: 14px; color: white; padding-left: 2px;} 
+.headerTopNav { float: right; line-height: 34px;}
+.headerTopNav li { padding: 0 10px;}
+.headerTopNav a { line-height: 36px; font-family: "微软雅黑"; font-size: 14px; color: white;}
+.headerBottom { height: 72px; background-color: white;}
+.headerBottomLeft { float: left;}
+.headerBottomLeft li { padding: 10px 18px 0px 0;}
+.altSchoolButton { display: block; width: 60px; height: 22px; border: 1px solid #dddddd; font-family: "微软雅黑"; font-size: 12px; color: #777777; text-align: center; line-height: 22px; margin-top: 7px;}
+.headerBottomRight { float: right;}
+.headerBottomRight li { padding-left: 65px; font-family: "微软雅黑"; font-size: 16px; line-height: 72px;}
+.headerBottomRight a { color: #5c5c5c;}
+.headerBottomRight a:hover { color: #80e5d5;}
+
+/* 主体 */
+#banner { height: 340px; background-color: #a5e7f3;}
+/*轮播图样式*/
+#topCarousel { width: 1180px; height: 340px; overflow: hidden; position: absolute;background-color: #a5e7f3;}
+#topCarouselPicture { width: 7080px; height: 340px; position: absolute; z-index: 1;}
+#topCarouselPicture img { float: left; width: 1180px; height: 340px;}
+#topCarouselCircle { position: absolute; height: 30px; width: 200px; z-index: 2; bottom: 5px; left: 50%;margin-left: -63px; }
+#topCarouselCircle span { cursor: pointer; float: left; width: 18px; height: 18px; border-radius: 50%; margin-right: 18px; background-color: RGBA(255,255,255,.6);}
+#topCarouselCircle .on { background: white;}
+#topCarouselButtonL {width: 24px; height: 48px; position: absolute; top: 145px; left: 0px; z-index: 2;}
+#topCarouselButtonR {width: 24px; height: 48px; position: absolute; top: 145px; right: 0px; z-index: 2;}
+.arrow { cursor: pointer;line-height: 48px;display:none; border-radius: 5px; text-align: center; font-weight: bold; background-color: RGBA(0,0,0,.2); color: #fff;}
+.arrow:hover { background-color: RGBA(0,0,0,.5);}
+#topCarousel:hover .arrow { display: block;}
+/*内容模块*/
+.bar { height: 268px;}
+.barTop { height: 28px; margin-top: 20px;}
+.barTopLeft { float: left;}
+.barTopLeft li { font-family: "微软雅黑"; font-size: 20px; padding-left: 12px; color: #4f4f4f;}
+.barTopLeft .spacer { width: 4px; height: 28px; background-color: #00caab; padding: 0;}
+.barTopRight { float: right;}
+.barTopRight li { font-family: "微软雅黑"; font-size: 12.4px;}
+.barTopRight li a { color: #00caab;}
+.barBottom { height: 210px; margin-top: 10px;}
+.block1 { position: absolute; width: 220px; height: inherit; background-color: #00caab;}
+.block1Title { position: absolute; margin-top: 11px; margin-left: 13px; font-family: "微软雅黑"; font-size: 30px; color: white;}
+.block1Comment { position: absolute; margin-top: 52px; margin-left: 13px; font-family: "微软雅黑"; font-size: 16px; color: white;}
+.more { position: absolute; margin-top: 17px; margin-left: 170px; font-family: "微软雅黑"; font-size: 12.4px; color: white;}
+.whiteLine { position: absolute; margin-top: 78px; margin-left: 13px;}
+.block2 { position: absolute; margin-top: 0px; margin-left: 240px; width: 220px; height: inherit; background-image: url(../images/campusSay/campusSay_07.png); background-repeat: no-repeat;}
+.classHover { display: none; position: absolute; width: 220px; height: 130px; background-color: rgba(0,0,0,0.50);}
+.block2:hover .classHover { display: block;}
+.scoreTag { position: absolute; top: 8px; right: 10px; font-family: "微软雅黑"; font-size: 16px; color: white;}
+.joinedNum { display: inline-block; position: absolute; top: 100px; right: 0; height: 22px; background-color: #feaa26; color: white; padding: 0 10px; border-radius: 10px 0px 0px 10px;}
+.class { position: absolute; margin-top: 130px; width: inherit; height: 80px; background-color: #fafafa;}
+.className { position: absolute; margin-top: 9px; margin-left: 9px; font-family: "微软雅黑"; font-size: 14px; color: #5c5c5c;}
+.teacherName { position: absolute; margin-top: 37px; margin-left: 9px; font-family: "微软雅黑"; font-size: 12px; color: #777777;}
+.classTime { position: absolute; margin-top: 59px; margin-left: 9px; font-family: "微软雅黑"; font-size: 12px; color: #5c5c5c;}
+.classComment { position: absolute; margin-top: 36px; margin-left: 49px; display: inline-block; padding: 0 6px; border: 1px solid #f5973e; font-family: "微软雅黑"; font-size: 12px; color: #f5973e; border-radius: 10px;}
+.classPrice { position: absolute; margin-top: 59px; margin-left: 177px; font-family: "微软雅黑"; font-size: 14.5px; color: #fca825;}
+main { padding-bottom: 80px;}
+
+/* 底部 */
+footer { height: 140px; background-color: #34495e;}
+.footerLink { position: absolute; top: 50px; right: 0;}
+.footerLink li { font-family: "微软雅黑"; font-size: 14px; margin-left: 29px;}
+.footerLink a { color: white;}
+.company { position: absolute; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; font-size: 12px; color: white; padding-top: 76px; right: 0;}
