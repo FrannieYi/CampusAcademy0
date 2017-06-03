@@ -1,0 +1,339 @@
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select{
+	padding:0;
+	margin:0;
+	font-family:arial;
+	font-size: 12px;
+	color: #666;
+}
+
+li {
+	list-style:none;
+	color: #000;
+}
+
+img {border:none;}
+
+a {text-decoration:none;}
+
+a:hover {text-decoration:none;}
+
+
+
+
+#head {
+	height: 1430px;
+}
+#head .menu {
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#head .menu ul li {
+	float: right;  
+	line-height:70px; 
+	font-size: 20px;
+	position:relative;
+	padding-left: 30px;
+	bottom: 70px;
+}
+
+#head .menu ul li ul li {
+	float:none;
+	padding-left: 0px;
+	position: relative;
+	bottom: 2px;
+	background: #ffffff;
+	line-height: 36px;
+	margin: 0 auto;
+}
+
+#head .menu ul li ul li a {
+	margin: 0 auto;
+}
+
+#head .menu ul li ul{   
+	display:none; 
+	width: 100px;
+	position:absolute;
+}
+
+#head .menu ul li:hover ul { 
+	display:block;
+}
+
+#head .up {
+	background: url(../images/head-up-1.png);
+	width: 100%;
+	height: 738px;
+}
+
+#head .up p {
+	width: 700px;
+	height: 40px;
+	position: relative;
+	top: 150px;
+	left: 800px;
+	font-size: 20px;
+	color: #a3bfd8;
+	float: left;
+}
+
+#head .up p span {
+	font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+#head .down {
+	width: 1536px;
+	height: 770px;
+	background: #f5f5f5;
+}
+
+#head .down .in {
+	width: 950px;
+	height: 770px;
+	margin: 0 auto;
+}
+
+#head .down .in p {
+	font-size: 36px;
+	color: #2f2f2f;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+#head .down .in p img {
+	padding: 0px 60px;
+	position: relative;
+	top: 6px;
+}
+
+#head .down .in .out {
+	width: 920px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 110px;
+	border-radius: 10px;
+	background: #ffffff;
+}
+
+#head .down .in .out .left {
+	width: 420px;
+	height: 370px;
+	margin-left: 100px;
+}
+#head .down .in .out .left p {
+	font-size: 18px;
+	line-height: 32px;
+	padding-left: 0px;
+}
+
+#head .down .in .out .left .one {
+	color: #2f2f2f;
+	padding-right: 270px;
+}
+
+#head .down .in .out .left .two {
+	color: #6e9dd5;
+	padding-right: 60px;
+	padding-top: 20px;
+}
+
+#head .down .in .out .left .three {
+	color: #adadad;
+	padding-top: 20px;
+}
+
+#head .down .in .out .left .four {
+	color: #333333;
+	padding-right: 200px;
+	padding-top: 20px;
+}
+
+#head .down .in .out .left img {
+	position: relative;
+	top: 20px;
+	left: 5px;
+}
+
+#head .down .in .out .right {
+	float: right;
+	margin-right: 100px;
+	margin-top: 70px;
+}
+
+#head .down .in .out .right .nav {
+	font-size: 24px;
+}
+
+#head .down .in .out .right li {
+	font-size: 16px;
+	line-height: 36px;
+}
+
+#head .down .in .out .right .five {
+	position: relative;
+	right: 50px;
+	bottom: 370px;
+}
+
+
+
+
+
+
+
+
+#concent {
+	margin-top: 240px;
+}
+
+#concent .up p {
+	font-size: 24px;
+	color: #151414;
+	position: relative;
+	left: 168px;
+}
+
+#concent .up p span {
+	font-size: 16px;
+	color: #737070;
+}
+
+#concent .up ul {
+	width: 1200px;
+	margin-left: 168px;
+	margin-top: 150PX;
+	position: relative;
+	bottom: 100px;
+}
+#concent .up li {
+	float: left;
+	margin-right: 20px;
+}
+
+#concent .up li p {
+	position: relative;
+	bottom: 130px;
+	left: 20px;
+}
+
+#concent .down {
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#concent .down .one {
+	width: 876px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 36px;
+	margin-left: 168px;
+}
+
+#concent .down ul {
+	width: 1000px;
+	height: 500px;
+	margin-top: 90px;
+	margin-left: 160px;
+}
+
+#concent .down ul li {
+	float: left;
+	padding: 0px 60px;
+	padding-top: 20px;
+}
+
+#concent .down ul hr {
+	width: 100px;
+	height: 5px;
+	background: #000000;
+	display: none;
+}
+
+#concent .down ul p {
+	font-size: 26px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#concent .down ul:hover hr {
+	display: block;
+}
+
+#concent .ok {
+	height: 840px;
+	background: #f5f5f5;
+}
+
+#concent .ok p {
+	margin-left: 168px;
+	padding: 60px 0px;
+	font-size: 24px;
+}
+
+#concent .ok p span {
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+#concent .ok ul {
+	margin-left: 168px;
+}
+#concent .ok ul li {
+	float: left;
+	width: 368px;
+	height: 580px;
+	background: #ffffff;
+	margin-right: 40px;
+}
+
+#concent .ok ul li p {
+	margin-left: 10px;
+	padding: 20px 0px;
+	font-size: 20px;
+	width: 310px;
+}
+
+#concent .ok ul li .ko {
+	font-size: 28px;
+	color: #464646;
+}
+
+
+
+
+#footer {
+	height: 380px;
+	background: #434343;
+}
+#footer ul {
+	margin-left: 390px;
+	padding-top: 90px;
+}
+#footer ul li {
+	float: left;
+	padding-left: 10PX;
+}
+
+#footer ul li a {
+	font-size: 16px;
+	color: #ffffff;
+}
+
+#footer p {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+}
