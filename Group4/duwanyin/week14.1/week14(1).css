@@ -1,0 +1,609 @@
+.head
+{
+  background-color: rgb(52, 73, 94);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 36px;
+}
+.head1
+{	
+	padding-left: 156px;
+	padding-top: 8px;
+}
+.head1 a
+{
+  font-size: 15px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  position: relative;
+}
+.head2{
+	position: relative;
+	right: -1017px;
+	top: -22px;
+	width: 300px;
+}
+.head2 a
+{
+  font-size: 15px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  line-height: 1.3;
+  padding-left: 20px;
+}
+.head21
+{
+  border-right: 3px #ffffff solid;
+}
+.school
+{
+	position: relative;
+	top: 47px;
+	left: 160px;
+	width: 300px;
+	height: 58px;
+}
+.school h1
+{
+  font-size: 15px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 1.2;
+  position: relative;
+  top: -57px;
+  left: 185px;
+}
+.school select
+{
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(119, 119, 119);
+  line-height: 1.2;
+  position: relative;
+  top: -48px;
+  left: 186px;
+  width: 74px;
+}
+.school1
+{
+  background-color: rgb(221, 221, 221);
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  top: 7px;
+  left: 160px;
+}
+.school ul
+{
+	height:20px;
+	width: 547px;
+	position: relative;
+	left: 609px;
+	top: -82px;
+}
+.school ul li
+{
+	list-style: none;
+	float: left;
+	padding-right: 50px;
+}
+.school ul li a
+{
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 1.2;
+}
+.school ul li .tintin
+{
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: rgb(0, 202, 171);
+  line-height: 1.2;
+}
+.xueba
+{
+  background-color: rgb(165, 231, 243);
+  width: 100%;
+  height: 340px;
+  position: relative;
+  top: 53px;
+}
+.xueba img
+{
+	position: relative;
+	left: 122px;
+	top: -58px;
+}
+.left
+{
+	position: relative;
+	top: -143px;
+	left: 122px;
+}
+.right
+{
+	position: relative;
+	top: -143px;
+	right: -1247px;
+}
+.create
+{
+	height: 267px;
+	width: 88%;
+	position:relative;
+	top: 49px;
+	left: 121px;
+}
+.more
+{
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  line-height: 0.6;
+  position: relative;
+  top: -234px;
+  left: 164px;
+}
+.create h1
+{
+  background-color: rgb(0, 202, 171);
+  width: 0.5px;
+  height: 56px;
+  padding-left: 10px;
+}
+.create h3
+{
+	font-size: 40px;
+  	font-family: "Microsoft YaHei";
+ 	color: rgb(79, 79, 79);
+  	line-height: 0.62;
+  	position: relative;
+  	top: -42px;
+  	left: 36px;
+}
+.create h2
+{
+  font-size: 42px;
+  font-family: "Microsoft YaHei";
+  color:#ffffff;
+  line-height: 0.62;
+  position: relative;
+  top: -200px;
+  left: 31px;
+
+}
+.create p
+{
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  color: #ffffff;
+  line-height: 0.62;
+  position: relative;
+  top: -202px;
+  left: 32px;
+}
+.create ul
+{
+	width: 960px;
+	height: 200px;
+	position: relative;
+	top: -272px;
+	left: 220px;
+}
+.create ul div
+{
+	float: left;
+	padding-left: 20px;
+
+}
+.create h4
+{
+  font-size: 17px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 1.304;
+}
+.create h5
+{
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(119, 119, 119);
+  line-height: 1.66;
+}
+.create h5 span
+{
+  border-width: 1px;
+  border-color: rgb(245, 151, 62);
+  border-style: solid;
+  width: 122px;
+  height: 18px;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(245, 151, 62);
+  line-height: 1.8;
+}
+.create h6
+{
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 2;
+}
+.create h6 span
+{
+  font-size: 25px;
+  font-family: "Microsoft YaHei";
+  color: rgb(252, 168, 37);
+  line-height: 0.2;
+  padding-left: 90px;
+}
+.job
+{
+	height: 267px;
+	width: 88%;
+	position:relative;
+	top: 113px;
+	left: 121px;
+
+}
+.job h1
+{
+  background-color: rgb(0, 202, 171);
+  width: 0.5px;
+  height: 56px;
+  padding-left: 10px;
+}
+.job h3
+{
+	font-size: 40px;
+  	font-family: "Microsoft YaHei";
+ 	color: rgb(79, 79, 79);
+  	line-height: 0.62;
+  	position: relative;
+  	top: -42px;
+  	left: 31px;
+}
+.job h2
+{
+  font-size: 42px;
+  font-family: "Microsoft YaHei";
+  color:#ffffff;
+  line-height: 0.62;
+  position: relative;
+  top: -200px;
+  left: 31px;
+
+}
+.job p
+{
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  color: #ffffff;
+  line-height: 0.62;
+  position: relative;
+  top: -202px;
+  left: 32px;
+}
+.job ul
+{
+	width: 960px;
+	height: 200px;
+	position: relative;
+	top: -272px;
+	left: 220px;
+}
+.job ul div
+{
+	float: left;
+	padding-left: 20px;
+
+}
+.job h4
+{
+  font-size: 17px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 1.304;
+}
+.job h5
+{
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(119, 119, 119);
+  line-height: 1.66;
+}
+.job h5 span
+{
+  border-width: 1px;
+  border-color: rgb(245, 151, 62);
+  border-style: solid;
+  width: 122px;
+  height: 18px;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(245, 151, 62);
+  line-height: 1.8;
+}
+.job h6
+{
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 2;
+}
+.job h6 span
+{
+  font-size: 25px;
+  font-family: "Microsoft YaHei";
+  color: rgb(252, 168, 37);
+  line-height: 0.2;
+  padding-left: 90px;
+}
+.job .jiuye1
+{
+	position: relative;
+	left: -959px;
+}
+.exchange
+{
+	height: 267px;
+	width: 88%;
+	position:relative;
+	top: 153px;
+	left: 121px;
+
+}
+.exchange h1
+{
+  background-color: rgb(0, 202, 171);
+  width: 0.5px;
+  height: 56px;
+  padding-left: 10px;
+}
+.exchange h3
+{
+	font-size: 40px;
+  	font-family: "Microsoft YaHei";
+ 	color: rgb(79, 79, 79);
+  	line-height: 0.62;
+  	position: relative;
+  	top: -42px;
+  	left: 32px;
+}
+.exchange h2
+{
+  font-size: 42px;
+  font-family: "Microsoft YaHei";
+  color:#ffffff;
+  line-height: 0.62;
+  position: relative;
+  top: -200px;
+  left: 31px;
+
+}
+.exchange p
+{
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  color: #ffffff;
+  line-height: 0.62;
+  position: relative;
+  top: -202px;
+  left: 32px;
+}
+.exchange ul
+{
+	width: 960px;
+	height: 200px;
+	position: relative;
+	top: -272px;
+	left: 220px;
+}
+.exchange ul div
+{
+	float: left;
+	padding-left: 20px;
+
+}
+.exchange h4
+{
+  font-size: 17px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 1.304;
+}
+.exchange h5
+{
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(119, 119, 119);
+  line-height: 1.66;
+}
+.exchange h5 span
+{
+  border-width: 1px;
+  border-color: rgb(245, 151, 62);
+  border-style: solid;
+  width: 122px;
+  height: 18px;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(245, 151, 62);
+  line-height: 1.8;
+}
+.exchange h6
+{
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 2;
+}
+.exchange h6 span
+{
+  font-size: 25px;
+  font-family: "Microsoft YaHei";
+  color: rgb(252, 168, 37);
+  line-height: 0.2;
+  padding-left: 90px;
+}
+.exchange .jiuye1
+{
+	position: relative;
+	left: -959px;
+}
+.baoyan
+{
+	height: 267px;
+	width: 88%;
+	position:relative;
+	top: 193px;
+	left: 121px;
+
+}
+.baoyan h1
+{
+  background-color: rgb(0, 202, 171);
+  width: 0.5px;
+  height: 56px;
+  padding-left: 10px;
+}
+.baoyan h3
+{
+	font-size: 40px;
+  	font-family: "Microsoft YaHei";
+ 	color: rgb(79, 79, 79);
+  	line-height: 0.62;
+  	position: relative;
+  	top: -42px;
+  	left: 32px;
+}
+.baoyan h2
+{
+  font-size: 42px;
+  font-family: "Microsoft YaHei";
+  color:#ffffff;
+  line-height: 0.62;
+  position: relative;
+  top: -200px;
+  left: 31px;
+
+}
+.baoyan p
+{
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  color: #ffffff;
+  line-height: 0.62;
+  position: relative;
+  top: -202px;
+  left: 32px;
+}
+.baoyan ul
+{
+	width: 960px;
+	height: 200px;
+	position: relative;
+	top: -272px;
+	left: 220px;
+}
+.baoyan ul div
+{
+	float: left;
+	padding-left: 20px;
+
+}
+.baoyan h4
+{
+  font-size: 17px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 1.304;
+}
+.baoyan h5
+{
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(119, 119, 119);
+  line-height: 1.66;
+}
+.baoyan h5 span
+{
+  border-width: 1px;
+  border-color: rgb(245, 151, 62);
+  border-style: solid;
+  width: 122px;
+  height: 18px;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(245, 151, 62);
+  line-height: 1.8;
+}
+.baoyan h6
+{
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(92, 92, 92);
+  line-height: 2;
+}
+.baoyan h6 span
+{
+  font-size: 25px;
+  font-family: "Microsoft YaHei";
+  color: rgb(252, 168, 37);
+  line-height: 0.2;
+  padding-left: 90px;
+}
+.baoyan .jiuye1
+{
+	position: relative;
+	left: -959px;
+}
+.footer
+{
+  background-color: rgb(52, 73, 94);
+  width: 100%;
+  height: 140px;
+  position: relative;
+  top: 280px;
+}
+.footer img
+{
+	position: relative;
+	left: -836px;
+	top: 42px;
+	padding-left: 20px;
+}
+.contact
+{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	top: 34px;
+	left: 1003px;
+}
+.contact a
+{
+	float: left;
+  	font-size: 14px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb(255, 255, 255);
+  	line-height: 1.2;
+  	padding-left: 39px;
+}
+.contact p
+{
+	height:20px;
+	width: 663px;
+  	font-size: 12px;
+  	font-family: "Arial";
+  	color: rgb(255, 255, 255);
+  	line-height: 1.2;
+  	position: relative;
+  	top: 33px;
+  	left: -359px;
+}
