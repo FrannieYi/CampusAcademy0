@@ -1,0 +1,509 @@
+body, p, div, span, a{
+    margin:0;
+    padding:0;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+ol, ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*-----------------------------------------------*/
+#top{
+    height:446px;
+}
+.head{
+    display:inline-block;
+    background-color:#34495e;
+    height:36px;
+    width:1920px;
+    position: relative;
+}
+.home{
+    background:url("img/logo.png") no-repeat 0 0;
+    height:16px;
+    width:18px;
+    position: absolute;
+    left:390px;
+    top:10px;
+}
+.home a{
+    color:#fff;
+    font-size:16px;
+    position: absolute;
+    left:22px;
+    bottom:2px;
+    width:32px;
+    height:16px;
+}
+.What{
+    position: absolute;
+    right:380px;
+    width:210px;
+}
+.What a,.What span{
+    position: absolute;
+    top:10px;
+    color:#fff;
+    font-size:14px;
+}
+.What .what{
+    width:116px;
+    height:16px;
+    right:108px;
+    border-right:2px solid #fff;
+    padding-bottom:2px;
+}
+.What .in{
+    right:58px;
+}
+.What span{
+    right:50px;
+}
+.What .register{
+    right:20px;
+}
+.head_next{
+    height:72px;
+    width:1180px;
+    position: absolute;
+    left:370px;
+}
+.school{
+    position: absolute;
+    left:156px;
+    width:130px;
+    top:8px;
+    height:44px;
+    border-left:2px solid #dddddd;
+}
+.school p{
+    margin-left:20px;
+    color:#5c5c5c;
+    font-size:14px;
+    margin-top:-4px;
+    margin-bottom:4px;
+}
+.school a{
+    display:inline-block;
+    border:2px solid #dddddd;
+    width:60px;
+    height:20px;
+    text-align:center;
+    padding-top:2px;
+    margin-left:20px;
+    font-size:12px;
+    color:#777777;
+}
+.head_next .li{
+    position: absolute;
+    right:0;
+    top:8px;
+    height:44px;
+}
+.head_next .li a{
+    color:#5c5c5c;
+    font-size:16px;
+    float:left;
+    margin-left:60px;
+    margin-top:12px;
+}
+.head_next .li a:hover{
+    color:#00caab;
+}
+.background{
+    width:1920px;
+    background-color:#a5e7f3;
+    height:340px;
+    position:relative;
+    top:70px;
+}
+.banner{
+    background:url("img/Campus.png") no-repeat;
+    position: absolute;
+    left:370px;
+    top:0;
+    width:1180px;
+    height:340px;
+}
+.banner span{
+    width:10px;
+    height:10px;
+    border-radius: 10px;
+    background-color:#fff;
+    opacity:0.5;
+    position: absolute;
+    bottom:10px;
+}
+.banner span:nth-child(3){
+    left:532px;
+}
+.banner span:nth-child(4){
+    left:566px;
+}
+.banner span:nth-child(5){
+    left:600px;
+}
+.banner span:nth-child(6){
+    left:634px;
+}
+.banner span:hover{
+    opacity:1;
+    cursor: pointer;
+}
+.banner a{
+    position: absolute;
+    top:146px;
+    background-color:#34495e;
+    width:24px;
+    height:48px;
+    opacity:0.2;
+    border-radius: 2px;
+}
+.banner a:hover{
+    opacity:0.4;
+}
+.banner .left{
+    left:0;
+}
+.banner .right{
+    right:0;
+}
+.banner .left span{
+    width:24px;
+    height:16px;
+    position: absolute;
+    left:0;
+    top:14px;
+    background:url("img/logo.png") no-repeat;
+    background-position: 6px -16px;
+}
+.banner .right span{
+    width:24px;
+    height:16px;
+    position: absolute;
+    left:0;
+    top:16px;
+    background:url("img/logo.png") no-repeat;
+    background-position: 9px -36px;
+}
+
+#middle{
+    position: relative;
+    left:370px;
+}
+#middle ul .list{
+    display:inline-block;
+    width:1180px;
+    height:268px;
+}
+#middle ul .list li{
+    float:left;
+}
+#middle ul .list .top{
+    width:1180px;
+    height:30px;
+    border-left:4px solid #00caab;
+    margin-top:20px;
+    margin-bottom:6px;
+}
+#middle ul .list .top p{
+    float:left;
+    color:#4f4f4f;
+    font-size:20px;
+    margin-left:12px;
+}
+#middle ul .list .top a{
+    float:right;
+    display:inline-block;
+    background:url("img/logo.png") 30px -52px no-repeat;
+    margin-top:6px;
+    width:50px;
+    height:16px;
+    font-size:12.36px;
+    color:#00caab;
+}
+#middle ul .list ul li:nth-child(1){
+    width:220px;
+    height:210px;
+    position: relative;
+}
+#middle ul .list ul li:nth-child(1) p:nth-child(1){
+    position: absolute;
+    top:12px;
+    left:12px;
+    font-size:30px;
+    color:#f8fafc;
+}
+#middle ul .list ul li:nth-child(1) p:nth-child(2){
+    display:inline-block;
+    position: absolute;
+    top:50px;
+    left:12px;
+    font-size:16px;
+    color:#ffffff;
+    width:196px;
+    height:28px;
+}
+#middle ul .list ul li:nth-child(1) div .line{
+    width:122px;
+    height:2px;
+    position: absolute;
+    top:78px;
+    left:12px;
+}
+#middle ul .list ul li:nth-child(1) a{
+    position: absolute;
+    right:10px;
+    top:16px;
+    color:#fff;
+    font-size:12.37px;
+    width:36px;
+    height:12px;
+    background:url("img/logo.png") 28px -67px no-repeat;
+}
+#middle ul .list ul li:nth-child(n+2){
+    width:220px;
+    height:210px;
+    margin-left:20px;
+    background-color:#fafafa;
+    position: relative;
+}
+#middle ul .list ul li:nth-child(n+2) .do{
+    width:220px;
+    height:80px;
+    position: absolute;
+    top:130px;
+}
+#middle ul .list ul li:nth-child(n+2) .do .p1{
+    position: absolute;
+    top:4px;
+    left:10px;
+    color:#5c5c5c;
+    font-size:14px;
+}
+#middle ul .list ul li:nth-child(n+2) .do .p2{
+    position: absolute;
+    top:30px;
+    left:10px;
+    color:#777777;
+    font-size:12px;
+}
+#middle ul .list ul li:nth-child(n+2) .do .p3{
+    position: absolute;
+    top:54px;
+    left:10px;
+    color:#5c5c5c;
+    font-size:12px;
+}
+#middle ul .list ul li:nth-child(n+2) .do div{
+    width:126px;
+    height:20px;
+    border:1px solid #f5973e;
+    border-radius: 15px;
+    margin-top:26px;
+    margin-left:58px;
+    text-align:center;
+    color:#f5973e;
+}
+#middle ul .list ul li:nth-child(n+2) .do .p4{
+    font-size:19.41px;
+    color:#fca825;
+    position: absolute;
+    right:10px;
+    bottom:4px;
+}
+#middle ul .list ul li:nth-child(2n+3) .cover{
+    position: absolute;
+    top:0;
+    width:220px;
+    height:130px;
+    background-color:#000;
+    opacity:0.5;
+}
+#middle ul .list ul li:nth-child(2n+3) .big{
+    font-size:18px;
+    color:#fff;
+    position: absolute;
+    top:18px;
+    right:40px;
+}
+#middle ul .list ul li:nth-child(2n+3) .small{
+    font-size:16px;
+    color:#fff;
+    position: absolute;
+    top:20px;
+    right:10px;
+}
+#middle ul .list ul li:nth-child(2n+3) .already{
+    width:94px;
+    height:22px;
+    background-color:#feaa26;
+    color:#fff;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    position: absolute;
+    top:100px;
+    right:0;
+    text-align:center;
+}
+#middle ul .list ul li:nth-child(2n+3) .already p{
+    font-size:12px;
+    margin-top:2px;
+}
+#middle .one li:nth-child(1){
+    background-color:#72d3bd;
+}
+#middle .two li:nth-child(1){
+    background-color:#ffbc53;
+}
+#middle .three li:nth-child(1){
+    background-color:#78b8fb;
+}
+#middle .four li:nth-child(1){
+    background-color:#ff8282;
+}
+#middle .five li:nth-child(1){
+    background-color:#c5b6ff;
+}
+
+#middle .one ul li:nth-child(1) div .line {
+    background: -moz-linear-gradient(left, #d3f1ea, #72d3bd);
+    background: -o-linear-gradient(left, #d3f1ea, #72d3bd);
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#d3f1ea), to(#72d3bd));
+}
+#middle .two ul li:nth-child(1) div .line{
+    background: -moz-linear-gradient(left, #ffe9c6, #ffbc53);
+    background: -o-linear-gradient(left, #ffe9c6, #ffbc53);
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#ffe9c6), to(#ffbc53));
+}
+#middle .three ul li:nth-child(1) div .line{
+    background: -moz-linear-gradient(left, #d3e8fe, #78b8fb);
+    background: -o-linear-gradient(left, #d3e8fe, #78b8fb);
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#d3e8fe), to(#78b8fb));
+}
+#middle .four ul li:nth-child(1) div .line{
+    background: -moz-linear-gradient(left, #ffd7d7, #ff8282);
+    background: -o-linear-gradient(left, #ffd7d7, #ff8282);
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#ffd7d7), to(#ff8282));
+}
+#middle .five ul li:nth-child(1) div .line{
+    background: -moz-linear-gradient(left, #ece7ff, #c5b6ff);
+    background: -o-linear-gradient(left, #ece7ff, #c5b6ff);
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#ece7ff), to(#c5b6ff));
+}
+
+#middle .one .picture{
+    background:url("img/back_1.png");
+    width:220px;
+    height:210px;
+    opacity:0.2;
+    position: absolute;
+    top:90px;
+    left:50px;
+}
+#middle .two .picture{
+    background:url("img/back_2.png");
+    width:220px;
+    height:210px;
+    opacity:0.2;
+    position: absolute;
+    top:86px;
+    left:74px;
+}
+#middle .three .picture{
+    background:url("img/back_3.png");
+    width:220px;
+    height:210px;
+    opacity:0.2;
+    position: absolute;
+    top:90px;
+    left:50px;
+}
+#middle .four .picture{
+    background:url("img/back_4.png");
+    width:220px;
+    height:210px;
+    opacity:0.2;
+    position: absolute;
+    top:40px;
+    left:50px;
+}
+#middle .five .picture{
+    background:url("img/back_5.png");
+    width:220px;
+    height:210px;
+    opacity:0.2;
+    position: absolute;
+    top:80px;
+    left:50px;
+}
+#bottom{
+    width:1920px;
+    height:140px;
+    background-color:#34495e;
+    margin-top:86px;
+    position: relative;
+}
+#bottom .container{
+    position:absolute;
+    left:370px;
+    width:1180px;
+    height:140px;
+}
+#bottom .container .logo{
+    position:absolute;
+    top:46px;
+    left:0;
+}
+#bottom .container .WeBlog, #bottom .container .WeChat{
+    background-color:#9aa4af;
+    width:44px;
+    height:44px;
+    border-radius:44px;
+    position:absolute;
+    top:54px;
+}
+#bottom .container .WeBlog{
+    left:150px;
+}
+#bottom .container .WeChat{
+     left:204px;
+ }
+#bottom .container a img{
+    margin-top:12px;
+    margin-left:10px;
+}
+#bottom .container a{
+    color:#fff;
+    font-size:14px;
+}
+#bottom .container .about{
+    position: absolute;
+    top:54px;
+    right:170px;
+}
+#bottom .container .help{
+    position: absolute;
+    top:54px;
+    right:84px;
+}
+#bottom .container .connect{
+    position: absolute;
+    top:54px;
+    right:0;
+}
+#bottom .container p{
+    font-size:12px;
+    color:#fff;
+    position: absolute;
+    right:0;
+    top:74px;
+
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rocket,fly!</title>
+    <style>
+        body, p, h1, h2, h3, h4, h5, h6, dl, dd{
+            margin: 0;
+            font-size: 15px;
+            /*font-family: XXX;*/
+        }
+        a{
+            text-decoration: none;
+        }
+
+        div{
+            width:1536px;
+            height:708px;
+            position: relative;
+            background-color:#304d5b;
+        }
+        #rocket{
+            width:100px;
+            height:200px;
+            position: absolute;
+            left:0;
+            bottom:0;
+            -webkit-transition-property:left,bottom,-webkit-transform;
+            -webkit-transition-duration:5s,5s,5s,5s;
+            -webkit-transition-timing-function: ease-out, ease-in, linear, ease-in-out;
+            -webkit-transition-delay:0s,0s,0s,1s;
+        }
+        #rocket:target{
+            -webkit-transform: rotate(90deg);
+            left:1036px;
+            bottom:608px;
+        }
+        a{
+            color:#fe0000;
+            font-size:40px;
+        }
+        a:hover{
+            color:#f10000;
+        }
+        .a1{
+            position: absolute;
+            left:20px;
+            top:20px;
+        }
+        .a2{
+            position: absolute;
+            right:20px;
+            bottom:20px;
+        }
+        #stop{
+            width:50px;
+            height:0;
+            position:absolute;
+            top:-50px;
+            right:400px;
+            -webkit-transition-property:height;
+            -webkit-transition-duration:5s;
+        }
+        #line{
+            width:1px;
+            margin-left:25px;
+            background-color:#fe0000;
+            height:100%;
+        }
+        #stop img{
+            width:50px;
+            height:50px;
+        }
+        #stop:target{
+            height:708px;
+        }
+        .a3{
+            position: absolute;
+            top:100px;
+            left:20px;
+        }
+    </style>
+</head>
+<body>
+<div id="back">
+    <img src="rocket.gif" id="rocket"/>
+    <div id="stop"><div id="line"></div><img src="spiderman.gif"></div>
+    <a href="#rocket" class="a1">Rocket,fly!</a>
+    <a href="#back" class="a2">Rocket and SpiderMan,back!</a>
+    <a href="#stop" class="a3">SpiderMan!</a>
+</div>
+</body>
+</html>
