@@ -1,0 +1,422 @@
+body,ul,p,h1,h2,h3,h4,form,input{ padding:0; margin:0; font-family:"微软雅黑"; }
+html,body{
+	height: 4730px;
+	width: 1920px;
+	margin: 0 auto;
+}
+li { list-style:none; }
+img { border:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+/*headline*/
+.headline{
+	height: 70px;
+	width: 1920px;
+}
+.headline .headline-left{
+	float: left;
+	margin-left: 361px;
+	margin-top: 10px;
+}
+.headline-right{
+	float: left;
+	margin-left: 154px;
+}
+.headline-right li{
+	float: left;
+	padding: 20px 10px;
+	font-size: 18px;
+}
+.headline-right .line{
+	border-right: 1px solid grey;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.headline-right a{
+	color: #727272;
+}
+.headline-right .jiaohui a{
+	color: #779fd1;
+	position: relative;
+}
+#jieshao{
+	position: absolute;
+	margin-top: 25px;
+	height: 83px;
+	width: 155px;
+	background-color: pink;
+	margin-left: -38px;
+	z-index: 3;
+	opacity: 0.4;
+}
+#jieshao .choose,.choose-1{
+	margin: 30px 30px;
+}
+#jieshao .choose-1{
+	color: #779fd1;
+}
+/*head*/
+.head{
+	height: 576px;
+	width: 1920px;
+}
+.head #fir{
+	position: absolute;
+	z-index: 2;
+}
+.head #sec{
+	position: absolute;
+	z-index: 1;
+}
+.head .point{
+	position: absolute;
+	color: black;
+	z-index: 3;
+}
+/*middle*/
+.middle{
+	height: 765px;
+	width: 1920px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.middle-up{
+	padding-top: 80px;
+}
+.middle-up .letter-1{
+	font-weight: bold;
+	font-size: 45px;
+	color: black;
+}
+.middle-up .letter-2{
+	font-size: 24px;
+	color: grey;
+}
+.middle-down{
+	margin-top: 40px;
+	margin-left: 500px;
+	height: 448px;
+	width: 922px;
+	background: url(img/未标题-1.png);
+}
+.middle-down .left{
+	float: left;
+	margin-left: 106px;
+
+}
+.middle-down .left li{
+	padding: 20px;
+}
+.middle-down .left h5{
+	float: left;
+	font-size: 21px;
+}
+.middle-down .left .letter-2{
+	color: #6e9dd5;
+	font-size: 18px;
+	float: left;
+	margin-top: -12px;
+	margin-bottom: 25px;
+}
+.middle-down .left .letter-3{
+	font-size: 19px;
+	color: #888888;
+	line-height: 30px;
+}
+.middle-down .left .letter-4{
+	float: left;
+	padding-right: 20px;
+	font-size: 16px;
+	letter-spacing: 3px;
+	margin-top: -10px;
+}
+.middle-down .right{
+	float: right;
+	margin-top: 40px;
+	margin-right:100px;
+}
+.middle-down .right li{
+	 padding: 7px; 
+}
+.middle-down .right .letter-5{
+	margin-left: -32px;
+}
+.middle-down .right .letter-6{
+	margin-left: -50px;
+}
+.middle-down .right .letter-7{
+	margin-left: -50px;
+}
+.middle-down .right .letter-8{
+	margin-left: 30px;
+}
+/*gallery*/
+.gallery{
+	height: 590px;
+	width: 1920px;
+}
+.gallery .letter-9{
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+	margin-top: 36px;
+	margin-left: 360px;
+}
+.gallery .letter-9 span{
+	font-size: 16px;
+	color: #5c5c5c;
+	padding: 10px;
+}
+.gallery .photo{
+	float: left;
+	margin-left: 360px;
+	margin-top: 70px;
+}
+.gallery .photo li{
+	float: left;
+	padding-right: 40px;
+}
+.gallery .photo a:hover{
+	opacity: 0.7;
+}
+/*big-photo*/
+.big-photo{
+	height: 781px;
+	width: 1920px;
+	background: url(img/big-photo.png);
+}
+.big-photo .inside{
+	opacity: 0.2;
+}
+/*way*/
+.way{
+	height: 758px;
+	width: 1920px;
+	text-align: center;
+
+}
+.three{
+	height: 279px;
+	width: 1440px;
+	background-color: #ffffff;
+	margin-left: 240px;
+	margin-top: -88px;
+	z-index: 2;
+}
+.three .letter-10{
+	font-size: 27px;
+	color: #464646;
+	font-family: "黑体";
+	padding-top: 50px;
+}
+.letter-11{
+	padding-top: 30px;
+	font-size: 19px;
+}
+.six {
+	z-index: 1;
+	position: relative;
+	height: 490px;
+	width: 1440px;
+	margin-left: 520px;
+	margin-top: -100px;
+}
+.six li{
+	float: left;
+	padding-right: 196px;
+	padding-top: 60px;
+}
+.six .last-three{
+	position: absolute;
+	margin-top: 200px;
+}
+.letter-12{
+	font-size: 21px;
+}
+.six p:hover{
+	text-decoration: none;
+	border-bottom: 4px solid #464646;
+}
+/**diamonds*/
+.diamonds {
+	background-color: #f5f5f5;
+	height: 894px;
+	width: 1920px;
+	position: relative;
+}
+.diamonds h4{
+	font-size: 24px;
+	float: left;
+	margin-left: 360px;
+	margin-top: 63px;
+}
+.little-letter{
+	float: left;
+	margin-top: 70px;
+	font-size: 16px;
+	color: #5c5c5c;
+	padding-left: 20px;
+}
+.diamonds .diamonds-left{
+	background-color: white;
+	position: absolute;
+	height:563px;
+	width: 371px; 
+	float: left;
+	margin-left: 360px;
+	margin-top: 155px;
+}
+.diamonds .diamonds-left li{
+	padding: 17px;
+	float: left;
+	margin-left: 25px;
+}
+.diamonds .diamonds-left .photo-1{
+	margin-left: 0px;
+	padding: 0px;
+}
+.letter-13{
+	font-size: 21px;
+	color: #464646;
+	font-weight: bold;
+}
+.letter-14{
+	font-size: 18px;
+	color: #5c5c5c;
+}
+.diamonds .letter-15{
+	margin-top: 30px;
+	margin-left: 20px;
+	border: 1px solid grey;
+	padding: 3px 20px;
+}
+.diamonds .diamonds-left .letter-15{
+	float: left;
+	left: 10px;
+	color: grey;
+}
+
+
+.diamonds .diamonds-middle{
+	background-color: white;
+	position: absolute;
+	height:563px;
+	width: 371px; 
+	float: left;
+	margin-left: 770px;
+	margin-top: 155px;
+}
+.diamonds .diamonds-middle li{
+	padding: 17px;
+	float: left;
+	margin-left: 25px;
+}
+.diamonds .diamonds-middle .photo-1{
+	margin-left: 0px;
+	padding: 0px;
+}
+.letter-13{
+	font-size: 21px;
+	color: #464646;
+	font-weight: bold;
+}
+.letter-14{
+	font-size: 18px;
+	color: #5c5c5c;
+}
+.diamonds .diamonds-middle .letter-15{
+	margin-top: 60px;
+	margin-left: 60px;
+	border: 1px solid grey;
+	padding: 3px 20px;
+}
+.diamonds .diamonds-middle .letter-15{
+
+	color: grey;
+}
+.diamonds .diamonds-middle .last{
+	margin-top: 25px;
+}
+
+
+.diamonds .diamonds-right{
+	background-color: white;
+	position: absolute;
+	height:563px;
+	width: 371px; 
+	float: left;
+	margin-left: 1180px;
+	margin-top: 155px;
+}
+.diamonds .diamonds-right li{
+	padding: 17px;
+	float: left;
+	margin-left: 25px;
+}
+.diamonds .diamonds-right .photo-1{
+	margin-left: 0px;
+	padding: 0px;
+}
+.letter-13{
+	font-size: 21px;
+	color: #464646;
+	font-weight: bold;
+}
+.letter-14{
+	font-size: 18px;
+	color: #5c5c5c;
+}
+.diamonds .diamonds-right a{
+	margin-top: 60px;
+	margin-left: 60px;
+	border: 1px solid grey;
+	padding: 3px 20px;
+}
+.diamonds .diamonds-right .letter-15{
+	color: grey;
+}
+.diamonds .diamonds-right .last{
+	margin-top: 25px;
+}
+/*bottom*/
+.bottom{
+	height: 384px;
+	background-color: #434343;
+	text-align: center;
+}
+.bottom ul a{
+
+	padding-top: 90px;
+	font-size: 18px;
+	color: white;
+}
+.bottom ul{
+	padding-top:95px;
+	margin-left: 600px;
+}
+.bottom li{
+	float: left;
+	padding: 8px;
+	border-right: 2px solid white;
+}
+.letter-15{
+	float: left;
+	margin-left: 800px;
+	padding-top: 40px;
+	font-size: 18px;
+	color: white;
+}
+.letter-16{
+	float: left;
+	margin-left: 750px;
+	padding-top: 20px;
+	font-size: 18px;
+	color: white;
+}
+.letter-17{
+	float: left;
+	margin-left: 750px;
+	padding-top: 20px;
+	font-size: 18px;
+	color: white;
+}
