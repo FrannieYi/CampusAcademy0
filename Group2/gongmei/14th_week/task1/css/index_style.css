@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+}
+
+#container{
+    background: url(../imgs/bg.jpg) repeat-x;
+}
+#small_container{
+    width: 1180px;
+    margin: 0 auto;
+}
+#header .header_topNav{
+    position: relative;
+    height: 36px;
+    font-size: 14px;
+}
+#header .header_topNav span{
+    position: relative;
+    margin-left: 20px;
+    display: inline-block;
+    line-height: 36px;
+    float: left;
+}
+#header .header_topNav span img{
+    position: relative;
+    top: 3px;
+}
+#header .header_topNav a,.header_topNav li{
+    color: #fff;
+}
+#header .topNav{
+    position: relative;
+    display: inline-block;
+    left: 870px;
+}
+#header .topNav li{
+    float: left;
+    line-height: 36px;
+    padding-left: 18px;
+    padding-right: 18px; 
+}
+.what{
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    left: 16px;
+    height: 15px;
+    background: #fff;
+    width: 2px;
+}
+#header .header_mainNav{
+    height: 72px;
+}
+#header .mainNav_left{
+    display: inline-block;
+    float: left;
+} 
+.mainNav_left li{
+    float: left;
+    height: 72px;
+}
+.mainNav_left li .xian{
+    background: #ddd;
+    height: 45px;
+    width: 1px;
+    margin: 0 15px 0 15px;
+    display: inline-block;
+}
+.mainNav_left li img{
+    margin-top: 10px;
+}
+.mainNav_left li span{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #5c5c5c;
+}
+.change_school{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+.change_school a{
+    font-size: 13px;
+    display: inline-block;
+    float: none;
+    color: #bababa;
+    padding: 2px;
+    border: 1px solid #ddd;
+}
+.mainNav_right{
+    position: relative;
+    display: inline-block;
+    line-height: 72px;
+    left: 390px;
+}
+.mainNav_right li{
+    float: left;
+    margin-right: 60px;
+}
+.mainNav_right a{
+    color: #5c5c5c;
+}
+.mainNav_right a:hover{
+    color: #24ceb1;
+}
+#main{
+    position: relative;
+    height: auto;
+    width: 1180px;
+    margin-bottom: 74px;
+}
+#main .banner{
+    height: 340px;
+}
+
+.prev,.next{
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+    line-height: 48px;
+    background: #98c9c6;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 800;
+}
+.prev{
+    top: 148px;
+}
+.next{
+    top: 148px;
+    left: 1156px;
+}
+.chuangye,.jiuye,.baoyan,.kaoyan,.liuxue,.jiuye{
+    position: relative;
+    width: 1180px;
+    height: 270px;
+}
+.chuangye_top,.jiuye_top,.liuxue_top,.baoyan_top,.kaoyan_top{
+    display: block;
+    width: 1180px;
+    line-height: 57px;
+    height: 57px;
+}
+.chuang,.jiu,.liu,.bao,.kao{
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #4f4f4f;
+    border-left: 3px solid #00caab;
+}
+.more{
+    position: relative;
+    left: 1070px;
+    font-size: 12px;
+    color: #54d5bd;
+    font-weight: 600;
+}
+.jiuye_main,.chuangye_main,.kaoyan_main,.baoyan_main,.liuxue_main{
+    position: relative;
+    display: block;
+    width: 1200px;
+}
+.jiuye_main .list_1,.chuangye_main .list_1,.kaoyan_main .list_1,.baoyan_main .list_1,.liuxue_main .list_1{
+    display: block;
+    height: 210px;
+    width: 220px;
+    border: none;
+    float: left;
+}
+.line_1{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 26px;
+    color: #fff;
+}
+.gengduo{
+    position: absolute;
+    left: 170px;
+    top: 10px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+}
+.line_2{
+    position: absolute;
+    left: 12px;
+    top: 50px;
+    color: #fff;
+    font-size: 15px;
+}
+.chuangye_main ul li,.jiuye_main ul li,.baoyan_main ul li,.kaoyan_main ul li,.liuxue_main ul li{
+    display: block;
+    width: 218px;
+    height: 208px;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+}
+.chuangye_main h4,.jiuye_main h4,.baoyan_main h4,.liuxue_main h4,.kaoyan_main h4{
+    position: relative;
+    margin-left: 9px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #6a6a6a;
+}
+.jiuye_main img,.chuangye_main img,.kaoyan_main img,.baoyan_main img,.liuxue_main img{
+    display: block;
+    width: 218px;
+}
+.jiuye_main a,.chuangye_main a,.kaoyan_main a,.baoyan_main a,.liuxue_main a{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 218px;
+    transition-duration: 0.5s;
+}
+.jiuye_main a span,.chuangye_main a span,.kaoyan_main a span,.baoyan_main a span,.liuxue_main a span{
+    position: absolute;
+    top: -30px;
+    color: #000;
+    left: 170px;
+    transition-duration: 0.5s;
+}
+.jiuye_main a:hover,.chuangye_main a:hover,.kaoyan_main a:hover,.baoyan_main a:hover,.liuxue_main a:hover{
+    opacity: 0.2;
+}
+.jiuye_main a:hover span,.chuangye_main a:hover span,.kaoyan_main a:hover span,.baoyan_main a:hover span,.liuxue_main a:hover span{
+    top: 3px;
+    opacity: 1;
+}
+.teacher{
+    font-size: 12px;
+    margin: 10px 0 0 9px;
+    color: #818181;
+}
+.xiangmu{
+    font-size: 13px;
+    border: 1px solid #f5973e;
+    border-radius: 15px;
+    padding: 0 5px 0 5px;
+    color: #f5973e;
+}
+.time{
+    font-size: 14px;
+    color: #8d8d8d;
+    margin-left: 9px;
+    margin-top: 5px;
+    display: inline-block;
+    float: left;
+}
+.price{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #fca825;
+    line-height: 17px;
+}
+.real_price{
+    font-size: 17px;
+}
+#footer{
+    position: relative;
+    height: 140px;
+}
+.contact{
+    display: block;
+    height: 140px;
+    float: left;
+    width: 270px;
+}
+.contact li{
+    float: left;
+    margin-right: 25px;
+    margin-top: 50px;
+    line-height: 46px;
+}
+#contact_us1{
+    margin-right: 12px;
+    margin-top: 55px;
+}
+#contact_us2{
+    margin-right: 0px;
+    margin-top: 55px;
+}
+.last{
+    display: block;
+    float: right;
+    margin-top: 50px;
+    line-height: 14px;
+}
+.last li{
+    float: left;
+    margin-left: 30px; 
+}
+.last li a{
+    font-size: 14px;
+    color: #fff;
+}
+.copyright{
+    display: inline-block;
+    position: relative;
+    left: 530px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 75px;
+    
+}
