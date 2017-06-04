@@ -1,0 +1,23 @@
+#schoolselect
+{
+	width:600px;
+	height:180px;
+	top:200px;
+	left:50%;
+	margin-left:-300px;
+	padding-left:50px;
+	background:#FFF;
+	position:fixed;
+}
+
+#schoolselect a
+{
+	float:left;
+	margin-top:40px;
+	color:#000;
+	margin-left:20px;
+	margin-right:20px;
+	padding-left:15px;
+	padding-right:15px;
+	font-size:20px;
+}
