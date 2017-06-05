@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>黄桷垭救主堂</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding:0;
+	}
+	a{
+		text-decoration: none;
+	}
+	.nav{
+		width: 100%;
+		min-width: 1920px;
+		height: 72px;
+		background: #fff;
+	}
+	.nav .logo{
+		position: absolute;
+		width: 120px;
+		height: 40px;
+		top: 16px;
+		left: 360px;
+		padding-right: 154px;
+	}
+	.nav .list{
+		float: left;
+		padding-left: 630px;
+	}
+
+	.nav li{
+		list-style: none;
+		float: left;
+		padding:14px 28px 0 20px;
+		font-size: 18px;
+		font-family: "宋体";
+		font-color:#888888;
+		line-height: 24px;
+		list-style-image: url(../img/list1.gif) ;
+		background-position: right center;	
+	}
+	.nav .no_list{
+		list-style: none;
+	}
+	.nav a{
+		text-decoration: none;
+		color: #888888;
+	}
+	.nav a:hover{
+		color: #779fd1;
+	}
+	.nav .list0 span{
+		display: inline-block;
+		width: 2px;
+		height: 14px;
+		background: #e6e6e6;
+		margin: 0 10px;
+	}
+	/*盒子颜色用background*/
+	.nav .instruct{
+		position:absolute;
+		width: 155px;
+		height: 84px;
+		top: 72px;
+		left: 800px;
+		background: #fafafa;
+		border-top: 1px solid #779fd1;
+		list-style: none;
+	}
+	.nav .instruct li{
+		line-height: 30px;
+		color:#888888;
+		font-size: 18px;
+	}
+	/*导航部分结束*/
+	.head .images{
+		width: 1920px;
+		height:602px;
+		overflow: hidden;
+		position:relative;
+	}
+	.head .img{
+		width: 1920px;
+		height: 602px;
+		position:absolute;
+		z-index: 1;
+		transition: all;
+
+	}
+	.images img:target{
+		z-index: 9;
+		opacity: 1;
+	}
+	.head .side{
+		position:absolute;
+		top: 630px;
+		left: 960px;
+		width: 140px;
+		height: 20px;
+	}
+	.head a{
+		text-decoration: none;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		border: 2px solid #fff;
+		border-radius: 10px;
+		margin-left:10px;
+	}
+	.head a:hover{
+		width: 5px;
+		height: 5px;
+		border:10px solid #fafafa;
+		border-radius: 20px;
+	}
+
+	.content{
+		margin: 0 auto;
+		width: 1920px;
+		height: 3786px;
+	}
+	.content .content1{
+		margin: 0 auto;
+		width: 1920px;
+		height: 774px;
+		background: #f5f5f5;
+		position:relative;
+	}
+	.content1 .wrap1{
+		margin: 0 auto;
+		width: 924px;
+		height: 774px;
+	}
+	.wrap1 .top{
+		width: 924px;
+		height: 242px;
+	}
+	.wrap1 .top_font1{
+		font-size: 40px;
+		font-family: "宋体";
+		line-height:45px;
+		padding-left: 36px;
+		padding-right:70px;
+		padding-top: 94px;
+		color: #646464;
+		display:inline;
+	}
+	.wrap1 span{
+		width: 88px;
+		height:84px;
+		padding-top: 64px;
+		padding-right: 72px;
+	}
+	.wrap1 .top_font2{
+		font-size: 40px;
+		font-family: "宋体";
+		line-height:45px;
+		color: #646464;
+		display:inline;
+	}
+	.wrap1 .top_font3{
+		font-size: 16px;
+		font-family: "宋体";
+		line-height: 24px;
+		color: #898888;
+		padding-top:24px;
+		text-align:center;	
+	}
+	.wrap1 .bottom{
+		position:relative;
+		width: 924px;
+		height: 446px;
+		background: #fff;
+		border-radius: 5px;
+	}
+	.wrap1 .left{
+		width: 590px;
+		height: 444px;
+		border-right: 1px dashed #dedede;
+	}
+	.wrap1 .bottom_font1{
+		font-size: 21px;
+		font-family: "宋体";
+		color: #444444;
+		padding:40px 0 20px 106px;
+	}
+	.wrap1 .bottom_font2{
+		font-size: 16px;
+		font-family: "宋体";
+		line-height: 24px;
+		color: #79a4d8;
+		padding-left: 110px;
+	}
+	.wrap1 span{
+		padding-left: 110px;
+		padding-right: 16px;	
+	}
+	.wrap1 .bottom_font3,.bottom_font3-1{
+		font-size: 16px;
+		font-family: "宋体";
+		line-height: 24px;
+		color: #adadad;
+		display: inline-block;
+		padding-top: 40px;
+	}
+	.wrap1 .bottom_font3-1{
+		padding-left: 110px;
+	}
+	.wrap1 .right{
+		width: 332px;
+		height: 440px;
+	}
+	.wrap1 .list1{
+		position: absolute;
+		left: 1100px;
+		top:276px; 
+		padding-left: 40px;
+		padding-top:36px;
+	}
+	.wrap1 .list2{
+		position: absolute;
+		left: 1100px;
+		top:420px;
+		padding-left: 40px;
+		padding-top:36px;
+	}
+	.wrap li{
+		font-size: 16px;
+		font-family: "pinfang";
+		line-height: 24px;
+		list-style: none;
+		padding-left: 40px;
+	}
+	.wrap1 .li1{
+		color: #779fd1;
+		list-style-image: url(../img/li1.gif);
+	}
+	.wrap1 .li2{
+		color: #779fd1;
+		list-style-image: url(../img/li2.gif);
+	}
+	.wrap1 .li3{
+		color: #779fd1;
+		list-style-image: url(../img/li3.gif);
+	}
+	.wrap1 .li1{
+		color: #779fd1;
+		list-style-image: url(../img/li3.gif);
+	}
+	.wrap1 a{
+		color: #9e9e9e;
+	}
+	.wrap1 a:hover{
+		color: #779fd1;
+	}
+	.wrap1 .list2{
+		padding-top:36px;
+	}
+	.content .content2{
+		width: 11920px;
+		height: 588px;
+		margin: 0 auto;
+	}
+	.content2 ul{
+		float:left;
+		padding:62px 0 0 360px;
+	}
+	.content2 div{
+		width: 278px;
+		overflow: hidden;
+		box-shadow: 2px 2px 2px rgba(258,0,0,0.5);/*阴影*/
+	}
+	.content2 div a:hover{
+		width: 280px;
+		height: 220px;
+	}
+	.content2 li{
+		float:left;
+		list-style: none;
+		padding:0 15px;
+		width: 278px;
+		height: 218px;
+	}
+	.content2 .font1{
+		font-size: 16px;
+		font-family: "宋体";
+		line-height: 24px;
+		color: #464646;
+	}
+	.content2 .font1 span{
+		font-size: 24px;
+		font-family: "宋体";
+		padding-top: 64px;
+		color:#adadad;
+		text-align:center;
+		padding:10px;
+	}
+	.content2 .box1{
+		padding-top: 124px;
+		background: url(../img/pic1.gif);
+	}
+	.content2 .box1 p{
+		font-size: 14px;
+		font-family: "宋体";
+		text-align: center;
+		vertical-align: middle;
+		margin-bottom: 60px;
+	}
+	.content2 .box1 a{
+		text-decoration: none;
+		color: #eeeeee;
+		
+	}
+	.content2 .box1 a:hover{
+		width: 280px;
+		height: 220px;
+	}
+	.content2 .box2,.box3,.box4{
+		margin-top: 20px;
+	}
+	.content .next{
+		color: #464646;
+		font-size: 18px;
+		line-height: 32px;
+		padding-top: 10px;
+	}
+	.content2 .next span{
+		
+	}
+	.content2 .font2{
+		color: #7a7a7a;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.content2 .font2 span{
+		color: #464646;
+		font-size: 16px;
+		line-height: 24px;
+		padding:10px;
+	}
+
+	.content3{
+		position:relative;
+		width: 1920px;
+		height: 778px;
+		background: url(../img/bg1.gif);
+	}
+	.content3 .box{
+		width: 1444px;
+		height: 88px;
+		background: #fff;
+		position:absolute;
+		top: 690px;
+		left: 238px;
+	}
+	.content3 p{
+		font-size: 26px;
+		font-family: "宋体";
+		text-align: center;
+		color: #464646;
+		padding-top: 62px;
+	}
+
+
+	.content4{
+		margin: 0 auto;
+		width: 1920px;
+		height: 758px;
+		background: #fff;
+	}
+	.content4 p{
+		font-size: 16px;
+		font-family: "宋体";
+		color:#646464;
+		line-height: 32px;
+	}
+	.content4 .pic_list{
+		float:left;
+		padding:184px 0 0 525px;
+	}
+	.content4 li{
+		width: 155px;
+		float: left;
+		padding: 30px 100px;
+		list-style: none;
+	}
+	.content4 p{
+		margin: 0 auto;
+		width:900px;
+		font-size: 21px;
+		font-family: "宋体";
+		color:#646464;
+		padding-top: 10px;
+	}
+	.content4 a:hover{
+		border-bottom: 4px solid #646464;
+	}
+	.content5{
+		width: 1920px;
+		height:894px;
+		position:relative;
+		background: #f5f5f5;
+		margin-top: 30px;
+	}
+	.content5 .div{
+		width: 1440px;
+		height: 100px;
+		background: #fff;
+		margin:0 auto;
+	}
+	.content5 .font0{
+		font-size: 24px;
+		font-family:"宋体";
+		color:#464646;
+		margin-top: 60px;
+		padding-left: 360px;
+		padding-bottom: 70px;
+		padding-right: 20px;
+	}
+	.content5 .font0 span{
+		font-size: 16px;
+		color: #5c5c5c;
+	}
+	.content5 img{
+		position:absolute;
+		top:160px;
+		right: 420px;
+	}
+	.content5 .wrap{
+		position:relative;
+		margin: 0 auto;
+		width: 1194px;
+		height: 564px;
+		background: #fff;
+	}
+	.content5 .box1{
+		position:relative;
+		width: 376px;
+		height: 526px;
+		float: left;
+	}
+	.content5 .wrap img{
+		width: 370px;
+		height: 160px;
+		position:absolute;
+		top: 0;
+		left: 0;
+	}
+	.content5 .font{
+		position:relative;
+		top:160px;
+	}
+	.content5 .font1{
+		font-size: 21px;
+		line-height: 32px;
+		color: #666666;
+	}
+	.content5 .font2{
+		font-size: 16px;
+		line-height: 26px;
+		color: #a4a4a4;
+	}
+	.content5 .font3{
+		font-size: 18px;
+		line-height: 30px;
+		color: #5c5c5c;
+	}
+	.content5 .box1 .font4{
+		background: url(../img/portrait1.gif) no-repeat;
+		background-position: bottom left; 
+		font-size: 16px;
+		padding-top:64px;
+		padding-left: 74px;
+		color: #b9b9b9;
+	}
+	.content5 .box2 .font4{
+		background: url(../img/portrait2.gif) no-repeat;
+		background-position:bottom left; 
+		font-size: 16px;
+		padding-top:64px;
+		padding-left: 74px;
+		color: #b9b9b9;
+	}
+	.content5 .box3 .font4{
+		background: url(../img/portrait3.gif) no-repeat;
+		background-position:bottom left;
+		font-size: 16px;
+		padding-top:64px;
+		padding-left: 74px;
+		color: #b9b9b9; 
+	}
+	.content5 .font4 span{
+		position:absolute;
+		right: 5px;
+		display: inline-block;
+		width: 80px;
+		height:30px;
+		border:1px solid #95b4db;
+		border-radius: 5px;
+		text-align: center;
+		padding-top: 8px;
+	}
+	.content5 .font4 a{
+		color: #95b4db;
+	}
+	.content5 .font4 a:hover{
+		text-decoration: underline;
+	}
+	.content5 .box2{
+		position:relative;
+		float: left;
+		padding:0 10px;
+		width: 376px;
+		height: 526px;
+	}
+	.content5 .box3{
+		position:relative;
+		float: left;
+		padding:0 10px;
+		width: 376px;
+		height: 526px;
+	}
+	.content5 .re_top{
+		position: absolute;
+		right: -210px;
+		bottom: 304px;
+	}
+	.foot{
+		width: 1920px;
+		height: 390px;
+		background: #444343;
+		position: relative;
+		clear: both;
+		font-size: 18px;
+		font-family: "宋体";
+		color: #9e9e9e;
+	}
+	.foot .list{
+		margin: 0 auto;
+		width: 750px;
+		height: 20px;
+		padding-top: 90px;
+		padding-bottom: 52px;
+	}
+	.foot ul{
+		float: left;
+	}
+	.foot li{
+		float: left;
+		list-style: none;
+		
+	}
+	.foot a{
+		color: #9e9e9e;
+	}
+	.foot span{
+		display: inline-block;
+		width: 4px;
+		height: 16px;
+		background: #9e9e9e;
+		margin:0 10px;
+	}
+	.foot .text{
+		margin: 0 auto;
+		text-align:center;
+		line-height: 24px;
+	}
+    </style>
+</head>
+<body>
+	<div class="nav">
+		<span class="logo"><img src="../img/logo1.gif"></span>
+		<ul class="list">
+			<li class="no_list"><a href="#" name="re_top" ><b>首页</b></a><span></span></li>
+			<li class="list0"><a href="#">我是朋友</a><span></span></li>
+			<li class="list0">
+				<a href="#">教会介绍</a>
+				<ul class="instruct">
+					<li>教会历史</li>
+					<li>神职人员</li>
+				</ul>
+			</li>
+			<li class="list0"><a href="#">团契生活</a><span></span></li>
+			<li class="list0"><a href="#">见证分享</a><span></span></li>
+			<li class="list0"><a href="#">资源下载</a><span></span></li>
+			<li class="list0"><a href="#">祷告和代祷</a><span></span></li>
+			<li class="list0"><a href="#">加入我们</a><span></span></li>			
+		</ul>
+	</div>
+
+
+	<div class="head">
+		<div class="images">
+			<img id="image1" src="../img/head_pic1.gif">
+			<img id="image2" src="../img/head_pic2.gif">
+		</div>
+		<div class="side">
+			<a href="#image1">
+			<a href="#image2">
+			<a href="#image1">
+			<a href="#image2">
+		</div>
+    </div>
+
+
+    <div class="content">
+    	<div class="content1">
+			<div class="wrap1">
+				<div class="top">
+					<p class="top_font1">每个礼拜日</p>
+					<span><img src="../img/logo2.gif"></span>
+					<p class="top_font2">相约南山黄桷垭救主</p>
+					<p class="top_font3">时间：早上：8:30（第一场）   10:30（第二场）地点：重庆市南岸区-黄桷垭救主堂-3楼</p>
+				</div>
+				<div class="bottom">
+					<div class="left">
+						<p class="bottom_font1">《主再来的日子》</p>
+						<p class="bottom_font2">彼得后书：3章:1-6节 赵灵恩 牧师</p>
+						<p class="bottom_font3-1">亲爱的弟兄啊，我现在写给你们的是第二封信这两封都是提醒你们，激发你们诚实的心。2叫你们记念圣先知预先所说的话，和主救主的命令3叫你们记念圣先知预先所说的话，和主救主的命令.4叫你们记念圣主救主救主的命你们记念圣先知预先所说的话，和主救主的命令6叫你们记念圣先知预先所说的话，和主救主的命令....</p>
+						<span><img src="../img/logo3.gif"></span>
+						<p class="bottom_font3">4/27/2017 (本周）</p>
+					</div>
+				</div>
+				<div class="right">
+					<ul class="list1">敬拜赞美（第一场）
+						<li class="li1"><a href="#">《认识你真好》</a></li>
+						<li class="li2"><a href="#">《全心赞美》</a></li>
+						<li class="li3"><a href="#">《你真伟大》</a></li>
+						<li class="li3"><a href="#">《新的方向，新的异象》</a></li>
+					</ul>
+					<ul class="list2">敬拜赞美（第二场）
+						<li class="li1"><a href="#">《认识你真好》</a></li>
+						<li class="li2"><a href="#">《全心赞美》</a></li>
+						<li class="li3"><a href="#">《你真伟大》</a></li>
+						<li class="li3"><a href="#">《新的方向，新的异象》</a></li>
+					</ul>
+				</div>
+			</div>
+    	</div>
+
+    	<div class="content2">
+	    	<ul>
+	    		<li>
+					<p class="font1">我们的团契生活<span>共享主爱</span></p>
+					<div class="box1">
+						<p><a>"这称为我名下的子民，若是自卑祷告，寻求我的面，转离他们的恶行我必从天上垂听赦免他们的罪，医治他们的地。”</a></p>
+					</div>
+					<p class="next">大学生团契</p>
+					<p class="font2">主题<span>《活出基督样式》</span></p>
+					<p class="font2">每周周三 晚7点<span>大班教室</span></p>
+				</li>
+				<li>
+					<div class="box2">
+						<a><img src="../img/pic2.gif"></a>
+					</div>
+					<p class="next">职场团契</p>
+					<p class="font2">主题<span>《活出基督样式》</span></p>
+					<p class="font2">每周周三 晚7点<span>大班教室</span></p>
+				</li>
+				<li>
+					<div class="box3">
+						<a><img src="../img/pic3.gif"></a>
+					</div>
+					<p class="next">职场团契</p>
+					<p class="font2">主题<span>《活出基督样式》</span></p>
+					<p class="font2">每周周三 晚7点<span>大班教室</span></p>
+				</li>
+				<li>
+					<div class="box4">
+					<a><img src="../img/pic4.gif"></a>
+					</div>
+					<p class="next">姊妹日学</p>
+					<p class="font2">主题<span>《活出基督样式》</span></p>
+					<p class="font2">每周周三 晚7点<span>大班教室</span></p>
+				</li>
+			</ul>
+    	</div>
+
+    	<div class="content3">
+    		<div class="box"><p>传承 颂扬 搭配</p></div>
+    	</div>
+
+    	<div class="content4">
+			<p>位于重庆市南岸区文峰路的黄桷垭教堂初建立于1944年，因躲避日军空隙而修建的传扬主之爱的教堂。文革时期，全国上下停止聚会。直到2000年，恢复聚会，如今，教堂里堂里上上下下服侍的弟兄姊妹越来越多。</p>
+			<ul class="pic_list">
+				<li>
+					<a href="#"><img src="../img/1.gif"></a>
+					<p>爱心奉献</p>
+				</li>
+				<li>
+					<a href="#"><img src="../img/2.gif"></a>
+					<p>每日一句</p>
+				</li>
+				<li>
+					<a href="#"><img src="../img/3.gif"></a>
+					<p>每日一句</p>
+				</li>
+				<li>
+					<a href="#"><img src="../img/4.gif"></a>
+					<p>每日一句</p>
+				</li>
+				<li>
+					<a href="#"><img src="../img/5.gif"></a>
+					<p>每日一句</p>
+				</li>
+				<li>
+					<a href="#"><img src="../img/6.gif"></a>
+					<p>每日一句</p>
+				</li>
+			</ul>
+    	</div>
+
+    	<div class="content5">
+    	<div class="div"></div>
+    		<p class="font0">看尽世上的万事<span>信仰的眼光</span></p>
+    		<img src="../img/p6_bar.gif">
+    		<div class="wrap">
+				<div class="box1">
+					<img src="../img/p6-1.gif">
+						<div class="font">
+						<p class="font1">在信仰里团队的合作怎样才会达到最好的状态？</p>
+						<p class="font2">7/6/2017</p>
+						<p class="font3">耶稣又对他们说：“人拿灯来，岂是要放在斗底下床底下不放在灯台上吗？因为掩藏的事耳可听的，就应当听又说：“你们所听的要留心。</p>
+						<p class="font4">来自新球的钱子<span><a href="#">详情</a></span></p>
+						</div>
+				</div>
+				<div class="box2">
+					<img src="../img/p6-2.gif">
+						<div class="font">
+						<p class="font1">在信仰里团队的合作怎样才会达到最好的状态？</p>
+						<p class="font2">7/6/2017</p>
+						<p class="font3">耶稣又对他们说：“人拿灯来，岂是要放在斗底下床底下不放在灯台上吗？因为掩藏的事耳可听的，就应当听又说：“你们所听的要留心。</p>
+						<p class="font4">来自新球的钱子<span><a href="#">详情</a></span></p>
+						</div>
+				</div>
+				<div class="box3">
+					<img src="../img/p6-3.gif">
+						<div class="font">
+							<p class="font1">在信仰里团队的合作怎样才会达到最好的状态？</p>
+							<p class="font2">7/6/2017</p>
+							<p class="font3">耶稣又对他们说：“人拿灯来，岂是要放在斗底下床底下不放在灯台上吗？因为掩藏的事耳可听的，就应当听又说：“你们所听的要留心。</p>
+							<p class="font4">来自新球的钱子<span><a href="#">详情</a></span></p>
+						</div>
+				</div>
+			</div>
+			<a href="#top" class="re_top"><img src="../img/re_top.gif"></a>
+    	</div>
+    </div>
+		
+    <div class="foot">
+    	<div class="list">
+    		<ul>
+				<li><a href="#">我是新朋友</a><span></span></li>
+				<li><a href="#">教会介绍</a><span></span></li>
+				<li><a href="#">团契生活</a><span></span></li>
+				<li><a href="#">见证分享</a><span></span></li>				
+				<li><a href="#">资源下载</a><span></span></li>
+				<li><a href="#">祷告和代祷</a><span></span></li>
+				<li><a href="#">加入我们</a></li>
+    		</ul>
+    	</div>
+    	<div class="text">
+	    	<p>地址：重庆市南岸区黄桷垭文峰段33号</p>
+	    	<p>联系我们：18883866343 E-mail:1076805106@qq.com</p>
+	    	<P>渝ICP备0703024号  京公网安备11445802010153号</P>
+    	</div>
+    </div>
+</body>
+</html>

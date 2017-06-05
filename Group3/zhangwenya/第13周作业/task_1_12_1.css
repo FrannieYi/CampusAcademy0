@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+table{
+	text-align:center;
+}
+th{
+	color:white;
+	background-color:black;
+}
+tr:nth-child(2n){
+	background-color:gray;
+}
+tr:nth-child(2n+1){
+	background-color:white;
+}
+.red{
+	color:red;
+}
+
+
+.one{
+	width:100px;
+	display:block;
+	margin:50px;
+}
+.two{
+	margin:20px;
+	border:2px  solid  blue;
+	box-shadow:0px  0px  3px  blue;
+	border-radius:2px;
+}
+
+
+  p{
+	margin:1px;
+	padding:0px  5px;
+	background-color:white;
+	opacity:0.5;
+	cursor:pointer;
+	position:absolute;
+	bottom:0px;
+}
+.back-all{
+	display:flex;
+	position:relative;
+}
+.back-1{
+	width:125px;
+	height:90px;
+	background-color:blue;
+}
+.back-2{
+	width:125px;
+	height:90px;
+	background-color:green;
+}
+p:nth-child(3){
+	position:absolute;
+	left:225px;
+}
+p:nth-child(2){
+	position:absolute;
+	left:205px;
+}
+p:nth-child(1){
+	position:absolute;
+	left:185px;
+}
+p:nth-child(2):hover~ .back-1{
+   background-color:green;
+}
+p:nth-child(3):hover~ .back-2{
+   background-color:blue;
+}
