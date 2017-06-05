@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*网页顶部*/
+#top { height: 70px;}
+#logo { float: left; padding-top: 17px;}
+/*顶部导航栏*/
+#nav { float: right;}
+#nav ul { list-style: none;}
+#nav li { float: left; position: relative; text-align: center;}
+#nav li:hover ul { display: block;}
+#nav li ul li { float: none; z-index: 2;}
+#nav li ul li:first-child { border-top: 1px solid #779fd1;}
+#nav li ul { display: none;}
+#nav a { display: block; height: 70px; line-height: 70px; padding: 0 20px; color: #727272; background-color: white; font-weight: bold;}
+#nav li ul a { display: block; height: 42px; line-height: 42px;text-align: center; color: #727272; background-color: #fafafa; font-weight: bold;}
+.spacer { overflow: hidden; margin: 28px 5px; width: 1px; height: 14px; background-color: #ccc;}
+
+/*网页底部*/
+#foot { margin-top: 4385px; width: inherit; height: 385px; background-color: #444444; z-index: 600;}
+#link { position: absolute; margin-top: 90px; margin-left: 590px;}
+#link ul { list-style: none;}
+#link li { float: left; position: relative; text-align: center;}
+#foot a { padding: 0 12px; color: #aeaeae;}
+#foot a:hover { text-decoration: underline;}
+.spacer2 { overflow: hidden; margin: 5px 5px; width: 4px; height: 14px; background-color: #bebebe;}
+#footAddress { position: absolute; margin-top: 164px; margin-left: 803px;}
+#contactUs { position: absolute; margin-top: 203px; margin-left: 751px;}
+#domain { position: absolute; margin-top: 244px; margin-left: 758px;}
+
+/*到顶按钮...样式*/
+#backTop { position: fixed; bottom: 6%; right: 3%; width: 70px; height: 70px; background-color: black; border-radius: 10px; opacity: 0.2; background-image: url(../images/churchImages/church_112.png); background-repeat: no-repeat; background-position: center;}
+#backTop:hover { background-color: black; opacity: 0.5;}
