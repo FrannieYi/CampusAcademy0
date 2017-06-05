@@ -1,0 +1,693 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+dd,
+dl,
+dt {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: top;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.clear {
+	zoom: 1;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body {
+	width: 1920px;
+}
+
+.head {
+	width: 1199px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.head>ul {
+	margin-top: 14px;
+	float: right;
+}
+
+.head>ul>li {
+	float: right;
+	font: 14px "黑体";
+	padding-right: 20px;
+	margin-right: 24px;
+	height: 40px;
+	cursor: pointer;
+	line-height: 40px;
+	background: url(../img/16.png) no-repeat right 16px;
+}
+
+.head ul>li:nth-child(3) {
+	position: relative;
+}
+
+.head>ul>li>ul {
+	width: 154px;
+	position: absolute;
+	left: -44px;
+	text-align: center;
+	height: 80px;
+	background: white;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.head>ul>li>ul>li {
+	height: 0;
+}
+
+.head ul>li:nth-child(3):hover ul {
+	z-index: 99;
+	cursor: pointer;
+	visibility: visible;
+	opacity: 1;
+	transition: all 1s;
+}
+
+.head ul>li:nth-child(3):hover ul li {
+	height: 40px;
+	transition: height 1s;
+}
+
+.head>ul>li:hover {
+	color: #779fd1;
+	background: url(../img/19.png) no-repeat right 18px;
+}
+
+
+/*图片轮播部分*/
+
+.frames {
+	position: relative;
+	overflow: hidden;
+	width: 1920px;
+	height: 580px;
+	background: url(../img/17.png) no-repeat;
+}
+
+.frames .play {
+	width: 1920px;
+}
+
+.frames .play img {
+	position: absolute;
+	left: -1920px;
+}
+
+.frames .pointer {
+	position: absolute;
+	bottom: 20px;
+	left: 920px;
+}
+
+.frames .pointer a {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+	border: 2px solid white;
+}
+
+.frames .pointer a:hover {
+	background: white;
+}
+
+.frames .play img:target {
+	left: 0;
+	animation: myfirst 1s linear;
+}
+
+.frames .play img {
+	animation: mysecond 1s linear;
+}
+
+@keyframes myfirst {
+	0% {
+		left: 1920px;
+	}
+	100% {
+		left: 0;
+	}
+}
+
+@keyframes mysecond {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: -1920px;
+	}
+}
+
+
+/*content*/
+
+.content {
+	width: 1920px;
+	height: 1374px;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+
+.title {
+	height: 230px;
+}
+
+.content .title img {
+	margin-top: -26px;
+}
+
+.content .title h1 {
+	color: #2f2f2f;
+	font: 32px "黑体";
+	font-weight: bold;
+	margin-left: 580px;
+	padding-top: 90px;
+}
+
+.content .title span {
+	color: #888888;
+	font: 12px "黑体";
+	font-weight: bold;
+	margin-left: 600px;
+	margin-top: 10px;
+	display: block;
+}
+
+.content .main {
+	width: 820px;
+	height: 450px;
+	background: white;
+	margin: 0 auto;
+	padding: 0 100px;
+	border-radius: 16px;
+}
+
+.content .main .content-left {
+	float: left;
+	width: 488px;
+}
+
+.content .main .content-left h4 {
+	font: 16px "黑体";
+	font-weight: bold;
+	color: #2f2f2f;
+	padding-top: 36px;
+}
+
+.content .main .content-left span {
+	font: 14px "黑体";
+	font-weight: bold;
+	color: #6e9dd5;
+	height: 70px;
+	line-height: 70px;
+	display: block;
+}
+
+.content .main .content-left p {
+	color: #888888;
+	font: 14px "黑体";
+	width: 442px;
+	text-align: justify;
+	line-height: 34px;
+	letter-spacing: 2px;
+}
+
+.content .main .content-left .callender {
+	padding-left: 40px;
+	color: #333333;
+	font: 12px "黑体";
+	font-weight: bold;
+	background: url(../img/21.png) no-repeat left 4px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 34px;
+}
+
+.content-right {
+	float: left;
+	padding-left: 36px;
+	border-left: 1px dashed #888888;
+	margin-top: 60px;
+}
+
+.content-right dl {
+	margin-bottom: 30px;
+}
+
+.content dt {
+	font: 16px "微软雅黑";
+	color: #2f2f2f;
+	font-weight: bolder;
+}
+
+.content-right dd {
+	font: 12px "微软雅黑";
+	color: #888888;
+	margin-top: 16px;
+}
+
+.content-right input {
+	width: 16px;
+	height: 17px;
+	border: none;
+	outline: none;
+	background: url(../img/22.png) no-repeat left top;
+	cursor: pointer;
+}
+
+.content-right dd:hover {
+	color: #779fd1;
+}
+
+.content-right input:hover {
+	background: url(../img/22.png) no-repeat left -34px;
+}
+
+.content-right input:focus {
+	background: url(../img/22.png) no-repeat left -17px;
+}
+
+.content .life {
+	height: 604px;
+	background: white;
+	margin-top: 80px;
+	padding-left: 360px;
+	width: 1560px;
+}
+
+.content .life>span>strong {
+	font: 18px "黑体";
+	color: #464646;
+	font-weight: bold;
+}
+
+.content .life>span {
+	font: 12px "黑体";
+	color: #5c5c5c;
+	margin-top: 80px;
+	font-weight: normal;
+	display: block;
+	padding-top: 80px;
+	margin-bottom: 30px;
+}
+
+.content .tip {
+	position: relative;
+}
+
+.content .tip li {
+	float: left;
+}
+
+.content .tip .bg1 {
+	width: 276px;
+	height: 218px;
+	background: url(../img/23.png) no-repeat left top;
+	display: block;
+	margin-right: 30px;
+}
+
+.content .tip .bg2 {
+	width: 276px;
+	height: 218px;
+	background: url(../img/24.png) no-repeat left top;
+	display: block;
+	margin-right: 30px;
+}
+
+.content .tip .bg3 {
+	width: 276px;
+	height: 218px;
+	background: url(../img/25.png) no-repeat left top;
+	display: block;
+	margin-right: 30px;
+}
+
+.content .tip .bg4 {
+	width: 276px;
+	height: 218px;
+	background: url(../img/26.png) no-repeat left top;
+	display: block;
+}
+
+.content .tip li span {
+	font: 12px "黑体";
+	color: #5c5c5c;
+}
+
+.content .tip li strong {
+	font: 12px "黑体";
+	color: #464646;
+	font-weight: bold;
+}
+
+.content .tip li h5 {
+	font: 14px "黑体";
+	color: #464646;
+	font-weight: bold;
+	height: 60px;
+	line-height: 60px;
+}
+
+.content .tip>a {
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;
+	border: 1px solid #d2d2d2;
+	text-align: center;
+	line-height: 41px;
+	position: absolute;
+	top: 230px;
+	left: 218px;
+}
+
+.content .tip>a:nth-child(2) {
+	left: 527px;
+}
+
+.content .tip>a:nth-child(3) {
+	left: 830px;
+}
+
+.content .tip>a:nth-child(4) {
+	left: 1134px;
+}
+
+.content .tip>a:hover {
+	color: #779fd1;
+	border: 1px solid #779fd1;
+}
+
+.man {
+	height: 782px;
+	background: url(../img/27.png) no-repeat;
+	width: 1920px;
+	position: relative;
+}
+
+.man div {
+	width: 1440px;
+	height: 90px;
+	margin: 0 auto;
+	background: white;
+	position: absolute;
+	bottom: 0;
+	left: 240px;
+}
+
+.man div p {
+	float: left;
+	margin-left: 560px;
+}
+
+.man div span {
+	font: 20px "微软雅黑";
+	font-weight: bold;
+	margin-left: 40px;
+	margin-top: 60px;
+	float: left;
+}
+
+.section1 {
+	height: 750px;
+}
+
+.section1 p {
+	font: 14px "黑体";
+	color: #464646;
+	width: 880px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin: 0 auto;
+	line-height: 32px;
+	padding-top: 30px;
+	margin-bottom: 80px;
+}
+
+.section1 .bounce {
+	display: flex;
+	width: 878px;
+	height: 273px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.item1 {
+	width: 158px;
+	height: 273px;
+}
+
+.item2 {
+	width: 158px;
+	height: 273px;
+}
+
+.item3 {
+	width: 158px;
+	height: 273px;
+}
+
+.item4 {
+	width: 158px;
+	height: 273px;
+}
+
+.item5 {
+	width: 158px;
+	height: 273px;
+}
+
+.item6 {
+	width: 158px;
+	height: 273px;
+}
+
+.bounce span {
+	font: 16px "黑体";
+	color: #888888;
+	display: block;
+	margin-top: 24px;
+	margin-left: 52px;
+	cursor: pointer;
+}
+
+.bounce .move {
+	width: 0;
+	border-bottom: 6px solid black;
+	transition: width .5s linear;
+	margin-left: 50px;
+	margin-top: 12px;
+}
+
+.bounce span:hover {
+	color: #000000;
+}
+
+.bounce span:hover~.move {
+	width: 70px;
+}
+
+.section2 {
+	height: 896px;
+	background: #f5f5f5;
+	padding: 0 360px;
+}
+
+.section2>span {
+	font: 12px "黑体";
+	color: #5c5c5c;
+	display: block;
+	padding-top: 62px;
+}
+
+.section2>span>strong {
+	font: 18px "黑体";
+	color: #464646;
+	font-weight: bold;
+}
+
+.bounce2 {
+	display: flex;
+	width: 1194px;
+	height: 540px;
+	margin-top: 116px;
+	justify-content: space-between;
+}
+
+.bounce2 div h6 {
+	font: 16px "黑体";
+	color: #464646;
+	margin-top: 30px;
+	text-align: justify;
+	font-weight: bold;
+	letter-spacing: 3px;
+	width: 326px;
+	margin-left: 26px;
+	line-height: 32px;
+}
+
+.bounce2>div>span {
+	font: 12px "黑体";
+	color: #5c5c5c;
+	margin-left: 26px;
+	display: block;
+}
+
+.bounce2>div>p {
+	font: 14px "黑体";
+	color: #5c5c5c;
+	width: 320px;
+	line-height: 28px;
+	margin-left: 26px;
+	letter-spacing: 3px;
+	margin-top: 10px;
+}
+
+.bounce2 .user1 {
+	float: left;
+	font: 12px "黑体";
+	line-height: 42px;
+	margin-top: 20px;
+}
+
+.bounce2 .user2 {
+	float: left;
+	font: 12px "黑体";
+	line-height: 42px;
+	margin-top: 46px;
+}
+
+.bounce2 .user3 {
+	float: left;
+	font: 12px "黑体";
+	line-height: 42px;
+	margin-top: 46px;
+}
+
+.bounce2>div>span>img {
+	margin-right: 10px;
+}
+
+.section2 .bounce2>div>a {
+	width: 80px;
+	height: 30px;
+	float: right;
+	border: 1px solid #888888;
+	color: #888888;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+	margin-right: 26px;
+	margin-top: 30px;
+}
+
+.section2 .bounce2 .xx {
+	margin-top: 56px;
+}
+
+.section2 .bounce2>div>a:hover {
+	color: #779fd1;
+	border: 1px solid #779fd1;
+}
+
+.bottom {
+	height: 384px;
+	background: #434343;
+}
+
+.bottom ul {
+	margin-left: 600px;
+	padding-top: 112px;
+	margin-bottom: 32px;
+}
+
+.bottom li {
+	float: left;
+	margin: 0 14px;
+	position: relative;
+}
+
+.bottom li span {
+	position: absolute;
+	right: -12px;
+	top: 6px;
+	height: 14px;
+	width: 4px;
+	background: #bebebe;
+}
+
+.bottom .no {
+	width: 0;
+	height: 0;
+}
+
+.bottom li a {
+	font: 14px "黑体";
+	color: #bebebe;
+}
+
+.bottom li a:hover {
+	color: chocolate;
+}
+
+.bottom p {
+	font: 14px "黑体";
+	color: #bebebe;
+	margin-top: 18px;
+}
+
+.pg1 {
+	margin-left: 800px;
+}
+
+.pg2 {
+	margin-left: 750px;
+}
+
+.pg3 {
+	margin-left: 750px;
+}
+
+body>a {
+	position: fixed;
+	width: 68px;
+	height: 68px;
+	background: url(../img/40.png) no-repeat;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 10px;
+}
+
+body>a:hover {
+	opacity: 0.8;
+}
