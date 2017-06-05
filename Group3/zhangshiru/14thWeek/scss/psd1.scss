@@ -1,0 +1,413 @@
+@charset 'utf-8';
+
+%font-base{
+	font: {
+		size: 13px;
+	}
+	color: #fff;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 36px;
+	background-color: #34495e;
+}
+.header-wrap{
+	width: 1180px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #34495e;
+	overflow: hidden;
+}
+.header-left{
+	margin-left: 13px;
+	margin-top: 8px;
+	float: left;
+}
+.header-left img{
+	float: left;
+	margin-right: 5px;
+}
+.header-left a{
+	@extend %font-base;
+	float: left;
+}
+.header-right{
+	float: right;
+	margin:{
+		right: 20px;
+		top: 8px;
+	}	
+}
+.header-right a{
+	@extend %font-base;
+}
+.top{
+	width: 1180px;
+	height: 72px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	margin-top: 10px;
+}
+.logo img{
+	vertical-align: middle;
+	float: left;
+	margin-right: 19px;
+}
+.logo div{
+	width: 103px - 17;
+	height: 43px;
+	padding-left: 17px;
+	float: left;
+	border-left: 1px solid #ddd;
+}
+.logo div p{
+	@extend %font-base;
+	color: #5c5c5c;
+}
+.logo div button{
+	widows: 58px;
+	height: 20px;
+	background-color: #fff;
+	color: #777777;
+	font-size: 12px;
+	padding: 4px 6px;
+	border: 1px solid #ddd;
+	margin-top: 7px;
+	line-height: 10px;
+	cursor: pointer;
+}
+nav{
+	float: right;
+	height: 100%;
+	width: 537px;
+	ul{
+		overflow: hidden;
+	}
+}
+nav ul li{
+	height: 72px;
+	float: left;
+	line-height: 72px;
+	margin-right: 60px;
+	a{
+		color: #5c5c5c;
+		font-size: 16px;
+		&:hover{
+			color: #00caab;
+		}
+	}
+}
+nav ul li:last-child{
+	margin-right: 0;
+}
+.active{
+	color: #00caab;
+}
+.banner{
+	width: 100%;
+	height: 340px;
+	background-color: #a5e7f3;
+}
+.banner-wrap{
+	width: 1180px;
+	height: 100%;
+	margin: 0 auto;
+	background:url(../img/banner.jpg);
+	position: relative;
+}
+
+%arr-style{
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	border-radius: 3px;
+	width: 24px;
+	height: 48px;
+	background-color: #000;
+	opacity: 0.2;
+	&:hover{
+		opacity: 0.4;
+	}
+	cursor: pointer;
+	color: #fff;
+	font:{
+		size:28px;
+		weight:bold;
+	}
+	line-height: 44px;
+	text-align: center;
+}
+.banner-wrap div:first-child{
+	@extend %arr-style;
+	left: 0;
+}
+.banner-wrap div:nth-child(2){
+	@extend %arr-style;
+	right: 0;
+}
+.dot{
+	position: absolute;
+	bottom: 13px;
+	left: 530px;
+	ul{
+		overflow: hidden;
+	}	
+}
+.dot ul li{
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+	float: left;
+	margin-right: 24px;
+	opacity: 0.5;
+	&:hover{
+		opacity: 1;
+	}
+	cursor: pointer;
+}
+.dot ul li:last-child{
+	margin-right: 0;
+}
+.dot-active{
+	opacity: 1!important;
+}
+.content-wrap{
+	width: 1180px;
+	margin: 0 auto;
+}
+.content{
+	width: 100%;
+	height: 248px;
+	padding-top: 20px;
+}
+.title{
+	height: 29px;
+	width: 1165px;
+	font-size: 20px;
+	color: #4f4f4f;
+	border-left: 3px solid #00caab;
+	padding-left: 12px;
+	font-weight: normal;
+	a{
+		font-size: 12.36px;
+		color: #00caab;
+		float: right;
+	}
+}
+.content ul{
+	margin-top: 12px;
+	overflow: hidden;
+	li{
+		float: left;
+		width: 220px;
+		height: 210px;
+		margin-right: 20px;
+	}
+}
+.entrepreneurship{
+	background: url(../img/icon1.jpg);
+}
+.more{
+	float: right;
+	margin: {
+		top: 15px;
+		right: 10px;
+	}
+	color: #fff;
+	font-size: 12.37px;
+}
+.title-info{
+	font-size: 16px;
+	color: #fff;
+	margin: {
+		top: 50px;
+		left: 10px;
+	}
+}
+.img-wrap{
+	position: relative;
+	width: 220px;
+	height: 130px;
+	.img-word{
+		position: absolute;
+		display: inline-block;
+		width: 56px;
+		height: 56px;
+		background: url(../img/trangle1.png);
+		left: 0;
+		top: 0;
+		color: #fff;
+		font-size: 10px;
+		span{
+			display: block;
+			-webkit-transform:rotate(-45deg);
+			        transform:rotate(-45deg);
+			transform-origin:left top;
+			position: absolute;
+			top: 29px;
+			left: 0;
+		}
+	}
+	img{
+		width: 220px;
+		height: 130px;
+	}
+}
+.info-wrap{
+	border: 1px solid #ddd;
+	border-top: none;
+	width: 202px;
+	height: 63px;
+	padding: 8px;
+}
+.info-wrap h4{
+	font-size: 14px;
+	color: #5c5c5c;
+	font-weight: normal;
+}
+.p1{
+	font-size: 12px;
+	color: #777;
+	margin-top: 5px;
+	span{
+		display: inline-block;
+		padding: 2px 5px;
+		border: 1px solid #f5973e;
+		border-radius: 15px;
+		color: #f5973e;
+	}
+}
+.p2{
+	font-size: 12px;
+	color: #5c5c5c;
+}
+.price{
+	float: right;
+	color: #f5973e;
+	span{
+		font-size: 19.41px;
+	}
+	margin-top: -6px;
+}
+.content ul li:last-child{
+	margin-right: 0;
+}
+.employment{
+	background: url(../img/icon2.png);
+}
+.study-abroad{
+	background: url(../img/icon3.png);
+}
+.postgraduate{
+	background: url(../img/icon4.png);
+}
+.kaoyan{
+	background: url(../img/icon5.png);
+}
+.content ul li:nth-of-type(3){
+	position: relative;
+}
+.content ul li:nth-of-type(5){
+	position: relative;
+}
+
+// .cover-wrap{
+// 	display: none;
+// }
+.cover{
+	position: absolute;
+	width: 220px;
+	height: 130px;
+	left: 0;
+	top: 0;
+	background-color: #000;
+	opacity: 0.5;
+}
+.score{
+	font-size: 18px;
+	color: #fff;
+	position: absolute;
+	right: 10px;
+	top: 13px;
+}
+.score span:first-child{
+	font-size: 16px;
+}
+.score span:last-child{
+	font-size: 14px;
+}
+.engage-num{
+	position: absolute;
+	right: 0;
+	top: 100px;
+	font-size: 12px;
+	color: #fff;
+	width: 75px;
+	height: 20px;
+	background-color: #feaa26;
+	line-height: 20px;
+	padding: 0 10px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+footer{
+	width: 100%;
+	height: 140px;
+	background-color: #34495e;
+	margin-top: 82px;
+}
+.footer-wrap{
+	@extend .header-wrap;
+}
+.footer-logo{
+	width: 250px;
+	height: 50px;
+	margin-top: 45px;
+	float: left;
+}
+.footer-logo img:first-child{
+	margin-right: 25px;
+}
+.footer-logo img:nth-child(2){
+	margin-right: 12px;
+}
+.copyright{
+	float: right;
+	width: 370px;
+	margin-top: 50px;
+}
+.copyright ul{
+	padding-left: 129px;
+	overflow: hidden;
+	li{
+		float: left;
+		margin-right: 26px;
+		a{
+			color: #fff;
+			font-size: 14px;
+		}
+	}
+}
+.copyright ul li:last-child{
+	margin: 0;
+}
+.copyright p{
+	color: #fff;
+	font-size: 12px;
+	margin-top: 10px;
+}
