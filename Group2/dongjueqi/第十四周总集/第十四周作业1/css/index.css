@@ -1,0 +1,1264 @@
+body,ul,ol,p,h1,h2,h3,h4,p,span,dl,dl,form,input,textarea,select {
+	padding:0;margin:0;font-family:arial;display:inline;color:#FFF;}
+
+a{text-decoration:none;color:#FFF;}
+
+body{
+	background:#FFF url(../pic/topbackground.png) repeat-x;
+	margin:0 auto;
+	}
+
+#top{
+	width:1180px;
+	height:36px;
+	margin:0 auto;
+}
+
+#top .topleft{
+	float:left;
+	margin-left:21px;
+	margin-top:10px;
+	font-size:15px;
+	width:56px;
+	height:19px;
+	color:#FFF;
+}
+
+#top .topright{
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+	font-size:14px;
+	width:220px;
+	height:19px;
+}
+
+#page1{
+	width:1180px;
+	height:72px;
+	margin:0 auto;
+}
+
+#page1 img{
+	float:left;
+	margin-top:10px;
+}
+
+#page1 .school{
+	float:left;
+	width:103px;
+	height:40px;
+	margin-left:20px;
+	padding-left:20px;
+	padding-top:2px;
+	margin-top:15px;
+	border-left:1px solid #dddddd;
+}
+
+#page1 .school input{
+	color:#848484;
+	border:0px;
+	background:#FFF;
+	outline:none;
+}
+
+#page1 .school p{
+	float:left;
+	width:90px;
+	height:15px;
+	color:#5c5c5c;
+	font-size:15px;
+}
+
+#page1 .changeschool{
+	float:left;
+	width:60px;
+	height:16px;
+	text-align:center;
+	margin-left:-102px;
+	margin-top:37px;
+	border:1px solid #dddddd;
+	color:#777777;
+	font-size:13px;
+}
+
+.page1right{
+	float:right;
+	width:595px;
+	height:18px;
+	color:#000;
+}
+
+.page1right a{
+	float:left;
+	margin-left:60px;
+	margin-top:27px;
+	color:#5c5c5c;
+	font-size:16px;
+}
+
+.page1right a:hover{color:#00caab;}
+.page1right a{
+	float:left;
+	margin-left:60px;
+	margin-top:27px;
+	color:#5c5c5c;
+	font-size:16px;
+}
+
+.page1right .page1rightblue:hover{color:#0052cc;}
+.page1right .page1rightblue{
+	color:#00caab;
+}
+
+#advantage{
+	width:1180px;
+	height:340px;
+	margin:0 auto;
+	background:#FFF url(../pic/news1.png) no-repeat;
+}
+
+#advantage img{
+	float:left;
+}
+
+.adleft{
+	float:left;
+	width:24px;
+	height:48px;
+	margin-top:147px;
+	background:#FFF url(../pic/Arrow.png) no-repeat;
+}
+
+.adright{
+	float:right;
+	width:24px;
+	height:48px;
+	margin-top:147px;
+	background:#FFF url(../pic/Arrow.png) no-repeat 0 -48px;
+}
+
+#page2
+{
+	width:1180px;
+	height:1403px;
+	margin:0 auto;
+	background:#FFF;
+}
+
+#page2 .Entrepreneurship
+{
+	width:1180px;
+	height:28px;
+	margin-top:20px;
+	border:0px;
+	border-left:4px solid #00caab;
+}
+
+#page2 .Enpic
+{
+	width:1180px;
+	height:210px;
+	margin-top:10px;
+}
+
+#page2 p
+{
+	float:left;
+	display:inline;
+	margin-left:12px;
+	margin-top:3px;
+	color:#000;
+	font-size:20px;
+}
+
+#page2 a
+{
+	float:right;
+	margin-right:0px;
+	margin-top:5px;
+	font-family:微软雅黑;
+	color:#00caab;
+	font-size:13px;
+}
+
+#page2 strong
+{
+	color:#000;
+	font-size:30px;
+}
+
+#Enbg1 .Enpic0
+{
+	float:left;
+	width:220px;
+	height:210px;
+	border:0px;
+	background:#FFF url(../pic/Entrepreneurship1.png) no-repeat;
+}
+
+
+#Enbg1 .Enpic1
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product1.png) no-repeat;
+}
+
+#Enbg1 .Enpic2
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product2.png) no-repeat;
+}
+
+#Enbg1 .Enpic3
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product3.png) no-repeat;
+}
+
+#Enbg1 .Enpic4
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product4.png) no-repeat;
+}
+
+#Enbg1 .Enpic0 a
+{
+	float:right;
+	width:39px;
+	height:14px;
+	margin-top:16px;
+	margin-right:12px;
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#FFF;
+}
+
+#Enbg1 .tip1
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:139px;
+	color:#5c5c5c;
+	font-size:14px;
+	font-family:微软雅黑;
+}
+
+#Enbg1 .teacher
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:14px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg1 .time
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:10px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg1 .introduce
+{
+	float:right;
+	height:20px;
+	margin-top:-40px;
+	margin-right:46px;
+	background:url(../pic/frame1.png) repeat-x 0 -20px;
+	
+}
+
+#Enbg1 strong
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat right -40px;
+}
+
+#Enbg1 span
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat;
+}
+
+#Enbg1 .introduce strong span font
+{
+	float:right;
+	height:20px;
+	padding-top:2px;
+	padding-left:9px;
+	padding-right:9px;
+	color:#fcba65;
+	font-size:10px;
+	font-family:微软雅黑;
+}
+
+
+	
+
+#Enbg1 .moneylogo
+{
+	float:right;
+	width:12px;
+	height:12px;
+	color:#fcba65;
+	margin-top:-16px;
+	margin-right:35px;
+	font-size:16px;
+	font-family:微软雅黑;
+}
+
+#Enbg1 .money
+{
+	float:right;
+	width:22px;
+	height:17px;
+	margin-right:9px;
+	margin-top:-20px;
+	color:#fcba65;
+	font-size:20px;
+	font-family:微软雅黑;
+}
+
+#Enbg1 .Enpic2 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg1 .Enpic2 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg1 .Enpic2 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+#Enbg1 .Enpic4 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg1 .Enpic4 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg1 .Enpic4 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+
+#Enbg2 .Enpic0
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:0px;
+	background:#FFF url(../pic/Entrepreneurship2.png) no-repeat;
+}
+
+
+#Enbg2 .Enpic1
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product1.png) no-repeat;
+}
+
+#Enbg2 .Enpic2
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product2.png) no-repeat;
+}
+
+#Enbg2 .Enpic3
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product3.png) no-repeat;
+}
+
+#Enbg2 .Enpic4
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product4.png) no-repeat;
+}
+
+#Enbg2 .Enpic0 a
+{
+	float:right;
+	width:39px;
+	height:14px;
+	margin-top:16px;
+	margin-right:12px;
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#FFF;
+}
+
+#Enbg2 .tip1
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:139px;
+	color:#5c5c5c;
+	font-size:14px;
+	font-family:微软雅黑;
+}
+
+#Enbg2 .teacher
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:14px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg2 .time
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:10px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg2 .introduce
+{
+	float:right;
+	height:20px;
+	margin-top:-40px;
+	margin-right:46px;
+	background:url(../pic/frame1.png) repeat-x 0 -20px;
+	
+}
+
+#Enbg2 strong
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat right -40px;
+}
+
+#Enbg2 span
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat;
+}
+
+#Enbg2 .introduce strong span font
+{
+	float:right;
+	height:20px;
+	padding-top:2px;
+	padding-left:9px;
+	padding-right:9px;
+	color:#fcba65;
+	font-size:10px;
+	font-family:微软雅黑;
+}	
+
+#Enbg2 .moneylogo
+{
+	float:right;
+	width:12px;
+	height:12px;
+	color:#fcba65;
+	margin-top:-16px;
+	margin-right:35px;
+	font-size:16px;
+	font-family:微软雅黑;
+}
+
+#Enbg2 .money
+{
+	float:right;
+	width:22px;
+	height:17px;
+	margin-right:9px;
+	margin-top:-20px;
+	color:#fcba65;
+	font-size:20px;
+	font-family:微软雅黑;
+}
+
+#Enbg2 .Enpic2 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg2 .Enpic2 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg2 .Enpic2 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+#Enbg2 .Enpic4 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg2 .Enpic4 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg2 .Enpic4 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+
+#Enbg3 .Enpic0
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:0px;
+	background:#FFF url(../pic/Entrepreneurship3.png) no-repeat;
+}
+
+
+#Enbg3 .Enpic1
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product1.png) no-repeat;
+}
+
+#Enbg3 .Enpic2
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product2.png) no-repeat;
+}
+
+#Enbg3 .Enpic3
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product3.png) no-repeat;
+}
+
+#Enbg3 .Enpic4
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product4.png) no-repeat;
+}
+
+#Enbg3 .Enpic0 a
+{
+	float:right;
+	width:39px;
+	height:14px;
+	margin-top:16px;
+	margin-right:12px;
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#FFF;
+}
+
+#Enbg3 .tip1
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:139px;
+	color:#5c5c5c;
+	font-size:14px;
+	font-family:微软雅黑;
+}
+
+#Enbg3 .teacher
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:14px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg3 .time
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:10px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg3 .introduce
+{
+	float:right;
+	height:20px;
+	margin-top:-40px;
+	margin-right:46px;
+	background:url(../pic/frame1.png) repeat-x 0 -20px;
+	
+}
+
+#Enbg3 strong
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat right -40px;
+}
+
+#Enbg3 span
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat;
+}
+
+#Enbg3 .introduce strong span font
+{
+	float:right;
+	height:20px;
+	padding-top:2px;
+	padding-left:9px;
+	padding-right:9px;
+	color:#fcba65;
+	font-size:10px;
+	font-family:微软雅黑;
+}
+
+#Enbg3 .moneylogo
+{
+	float:right;
+	width:12px;
+	height:12px;
+	color:#fcba65;
+	margin-top:-16px;
+	margin-right:35px;
+	font-size:16px;
+	font-family:微软雅黑;
+}
+
+#Enbg3 .money
+{
+	float:right;
+	width:22px;
+	height:17px;
+	margin-right:9px;
+	margin-top:-20px;
+	color:#fcba65;
+	font-size:20px;
+	font-family:微软雅黑;
+}
+
+#Enbg3 .Enpic2 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg3 .Enpic2 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg3 .Enpic2 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+#Enbg3 .Enpic4 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg3 .Enpic4 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg3 .Enpic4 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+
+#Enbg4 .Enpic0
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:0px;
+	background:#FFF url(../pic/Entrepreneurship4.png) no-repeat;
+}
+
+
+#Enbg4 .Enpic1
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product1.png) no-repeat;
+}
+
+#Enbg4 .Enpic2
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product2.png) no-repeat;
+}
+
+#Enbg4 .Enpic3
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product3.png) no-repeat;
+}
+
+#Enbg4 .Enpic4
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product4.png) no-repeat;
+}
+
+#Enbg4 .Enpic0 a
+{
+	float:right;
+	width:39px;
+	height:14px;
+	margin-top:16px;
+	margin-right:12px;
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#FFF;
+}
+
+#Enbg4 .tip1
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:139px;
+	color:#5c5c5c;
+	font-size:14px;
+	font-family:微软雅黑;
+}
+
+#Enbg4 .teacher
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:14px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg4 .time
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:10px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg4 .introduce
+{
+	float:right;
+	height:20px;
+	margin-top:-40px;
+	margin-right:46px;
+	background:url(../pic/frame1.png) repeat-x 0 -20px;
+	
+}
+
+#Enbg4 strong
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat right -40px;
+}
+
+#Enbg4 span
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat;
+}
+
+#Enbg4 .introduce strong span font
+{
+	float:right;
+	height:20px;
+	padding-top:2px;
+	padding-left:9px;
+	padding-right:9px;
+	color:#fcba65;
+	font-size:10px;
+	font-family:微软雅黑;
+}
+
+
+	
+
+#Enbg4 .moneylogo
+{
+	float:right;
+	width:12px;
+	height:12px;
+	color:#fcba65;
+	margin-top:-16px;
+	margin-right:35px;
+	font-size:16px;
+	font-family:微软雅黑;
+}
+
+#Enbg4 .money
+{
+	float:right;
+	width:22px;
+	height:17px;
+	margin-right:9px;
+	margin-top:-20px;
+	color:#fcba65;
+	font-size:20px;
+	font-family:微软雅黑;
+}
+
+#Enbg4 .Enpic2 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg4 .Enpic2 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg4 .Enpic2 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+#Enbg4 .Enpic4 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg4 .Enpic4 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg4 .Enpic4 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+
+#Enbg5 .Enpic0
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:0px;
+	background:#FFF url(../pic/Entrepreneurship5.png) no-repeat;
+}
+
+#Enbg5 .Enpic1
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product1.png) no-repeat;
+}
+
+#Enbg5 .Enpic2
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product2.png) no-repeat;
+}
+
+#Enbg5 .Enpic3
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product3.png) no-repeat;
+}
+
+#Enbg5 .Enpic4
+{
+	float:left;
+	width:219px;
+	height:210px;
+	border:1px solid #dddddd;
+	margin-left:18px;
+	background:#FFF url(../pic/product4.png) no-repeat;
+}
+
+#Enbg5 .Enpic0 a
+{
+	float:right;
+	width:39px;
+	height:14px;
+	margin-top:16px;
+	margin-right:12px;
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#FFF;
+}
+
+#Enbg5 .tip1
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:139px;
+	color:#5c5c5c;
+	font-size:14px;
+	font-family:微软雅黑;
+}
+
+#Enbg5 .teacher
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:14px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg5 .time
+{
+	float:left;
+	width:219px;
+	height:14px;
+	margin-left:9px;
+	margin-top:10px;
+	color:#5c5c5c;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+
+#Enbg5 .introduce
+{
+	float:right;
+	height:20px;
+	margin-top:-40px;
+	margin-right:46px;
+	background:url(../pic/frame1.png) repeat-x 0 -20px;
+	
+}
+
+#Enbg5 strong
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat right -40px;
+}
+
+#Enbg5 span
+{
+	float:right;
+	height:20px;
+	background:url(../pic/frame1.png) no-repeat;
+}
+
+#Enbg5 .introduce strong span font
+{
+	float:right;
+	height:20px;
+	padding-top:2px;
+	padding-left:9px;
+	padding-right:9px;
+	color:#fcba65;
+	font-size:10px;
+	font-family:微软雅黑;
+}
+
+
+	
+
+#Enbg5 .moneylogo
+{
+	float:right;
+	width:12px;
+	height:12px;
+	color:#fcba65;
+	margin-top:-16px;
+	margin-right:35px;
+	font-size:16px;
+	font-family:微软雅黑;
+}
+
+#Enbg5 .money
+{
+	float:right;
+	width:22px;
+	height:17px;
+	margin-right:9px;
+	margin-top:-20px;
+	color:#fcba65;
+	font-size:20px;
+	font-family:微软雅黑;
+}
+
+#Enbg5 .Enpic2 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg5 .Enpic2 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg5 .Enpic2 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+#Enbg5 .Enpic4 .visitor
+{
+	float:right;
+	width:95px;
+	height:23px;
+	margin-top:100px;
+	margin-right:-65px;
+	padding-left:4px;
+	color:#FFF;
+	font-size:14px;
+	font-family:微软雅黑;
+	background:url(../pic/frame2.png) no-repeat;
+}
+#Enbg5 .Enpic4 .tip1
+{
+	margin-top:17px;
+}
+
+#Enbg5 .Enpic4 .grade
+{
+	float:right;
+	margin-top:20px;
+	color:#FFF;
+}
+
+#end{
+	width:1180px;
+	height:140px;
+	margin:0 auto;
+}
+
+#end .endleft
+{
+	float:left;
+	margin-top:48px;
+}
+
+#end .endright
+{
+	float:right;
+	width:370px;
+	height:40px;
+	margin-top:48px;
+}
+
+#end .endright a
+{
+	float:right;
+	padding-left:30px;
+}
+#end .endright span
+{
+	float:right;
+	font-size:12px;
+}
+

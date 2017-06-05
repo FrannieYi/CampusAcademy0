@@ -1,0 +1,340 @@
+﻿<html><head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/adjust.css">
+<title>task14.1</title></head>
+<body>
+<div id="top">
+	<div class="topleft">
+	<img src="pic/tophouse.png"/>&nbsp;<a href="#">首页</a>
+	</div>
+
+	<div class="topright">
+	<a href="#">什么是校园说？</a>&nbsp;&nbsp;&nbsp;&nbsp;<p>|</p>&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#">登陆</a><p>/</p>
+	<a href="#">注册</a>
+	</div>
+</div>
+
+<div id="page1">
+	<img src="pic/logo.png"/>
+	<a href="#" class="school"><input type="button"  id="myschool" value="重庆邮电大学"/></a>
+	<a href="#" class="changeschool" onclick="changeschool();">切换学校</a>
+
+	<div class="page1right">
+		<a href="#">首页</a>
+		<a href="#" class="page1rightblue">听听堂</a>
+		<a href="#">话题社</a>
+		<a href="#">发布Talking</a>
+		<a href="#">我的校园说</a>
+	</div>
+</div>
+
+<div id="schoolselect" style="display:none;">
+		<a href="#" id="wechongyou" onclick="schooladjust(0);" style="border:1px solid #0000FF">重庆邮电大学</a>
+		<a href="#" id="wechongda" onclick="schooladjust(1);" style="border:1px solid #FFF">重庆大学</a>
+		<a href="#" id="wechongshi" onclick="schooladjust(2);" style="border:1px solid #FFF">重庆师范大学</a>
+		<a href="#" id="wechuanmei" onclick="schooladjust(3);" style="border:1px solid #FFF">四川美术学院</a><br/>
+		<a href="#" id="wexinan" onclick="schooladjust(4);" style="border:1px solid #FFF">西南大学</a><br/>
+		<a href="#" id="wechongli" onclick="schooladjust(5);" style="border:1px solid #FFF">重庆理工大学</a><br/>
+</div>
+
+<div id="advantage">
+	<div class="adleft" onclick="javascript:alert('left');"></div>
+	<div class="adright" onclick="javascript:alert('right');"></div>
+</div>
+
+<div id="page2">
+		<div class="Entrepreneurship">
+			<p>创业</p><a href="#">更多>></a>
+		</div>
+		<div class="Enpic" id="Enbg1">
+			<div class="Enpic0"><a href="#">更多></a></div>
+
+			<div class="Enpic1">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic2">
+				<p class="grade">9.5分</p>
+				<p class="visitor">已有15人参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic3">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic4">
+			<p class="grade">9.5分</p>
+				<p class="visitor">已有4/10参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+		</div>
+<!--下面是2222-->
+		<div class="Entrepreneurship">
+			<p>就业</p><a href="#">更多>></a>
+		</div>
+		<div class="Enpic" id="Enbg2">
+			<div class="Enpic0"><a href="#">更多></a></div>
+
+			<div class="Enpic1">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic2">
+				<p class="grade">9.5分</p>
+				<p class="visitor">已有15人参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic3">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic4">
+			<p class="grade">9.5分</p>
+				<p class="visitor">已有4/10参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+		</div>
+<!--下面是33333-->
+		<div class="Entrepreneurship">
+			<p>留学</p><a href="#">更多>></a>
+		</div>
+		<div class="Enpic" id="Enbg3">
+			<div class="Enpic0"><a href="#">更多></a></div>
+
+			<div class="Enpic1">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic2">
+				<p class="grade">9.5分</p>
+				<p class="visitor">已有15人参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic3">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic4">
+			<p class="grade">9.5分</p>
+				<p class="visitor">已有4/10参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+		</div>
+<!--下面是4444-->
+		<div class="Entrepreneurship">
+			<p>保研</p><a href="#">更多>></a>
+		</div>
+		<div class="Enpic" id="Enbg4">
+			<div class="Enpic0"><a href="#">更多></a></div>
+
+			<div class="Enpic1">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic2">
+				<p class="grade">9.5分</p>
+				<p class="visitor">已有15人参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic3">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic4">
+			<p class="grade">9.5分</p>
+				<p class="visitor">已有4/10参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+		</div>
+<!--下面是555555-->
+		<div class="Entrepreneurship">
+			<p>考研</p><a href="#">更多>></a>
+		</div>
+		<div class="Enpic" id="Enbg5">
+			<div class="Enpic0"><a href="#">更多></a></div>
+
+			<div class="Enpic1">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大啦啦啦啦啦</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic2">
+				<p class="grade">9.5分</p>
+				<p class="visitor">已有15人参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">时间等你来约</p>
+
+			<p class="introduce"><strong><span><font>保研重大</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic3">
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+
+			<div class="Enpic4">
+			<p class="grade">9.5分</p>
+				<p class="visitor">已有4/10参加</p>
+			<a href="#" class="tip1">做好未来职业规划</a>
+			<p class="teacher">刘智鹏</p>
+			<p class="time">8月20日  13:00-14:00</p>
+
+			<p class="introduce"><strong><span><font>保研重大</font></span></strong></p>
+
+			<p class="money">50</p>
+			<p class="moneylogo">￥</p>
+			</div>
+		</div>
+</div>
+
+<div id="end">
+	<div class="endleft">
+		<img src="pic/logo.png"/>
+		<img src="pic/weibo.png"/>
+		<img src="pic/weixin.png"/>
+	</div>
+	
+	<div class="endright">
+		<a href="#">联系我们</a>
+		<a href="#">帮助中心</a>
+		<a href="#">关于校园说</a>
+		<span>Copyrights © 2015-2016   CampusSay  Co.,Ltd. All Rights Reserved.</span>
+	</div>
+</div>
+
+</body></html>
+<script type="text/javascript" src="js/changeschool.js"></script>
