@@ -67,6 +67,7 @@ a {
 	 width: 1920px;
 	 height: 592px;
 	 position: relative;
+	 overflow: hidden;
 }
 .banner_pic li {
 	position: absolute;
@@ -84,7 +85,25 @@ a {
 	display: inline-block;
 	border: 1px solid #fff;
 	border-radius: 50%;
-	box-shadow: 1px 1px 1px;
+	box-shadow: 1px 1px 3px;
+}
+.banner_pic li:first-child {
+	left: -1920px;
+	animation: move_1 12s linear infinite;
+}
+.banner_pic li:nth-child(2) {
+	left: -1920px;
+	animation: move_2 12s linear 6s infinite;
+}
+@keyframes move_1 {
+	0% { left: -1920px;}
+	50% { left: 0px; }
+	100% { left: 1920px;}
+}
+@keyframes move_2 {
+	0% { left: -1920px;}
+	50% { left: 0px; }
+	100% { left: 1920px;}
 }
 /*banner end*/
 /*wrap*/
@@ -164,6 +183,9 @@ a {
 .wrap_1_r ul li a{
 	color: #000;
 }
+.wrap_1_r ul li a:hover{
+	color: #779fd1;
+}
 .wrap_1_r ul li:first-child {
 	font-size: 20px;
 	font-weight: bolder;
@@ -195,6 +217,10 @@ a {
 	border: 1px solid #eee;
 	margin-right: 24px;
 	vertical-align: top;
+}
+.wrap_2 ul li:hover {
+	box-shadow: 6px 6px 15px;
+	transition: box-shadow 1s;
 }
 .wrap_2 ul li:first-child {
 	background: url(../img/14thWeeks_2/wrap_1.png) no-repeat;
@@ -276,6 +302,7 @@ a {
 	padding-bottom: 10px;
 }
 .wrap_4 ul li:hover {
+	transition: opacity 1s;
 	opacity: 1;
 }
 .wrap_4 ul li:hover a {
@@ -388,6 +415,10 @@ a {
 	padding: 0 20px;
 	border-radius: 6px;
 }
+.wrap_5 ul li div a:hover {
+	background: #779fd1;
+	color: #fff;
+}
 .wrap_5 .top {
 	display: block;
 	width: 68px;
@@ -399,6 +430,10 @@ a {
 .wrap_5 .top img {
 	margin: 16px 0 0 18px;
 }
+.wrap_5 .top:hover {
+	background: rgb(68,68,68);
+}
+
 /*wrap end*/
 /*footer*/
 .footer {
@@ -422,6 +457,9 @@ a {
 }
 .footer a {
 	color: #d3d3d3;
+}
+.footer a:hover {
+	color: #779fd1;
 }
 .footer p {
 	margin: 0 0 24px 750px;
