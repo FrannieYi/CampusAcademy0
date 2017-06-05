@@ -1,0 +1,497 @@
+body,ul,input,p,form,h2,h3{
+	margin:0;
+	padding:0;
+}
+li,ul{
+	list-style:none;
+}
+img,select,option{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+
+
+#header{
+	height:70px;
+	width:1200px;
+	margin:0 auto;
+}
+#header .logo{
+	float:left;
+	padding:17px 0px 0px 0px;
+}
+#header .nav{
+	float:left;
+	margin-left:90px;
+}
+.nav li{
+	float:left;
+	height:32px;
+	padding:22px 16px 0px 16px;
+	background:linear-gradient(to bottom,#ccc,#ccc) no-repeat right 25px/1px 16px;
+}
+.nav li:last-child{
+	background:none;
+}
+.nav a,select{
+	font:normal 19px "黑体";
+	color:#666;
+}
+
+.nav select:hover,.nav option:hover{
+	color: #6699cc;
+}
+.slid{
+	width:1350px;
+	height:394px;
+	position:absolute;
+	top:70px;
+	overflow: hidden;
+}
+.slid img{
+	width:1350px;
+	height:394px;
+}
+.slid li{
+	float:left;
+}
+@keyframes change{
+	0%{margin-left:0;}
+	20%{margin-left:0;}
+	25%{margin-left:-1350px;}
+	45%{margin-left:-1350px;}
+	50%{margin-left:-2700px;}
+	70%{margin-left:-2700px;}
+	75%{margin-left:-4050px;}
+	95%{margin-left:-4050px;}
+	100%{margin-left:0;}
+}
+.slid ul{
+	animation:change 6s linear .1s;
+	animation-iteration-count:infinite;
+}
+.go{
+	width:180px;
+	height:22px;
+	position: absolute;
+	top:425px;
+	left:628px;
+}
+.go li{
+	width:20px;
+	height:20px;
+	float:left;
+	margin-right:20px;
+	border-radius: 10px;
+	border:1px solid #fff;
+}
+@keyframes got-1{
+	0%{background: #fff;}
+	20%{background: #fff;}
+	25%{background: none;}
+	95%{background: none;}
+	100%{margin-left:#fff;}
+}
+.go ul li:first-child{
+	animation:got-1 6s linear .1s;
+	animation-iteration-count:infinite;
+}
+@keyframes got-2{
+	0%{background: none;}
+	20%{background: none;}
+	25%{background:#fff;}
+	45%{background:#fff;}
+	50%{background:none;}
+	100%{background:none;}
+}
+.go ul li:nth-child(2){
+	animation:got-2 6s linear .1s;
+	animation-iteration-count:infinite;
+}
+@keyframes got-3{
+	0%{background: none;}
+	45%{background: none;}
+	50%{background:#fff}
+	70%{background:#fff}
+	75%{background:none}
+	100%{background:none;}
+}
+.go ul li:nth-child(3){
+	animation:got-3 6s linear .1s;
+	animation-iteration-count:infinite;
+}
+@keyframes got-4{
+	0%{background: none;}
+	70%{background:none;}
+	75%{background:#fff;}
+	95%{background:#fff;}
+	100%{background:none;}
+}
+.go ul li:nth-child(4){
+	animation:got-4 6s linear .1s;
+	animation-iteration-count:infinite;
+}
+.date{
+	width:100%;
+	height:770px;
+	background: url(../images/date-bg.png) repeat-x;
+	margin-top:394px;
+}
+.date-title{
+	padding:65px 0 110px 0;
+	width:776px;
+	height:68px;
+	margin:auto;
+}
+.date-title p:first-child{
+	font:bold 42px "黑体";
+	color:#333;
+}
+.date-title p:last-child{
+	font:normal 16px "黑体";
+	color:#999;
+	margin:18px 0 0px 30px;
+}
+.date-title img{
+	margin:0 8px 0 8px;
+}
+.date-content{
+	width:918px;
+	height:444px;
+	font-family: "黑体";
+	background: #fff;
+	margin:auto;
+	padding:30px 0 0 0px;
+}
+.date-article{
+	width:420px;
+	height:360px;
+	float:left;
+	padding-right:54px;
+	padding-left:104px;
+	border-right:1px dotted #999;
+}
+.date-article h2{
+	font-size:21.34px;
+	margin-bottom:14px;
+}
+.date-article span{
+	display: inline-block;
+	font-size:18.67px;
+	color:#6699cc;
+	margin-bottom: 23px;
+}
+.date-article p:first-of-type{
+	line-height: 31px;
+	font-size:18.67px ;
+	color:#999;
+}
+.date-article p:last-of-type{
+	margin-top:34px;
+}
+.date-song{
+	float:left;
+	width:200px;
+	height:358px;
+	padding:8px 0 0 40px;
+}
+.song-1 h2,.song-2 h2{
+	font-size:21.34px;
+}
+.song-1 p,.song-2 p{
+	line-height:35px;
+}
+
+.song-1{
+	margin-bottom: 24px;
+}
+.singing{
+	color:#6699cc;
+}
+.life{
+	width:100%;
+	height:588px;
+	margin:auto;
+}
+.life-title{
+	width:1200px;
+	height:32px;
+	margin:auto;
+	padding:60px 0 34px 0;
+}
+.life-title h2{
+	float:left;
+}
+.life-title span{
+	display: inline-block;
+	margin:8px 0 0 6px;
+	font-size:16px;
+	color:#666;
+}
+.life ul{
+	width:1200px;
+	height:370px;
+	margin:auto;
+}
+.life li{
+	float:left;
+	width:277px;
+	height:370px;
+	margin-right:27px;
+}
+.life li:last-child{
+	margin-right:0;
+}
+.active-bg1,.active-bg2,.active-bg3,.active-bg4{
+	width:278px;
+	height:218px;
+}
+.active-bg1{
+	background: url(../images/active-bg1.png) no-repeat;
+}
+.active-bg2{
+	background: url(../images/active-bg2.png) no-repeat;
+}
+.active-bg3{
+	background: url(../images/active-bg3.png) no-repeat;
+}
+.active-bg4{
+	background: url(../images/active-bg4.png) no-repeat;
+}
+.active-bg1 div,.active-bg2 div,.active-bg3 div,.active-bg4 div{
+	width:278px;
+	height:218px;
+	background: url(../images/active-bg.png) no-repeat;
+	opacity: 0;
+}
+.active-bg1 div,.active-bg2 div,.active-bg3 div,.active-bg4 div{
+
+	padding:48px 26px 34px 30px;
+	width:222px;
+}
+.active-bg1 div{
+	opacity: 1;
+	padding:48px 26px 34px 30px;
+	width:222px;
+}
+ .life li{
+	box-shadow: 0 0 10px #ccc;
+}
+.active-bg1 div:hover,.active-bg2 div:hover,.active-bg3 div:hover,.active-bg4 div:hover{
+	opacity: 1;
+}
+.active-line{
+	width:36px;
+	height:6px;
+	background:#fff; 
+	margin-bottom: 12px;
+}
+.active-bg1 .active-content,.content-con{
+	font-size:14px;
+	line-height: 25px;
+	color:#fff;
+}
+.content-con{
+	margin-left:112px;
+}
+.active-time{
+	padding:18px 18px 14px 18px;
+}
+.active-title{
+	float:left;
+	font-size:19px;
+	color:#333;
+	margin-bottom:16px;
+}
+.active-time a{
+	margin-left:106px;
+}
+.active-time p:nth-of-type(2),.active-time p:nth-of-type(3){
+	font-size:16px;
+	color:#333;
+	line-height: 26px;
+}
+.church{
+	width:100%;
+	height:1334px;
+	position:relative;
+}
+.church .photo{
+	width:100%;
+	height:523px;
+}
+.church .church-way{
+	width:1020px;
+	height:844px;
+	position: absolute;
+	top:463px;
+	left:160px;
+	background: #fff;
+}
+.church-way .way-title{
+	font:normal 26px "黑体";
+	color:#333;
+	padding:60px 0px 0px 402px;
+}
+.way-title span{
+	display: inline-block;
+	margin-right: 28px;
+}
+.way-title span:last-child{
+	margin-right:0;
+}
+.way-controduct{
+	width:882px;
+	margin:34px auto 76px auto;
+	font:normal 18.5px "黑体";
+	line-height:32px;
+}
+.church-way table{
+	margin-left:140px;
+}
+.church-way table td{
+	width:342px;
+	height:274px;
+}
+.church-way table p{
+	width:86px;
+	font-size:21px;
+	color:#999;
+	margin:18px 0 10px 36px;
+}
+.church-way table .love{
+	color:#333;
+	border-bottom:6px solid #333;
+	padding-bottom: 8px;
+}
+.story{
+	height:893px;
+	background: url(../images/story-bg.png) repeat-x;
+}
+.story-title{
+	width:1200px;
+	height:30px;
+	margin:0 auto;
+	padding:60px 0px 65px 0;
+}
+.story-title h2{
+	float:left;
+	padding-right:14px;
+}
+.story-title span{
+	display: inline-block;
+	padding-top:7px;
+	font:normal 16px "黑体";
+	color:#666;
+}
+.story-title img{
+	float:right;
+}
+.user-story{
+	width:1200px;
+	height:565px;
+	margin:0 auto;
+}
+.user-story li{
+	width:370px;
+	float:left;
+	background: #fff;
+	margin-right:40px;
+}
+.user-story li:last-child{
+	margin-right:0px;
+}
+.user-story h2{
+	font:normal 21px "黑体";
+	width:326px;
+	margin:44px 0px 6px 26px;
+}
+.user-story p{
+	font:normal 19px "黑体";
+	color:#666;
+	line-height: 30px;
+	margin-left:26px;
+}
+.user-story .time{
+	margin-bottom:12px;
+}
+.user-story .introducte-1{
+	margin:26px 0 44px 26px;
+	position:relative;
+}
+.user-story .introducte-2,.introducte-3{
+	margin:58px 0 44px 26px;
+	position:relative;
+}
+.introducte-2 span,.introducte-3 span,.introducte-1 span{
+	position:absolute;
+	top:8px;
+	left:50px;
+}
+.user-story button{
+	width:80px;
+	height:30px;
+	float:right;
+	margin:10px 28px 0 0;
+	border-radius: 5px;
+	border:1px solid #666;
+	color:#666;
+	background: #fff;
+}
+.introducte-1 button{
+	border-color: #6699cc;
+	color:#6699cc;
+}
+.story-more{
+	width:730px;
+	height:70px;
+	margin:62px 0  0 618px;
+}
+.story-more button{
+	width:190px;
+	height:60px;
+	border-radius: 6px;
+	border:1px solid #ccc;
+	background: #fff;
+	color:#ccc;
+	float:left;
+}
+.story-more a{
+	float:right;
+}
+.footer{
+	height:385px;
+	background: url("../images/footer-bg.png") repeat-x;
+}
+.footer-content{
+	width:718px;
+	height:385px;
+	margin:0 auto;
+}
+.footer-content ul{
+	padding:86px 0 46px 0px;
+}
+.footer-content li{
+	display:inline-block;
+	padding:0px 12px 0px 8px;
+	background:linear-gradient(to bottom,#ccc,#ccc) no-repeat right 4px/4px 15px;
+	color:#ccc;
+	font:normal 18px "黑体";
+}
+.footer-content li:last-child{
+	background: none;
+}
+.footer-content p{
+	width:416px;
+	color:#ccc;
+	font:normal 18px "黑体";
+	margin:0 auto;
+	margin-bottom:16px;
+}
+.footer-content .address{
+	width:312px;
+	margin:0 auto;
+	margin-bottom:16px;
+}
