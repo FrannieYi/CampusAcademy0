@@ -40,17 +40,7 @@ window.onload=function(){
 	var timer2=null;//回到顶部动画计时器
 	var timer3=null;//透明度动画计时器
 	var Opacity=0;
-	back_top.onclick=function(){
-		timer2=setInterval(function(){
-			var osTop=document.body.scrollTop || document.documentElement.scrollTop;
-			var speed=Math.floor(-osTop/5);
-			console.log(osTop);
-			document.body.scrollTop = document.documentElement.scrollTop= osTop+speed;
-			if (osTop==0) {
-				clearInterval(timer2);
-			}
-		},50)
-	}
+	var isScroll=true;
 	window.onscroll=function(){
 		var scrollTop=document.body.scrollTop || document.documentElement.scrollTop;
 		if(scrollTop>0){
@@ -58,6 +48,21 @@ window.onload=function(){
 		}else{
 			arrowShow(0);
 		}
+		if(!isScroll){
+			clearInterval(timer2);
+		}
+		isScroll=false;
+	}
+	back_top.onclick=function(){
+		timer2=setInterval(function(){
+			var osTop=document.body.scrollTop || document.documentElement.scrollTop;
+			var speed=Math.floor(-osTop/5);
+			isScroll=true;
+			document.body.scrollTop = document.documentElement.scrollTop= osTop+speed;
+			if (osTop==0) {
+				clearInterval(timer2);
+			}
+		},50)
 	}
 	function arrowShow(Taget){
 		var backarrow=document.getElementById('back-top');
@@ -73,9 +78,9 @@ window.onload=function(){
 				clearInterval(timer3);
 			}else{
 				Opacity+=speed;
-				backarrow.style.opacity=Opacity;
+				backarrow.style.opacity=Opacity/100;
 			}
-		},50)
+		},25)
 	}
 }
 
