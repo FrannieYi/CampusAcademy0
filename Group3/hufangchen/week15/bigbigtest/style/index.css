@@ -1,0 +1,427 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+
+.header {
+  width: 100%;
+  background-color: #243343;
+  height: 1.1067rem;
+}
+
+.header-left {
+  float: left;
+  margin-left: 0.36rem;
+}
+
+.header-left img {
+  width: 1.7733rem;
+  height: 1.0rem;
+  vertical-align: middle;
+}
+
+.header-left span {
+  font-size: 0.24rem;
+  color: #fff;
+  line-height: 1.1067rem;
+  margin-left: 0.3467rem;
+}
+
+.header-right {
+  float: right;
+  margin-right: 0.3333rem;
+}
+
+.header-right span {
+  font-size: 0.2667rem;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1.1067rem;
+  margin-right: 0.36rem;
+}
+.header-right span:hover {
+  color: #00caab;
+}
+
+.header-right img {
+  width: 0.6267rem;
+  height: 1.0rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#concent .point {
+	width: 10rem;
+	height: 4.6rem;
+	margin: auto;
+}
+
+#concent .point img{
+	width: 10rem;
+	height: 4.6rem;
+}
+
+#concent .point .in {
+	width: 10rem;
+	height: 4.6rem;
+	position: relative;
+	bottom: 4.6rem;
+}
+
+#concent .point .in .point_one {
+	padding-top: 1.1067rem;
+	padding-left: 0.76rem;
+	font-size: 0.2666rem;
+	color: #fff;
+}
+#concent .point .in .point_two {
+	padding-left: 0.76rem;
+	padding-top: 0.05rem;
+	font-size: 0.48rem;
+	color: #fff;
+}
+#concent .point .in .point_three {
+	padding-left: 0.76rem;
+	padding-top: 0.05rem;
+	font-size: 0.16rem;
+	color: #0bc6a8;
+}
+
+
+
+#concent .teacher {
+	width: 10rem;
+	height: 10rem;
+	margin: auto;
+}
+
+#concent .teacher img {
+	width: 10rem;
+	height: 1.8667rem;
+}
+
+#concent .teacher p {
+	text-align: center;
+	font-size: 0.22rem;
+	color: #312f2f;
+	position: relative;
+	bottom: 0.65rem;
+}
+
+#concent .teacher .teachers {
+	font-size: 0.5333rem;
+	color: #00caab;
+	margin-bottom: 0.14rem;
+}
+
+#concent .teacher table tr th {
+	width: 3.6rem;
+	height: 5.4667rem;
+	display: block;
+	float: left;
+	margin-left: 0.9333rem;
+}
+
+#concent .teacher table tr .student_one img {
+	width: 3.6rem;
+	height: 4.1333rem;
+}
+
+#concent .teacher table tr .student_one a {
+	text-decoration: none;
+}
+
+#concent .teacher table tr .student_one .xiaozhao {
+	width: 0.9733rem;
+	height: 0.3333rem;
+	position: relative;
+	bottom: 2.95rem;
+	left: 0.3333rem;
+}
+
+#concent .teacher table tr .jieshao {
+	width: 3.36rem;
+	height: 2rem;
+	background: #f9f9f9;
+	border-radius: 0.02667 0.0667px;
+	margin: auto;
+	position: relative;
+	bottom: 0.82rem;
+}
+
+#concent .teacher table tr .jieshao .mengxiang {
+	width: 2.6rem;
+	font-size: 0.215rem;
+	padding-top: 1.2rem;
+	color: #333333;
+}
+
+#concent .teacher table tr .jieshao .jianfu {
+	padding-top: 0.4rem;
+	padding-left: 0.6rem;
+	color: #333333;
+}
+
+#concent .teacher table tr .jieshao .jianfu span {
+	padding-left: 0.2rem;
+	color: #f6ac6f;
+	font-size: 0.2rem;
+}
+
+#concent .teacher .ban {
+	width: 0.1867rem;
+	height: 0.2133rem;
+	padding-left: 0.2133rem;
+	padding-top: 0.2rem;
+}
+
+#concent .teacher .banner1 {
+	width: 0.1867rem;
+	height: 0.2133rem;
+	padding-left: 4.4rem;
+}
+
+#concent .teacher .banner2 {
+	width: 0.1867rem;
+	height: 0.2133rem;
+	padding-left: 0.2133rem;
+}
+
+
+
+
+
+#concent .students {
+	width: 10rem;
+	height: 9rem;
+	background: url(../images/students_background.png);
+	background-size: 100% 9rem;
+	margin: auto;
+}
+
+#concent .students .student {
+	text-align: center;
+	font-size: 0.24rem;
+	padding-top: 0.2rem;
+}
+ 
+#concent .students p {
+	text-align: center;
+	font-size: 0.5333rem;
+	color: #fff;
+	padding-top: 0.8rem;
+}
+
+#concent .students table tr th {
+	width: 4.5rem;
+	height: 2.2667rem;
+	background: #f9f9f9;
+	display: block;
+	float: left;
+	position: relative;
+	bottom: -0.5rem;
+	margin-left: 0.25rem;
+	margin-top: 0.2rem;
+	border-radius: 0.0667rem 0.0667rem;
+}
+
+#concent .students table tr .right {
+	width: 4.5rem;
+	height: 2.2667rem;
+	background: #f9f9f9;
+	display: block;
+	float: left;
+	position: relative;
+	bottom: -0.5rem;
+	margin-left: 0.4rem;
+	margin-top: 0.2rem;
+	border-radius: 0.0667rem 0.0667rem;
+}
+
+#concent .students table tr th .tx {
+	width: 1.0933rem;
+	height: 1.0933rem;
+	margin-left: 0.4rem;
+	margin-top: 0.5333rem;
+}
+#concent .students table tr th .xuyuan {
+	width: 0.52rem;
+	height: 0.33rem;
+	position: relative;
+	bottom: 2.6rem;
+	left: 4.05rem;
+}
+
+#concent .students table tr th span {
+	display: block;
+	padding-left: 1.7rem;
+	position: relative;
+	bottom: 1.1rem;
+}
+
+#concent .students table tr th .one {
+	font-size: 0.24rem;
+	color: #5c5c5c;
+}
+
+#concent .students table tr th .two {
+	font-size: 0.16rem;
+	padding-top: 0.05rem;
+}
+#concent .students table tr th .three {
+	font-size: 0.2113rem;
+	padding-top: 0.12rem;
+}
+
+#concent .students table tr th .four {
+	font-size: 0.18rem;
+	padding-top: 0.05rem;
+	color: #92dfcf;
+}
+
+
+
+
+#concent .dream {
+	margin: auto;
+	width: 10rem;
+	height: 17.3333rem;
+}
+
+#concent .dream .xian {
+	width: 10rem;
+	height: 1.8667rem;
+}
+
+#concent .dream p {
+	text-align: center;
+	position: relative;
+	bottom: 0.7rem;
+}
+
+#concent .dream .come {
+	font-size: 0.5333rem;
+	color: #00caab;
+}
+
+#concent .dream .ture {
+	font-size: 0.24rem;
+	color: #5d5d5d;
+	padding-top: 0.15rem;
+}
+#concent .dream a {
+	text-decoration: none;
+}
+
+#concent .dream  .dream_one {
+	width: 1.8133rem;
+	height: 2.04rem;
+	padding-left: 4.0933rem;
+}
+
+#concent .dream  .o {
+	font-size: 0.5rem;
+	color: #5c5c5c;
+	padding-top: 1.2rem;
+	padding-bottom: 0.1rem;
+}
+
+#concent .dream  .o span {
+	color: #00caab;
+}
+
+#concent .dream  .k {
+	font-size: 0.3rem;
+	color: #777272;
+	padding-top: 0.1rem;
+}
+
+#concent .dream  .c {
+	font-size: 0.3rem;
+	color: #777272;
+	padding-top: 0.1rem;
+	padding-bottom: 0.5rem;
+} 
+
+
+
+#concent .concer {
+	width: 10rem;
+	height: 6.4rem;
+	margin: auto;
+	margin-top: 2.7rem;
+	background: url(../images/concer_background.png);
+	background-size: 100% 6.4rem;
+}
+
+#concent .concer .com {
+	text-align: center;
+	color: #fff;
+	font-size: 0.5333rem;
+	padding-top: 0.68rem;
+}
+
+#concent .concer .pany {
+	text-align: center;
+	color: #fff;
+	padding-top: 0.15rem;
+	padding-bottom: 0.5867rem;
+	font-size: 0.24rem;
+}
+
+#concent .concer .company {
+	width: 7.7533rem;
+	height: 2.6933rem;
+	margin: auto;
+}
+
+#concent .concer .company img {
+	width: 2.5333rem;
+	height: 1.4rem;
+	float: left;
+	padding-bottom: 0.02666rem;
+	padding-right: 0.02666rem;
+}
+
+
+
+
+
+#footer {
+	width: 10rem;
+	height: 3.7333rem;
+	background: #34495e;
+	margin: auto;
+}
+
+#footer img {
+	width: 10rem;
+	height: 1.3333rem;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 0.16rem;
+	padding-top: 0.1rem;
+	color: #bcbcbc;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #bcbcbc;
+}
+
+#footer .IT {
+	text-align: center;
+	font-size: 0.2133rem;
+	color: #bcbcbc;
+}
+
+#footer .lianjie {
+	text-align: center;
+	font-size: 0.1867rem;
+	color: #bcbcbc;
+	padding-top: 0.6rem;
+}
