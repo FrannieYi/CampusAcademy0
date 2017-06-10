@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banner</title>
+    <style>
+    	.banner{
+    		width:1000px;
+    		height:500px;
+    		background:grey;
+    		position: relative;
+    		overflow: hidden;
+    	}
+    	.box{
+    		width:3000px;
+    		height:500px;
+    	}
+    	.img{
+    		width:1000px;
+    		height:500px;
+    		float:left;
+    		margin-left:-2000px;
+    		transition: margin-left 2s ease;
+    	}
+    	#img_1{
+    		background-color:red;
+    	}
+    	#img_2{
+			background-color:blue;
+    	}
+    	#img_3{
+    		background-color:green;
+    	}
+    	a{
+    		float:left;
+    		width:20px;
+    		height:20px;
+    		border-radius:20px;
+    		border:2px solid #000;
+    		margin-top:-100px;
+    	}
+    	a:hover{
+    		background:#000;
+    	}
+    	.a1{
+    		margin-left:400px;
+    	}
+    	.a2{
+    		margin-left:500px;
+    	}
+    	.a3{
+    		margin-left:600px;
+    	}
+    	#img_1:target{
+			margin-left:0;
+    	}
+    	#img_2:target{
+			margin-left:0;
+    	}
+    	#img_3:target{
+			margin-left:0;
+    	}
+    </style>
+</head>
+<body>
+<div class="banner">
+	<div class="box">
+		<div id="img_1" class="img"></div>
+		<div id="img_2" class="img"></div>
+		<div id="img_3" class="img"></div>
+	</div>
+	<div class="select">
+		<a href="#img_1" class="a1"></a>
+		<a href="#img_2" class="a2"></a>
+		<a href="#img_3" class="a3"></a>
+	</div>
+</div>
+</body>
+</html>

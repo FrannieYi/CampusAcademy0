@@ -16,7 +16,7 @@ ol, ul,li{
 }
 /*----------------------------------*/
 body{
-    margin:0 auto;
+    margin:0 20%;
 }
 /*--------------top样式-------------*/
 
@@ -87,6 +87,8 @@ body{
 }
 #top .lead .li{
     position: relative;
+    /*display:none;
+    margin-left:-38px;*/
     margin-left:-10000px;
     box-shadow:0 0 10px 2px #d9e5f3;
     margin-top:0;
@@ -122,6 +124,7 @@ body{
 }
 #top .lead .list li:hover .li{
     margin-left:-38px;
+    /*display:block;*/
 }
 #top .banner{
     width:1920px;
@@ -728,6 +731,9 @@ body{
     font-size:16px;
     float:left;
     margin:-4px 10px 0 10px;
+}
+#bottom .link .last{
+    border:none;
 }
 #bottom p{
     width:420px;
