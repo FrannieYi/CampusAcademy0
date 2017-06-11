@@ -115,10 +115,10 @@
 }
 .banner span {
   position: absolute;
-  left: 0.6807rem;
-  bottom: 0.2667rem;
+  bottom: 0.2rem;
+  left: 0.8rem;
+  font-size: 8px;
   color: #5d5d5d;
-  font-size: 0.0933rem;
 }
 
 .teacher {
@@ -182,27 +182,13 @@
   left: 0.10665rem;
   top: -0.8267rem;
   z-index: 3;
-  box-sizing: border-box;
-  padding-left: 0.3333rem;
-  padding-right: 0.4667rem;
-}
-.person-intro .xiaozhao {
-  font-size: 0.16rem;
-  color: #fff;
-  position: absolute;
-  z-index: 4;
-  font-weight: bold;
-  left: 0.25rem;
-  top: -0.0807rem;
 }
 .person-intro p:first-of-type {
   color: #5c5c5c;
-  font-size: 0.1867rem;
-  margin-top: 0.2rem;
+  font-size: 12px;
 }
 .person-intro p:last-child {
-  color: 0.1867rem;
-  font-size: 0.1867rem;
+  font-size: 12px;
   font-weight: bold;
   margin-top: 0.3333rem;
   text-align: right;
@@ -257,13 +243,11 @@
 }
 
 .student-list {
-  overflow: hidden;
   margin-left: 0.3333rem;
   margin-top: 0.7333rem;
 }
 .student-list li {
   width: 4.52rem;
-  height: 2.3067rem;
   background-color: #fff;
   float: left;
   margin-bottom: 0.36rem;
@@ -291,40 +275,38 @@
 .student-inf {
   float: left;
   padding-left: 0.1333rem;
-  margin-top: 0.5333rem;
   width: 3.0667rem;
 }
 .student-inf dt {
-  font-size: 0.2481rem;
+  font-size: 12px;
   color: #5c5c5c;
   font-weight: bold;
 }
 .student-inf dd:first-of-type {
-  font-size: 0.1488rem;
+  font-size: 8px;
   color: #5c5c5c;
   margin-top: 0.1333rem;
 }
 .student-inf strong {
-  font-size: 0.1773rem;
+  font-size: 10px;
   color: #5d5d5d;
   display: inline-block;
 }
 .student-inf dd:nth-of-type(2) {
-  font-size: 0.16rem;
+  font-size: 8px;
   color: #00caab;
   margin-top: 0.0667rem;
 }
 
 .tag {
   position: absolute;
-  width: 0.5333rem;
-  height: 0.3067rem;
+  padding: 0.0667rem;
   background-color: #fca523;
   font-size: 0.1488rem;
   color: #fff;
   text-align: center;
   line-height: 0.3067rem;
-  top: 0.36rem;
+  top: 0.3rem;
   right: -0.1067rem;
 }
 
