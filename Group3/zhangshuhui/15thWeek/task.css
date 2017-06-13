@@ -168,7 +168,73 @@
 	padding-bottom: 0.5rem;
 	color: #fff;
 }
-
+.student{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	height: 4.35rem;
+	width: 17.5rem;
+	margin-top: 0.7rem;
+}
+.stuBox{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	width: 8.5rem;
+	height: 4.35rem;
+	background: #fff;
+	border-radius: 0.25rem;
+	position:relative;
+}
+.stuBox img{
+	height: 1.85rem;
+	width: 1.85rem;
+	margin-top: 1.0rem;
+	margin-left: 0.75rem;
+}
+.stu_p{
+	margin-top: 1.0rem;
+	margin-left: 0.45rem;
+}
+.stu_p1{
+	font-size: 0.45rem;
+	color: #5c5c5c;
+	font-family: "黑体";
+}
+.stu_p2{
+	font-size: 0.275rem;
+	color: #5c5c5c;
+	font-size: 0.275rem;
+	line-height: 0.75rem;
+}
+.stu_p3{
+	font-family: "微软雅黑";
+	font-size: 0.325rem;
+	color: #5d5d5d;
+	line-height: 0.5rem;
+}
+.stu_p3 span{
+	color: #00caab;
+}
+.stu_bq{
+	width: 1.0rem;
+	height: 0.6rem;
+	background: #fea925;
+	position: absolute;
+	top: 0.65rem;
+	right: -0.125rem;
+	-moz-box-shadow: 0.05rem 0px 0.025rem #fea925; /* 老的 Firefox */
+	box-shadow: 0.05rem 0px 0.025rem #fea925;
+	
+}
+.stu_bq p{
+	color: #fff;
+	font-size: 0.275rem;
+	line-height: 0.6rem;
+	text-align: center;
+}
 .flex5{
 	height: 31.9rem;
 }
