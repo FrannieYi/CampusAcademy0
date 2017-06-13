@@ -10,6 +10,7 @@ li {
 }
 body {
 	width: 18.75rem;
+	margin: 0 auto !important;
 }
 /*header*/
 .header {
