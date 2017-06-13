@@ -1,0 +1,703 @@
+.header {
+	width: 25rem;
+	height: 1.5rem;
+	background-color: #243343;
+	position: absolute;
+}
+.header img
+{
+	position: relative;
+	top: 0.25rem;
+	left: 1.05rem;
+	height: 0.9rem;
+}
+.header p
+{
+  font-size: 0.45rem;
+  font-family: "PingFang";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: relative;
+  top: -0.5rem;
+  left: 3.75rem;
+  width: 6.25rem;
+}
+.header a
+{
+  font-size: 0.5rem;
+  font-family: "Microsoft YaHei";
+  color: rgb(254, 254, 254);
+  line-height: 2.512;
+  position: relative;
+  left: 19rem;
+  top: -1.45rem;
+  width: 2.0rem;
+}
+.nav
+{
+  width: 25rem;
+}
+.nav img
+{
+  width: 25rem;
+  position: relative;
+  top: 1.5rem;
+}
+.nav1 
+{
+  width: 6.0rem;
+  height: 2.0rem;
+  position: relative;
+  top: -7rem;
+  left: 2rem;
+}
+.nav1 h1
+{
+  font-size: 0.75rem;
+  font-family: "Adobe Heiti Std";
+  color: rgb(255, 255, 255);
+  line-height: 1.065;
+}
+.nav1 h2
+{
+  font-size: 1rem;
+  font-family: "Adobe Heiti Std";
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+  width: 9.5rem;
+  letter-spacing: 0.05rem;
+}
+.nav1 h3
+{
+  font-size: 0.55rem;
+  font-family: "Adobe Heiti Std";
+  color: rgb(0, 202, 171);
+  line-height: 3.567;
+  width: 10rem;
+  letter-spacing: 0.1rem;
+}
+.teacher
+{
+  width: 25rem;
+
+}
+.teacher h1
+{
+  font-size:0.9rem;
+  font-family: "Adobe Heiti Std";
+  color: rgb(0, 202, 171);
+  line-height: 2.167;
+  position: relative;
+  top: 0.05rem;
+  left: 10.05rem;
+  width: 5.5rem;
+  height: 1.25rem;
+}
+.p1
+{
+  background-color: rgb(0, 202, 171);
+  width: 4.75rem;
+  height: 0.045rem;
+  position: relative;
+  top: 1.05rem;
+  left: 15.05rem;
+}
+.p2
+{
+  background-color: rgb(0, 202, 171);
+  width: 4rem;
+  height: 0.035rem;
+  position: relative;
+  top: 1.25rem;
+  left: 15.05rem;
+}
+.p3
+{
+  background-color: rgb(0, 202, 171);
+  width: 4.75rem;
+  height: 0.045rem;
+  position: relative;
+  top: 1.05rem;
+  left: 4.05rem;
+}
+.p4
+{
+  background-color: rgb(0, 202, 171);
+  width: 4rem;
+  height: 0.035rem;
+  position: relative;
+  top: 1.25rem;
+  left: 4.79rem;
+}
+.daoshi1
+{
+  position: relative;
+  left: 3.8rem;
+  top: 1.025rem;
+}
+.daoshi2
+{
+  position: absolute;
+  left: 15.05rem;
+  top: 16.7rem;
+}
+.teacher h4
+{
+  font-size: 0.45rem;
+  font-family: "Adobe Heiti Std";
+  color: rgb(92, 92, 92);
+  line-height: 4.333;
+  width: 8.25rem;
+  height: 0.75rem;
+  position: relative;
+  top: 0.15rem;
+  left: 8.55rem;
+}
+.p5
+{
+  font-size: 0.3rem;
+  font-family: "PingFang";
+  color: rgb(153, 153, 153);
+  line-height: 1;
+  position: relative;
+  top: -0.95rem;
+  left: 4.05rem;
+  width: 4.4rem;
+}
+.p6
+{
+  font-size: 0.3rem;
+  font-family: "PingFang";
+  color: rgb(153, 153, 153);
+  line-height: 1;
+  position: relative;
+  top: -3.55rem;
+  left: 15.4rem;
+  width: 4.4rem;
+}
+.p7
+{
+  width: 3.5rem;
+  font-size: 0.35rem;
+  font-family: "PingFang";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 5.571;
+  position: relative;
+  top: -0.95rem;
+  left: 5.3rem;
+}
+.p7 span
+{
+  font-size: 0.3rem;
+  font-family: "PingFang";
+  color: rgb(245, 151, 62);
+  line-height: 6.5;
+  padding-left: 0.35rem;
+}
+.p8
+{
+  width: 3.5rem;
+  font-size: 0.35rem;
+  font-family: "PingFang";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 5.571;
+  position: relative;
+  top: -3.65rem;
+  left: 16.6rem;
+}
+.p8 span
+{
+  font-size: 0.3rem;
+  font-family: "PingFang";
+  color: rgb(245, 151, 62);
+  line-height: 6.5;
+  padding-left: 0.35rem;
+}
+.nav2
+ {
+  position: relative;
+  top: -3.05rem;
+  left: 10.95rem;
+  width: 3rem;
+}
+.nav2 a
+{
+  padding-left: 0.35rem;
+}
+.nav3
+{
+  width: 25rem;
+  height: 21rem;
+
+}
+.nav3 img
+{
+  width: 25rem;
+  height: 18rem;
+  position: relative;
+  top: -1.95rem;
+}
+.p11
+{
+  background-color: #8be4db;
+  width: 4.75rem;
+  height: 0.045rem;
+  position: relative;
+  top: -17.95rem;
+  left: 15.05rem;
+}
+.p22
+{
+  background-color:#8be4db;
+  width: 4rem;
+  height: 0.04rem;
+  position: relative;
+  top: -17.75rem;
+  left: 15.05rem;
+}
+.p33
+{
+  background-color: #8be4db;
+  width: 4.75rem;
+  height: 0.045rem;
+  position: relative;
+  top: -17.95rem;
+  left: 4.05rem;
+}
+.p44
+{
+  background-color: #8be4db;
+  width: 4rem;
+  height: 0.035rem;
+  position: relative;
+  top: -17.75rem;
+  left: 4.79rem;
+}
+.nav3 h1
+{
+  width: 3.75rem;
+  font-size: 0.9rem;
+  font-family: "PingFang";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: relative;
+  top: -18.5rem;
+  left: 10.05rem;
+}
+.nav3 h2
+{
+  width: 6rem;
+  font-size: 0.45rem;
+  font-family: "PingFang";
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: -17.8rem;
+  left: 9.05rem;
+}
+.picture
+{
+  width: 21rem;
+  height: 10.0rem;
+  position: relative;
+  top: -16.95rem;
+  left: 4.025rem;
+}
+.picture img
+{
+  float: left;
+  padding-left: 1rem;
+  padding-bottom: 0.6rem;
+}
+.picture3
+{
+  position: relative;
+  left: 0.5rem;
+  top: -9.4rem;
+}
+.picture4
+{
+ position: absolute;
+  left: 7.8rem;
+  top: -9.4rem;
+}
+.picture5
+{
+   position: absolute;
+  left: 0.5rem;
+  top: -5.7rem;
+
+}
+.picture6
+{
+   position: absolute;
+  left: 7.8rem;
+  top: -5.7rem;
+}
+.world
+{
+  width: 5.0rem;
+  position: relative;
+  top: -36.15rem;
+  left: 7.05rem;
+}
+.world h1
+{
+  font-size: 0.5rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+}
+.world h2
+{
+  font-size: 0.3rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+}
+.world h3
+{
+  font-size: 0.35rem;
+  font-family: "Microsoft YaHei";
+  color: rgb(93, 93, 93);
+}
+.world h4
+{
+ font-size: 0.3rem;
+ color: #9fe2d4;
+}
+.world1
+{
+  width: 5.0rem;
+  position: relative;
+  top: -38.1rem;
+  left: 14.3rem;
+}
+.world1 h1
+{
+  font-size: 0.5rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+}
+.world1 h2
+{
+  font-size: 0.3rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+}
+.world1 h3
+{
+  font-size: 0.35rem;
+  font-family: "Microsoft YaHei";
+  color: rgb(93, 93, 93);
+}
+.world1 h4
+{
+ font-size: 0.3rem;
+ color: #9fe2d4;
+}
+.world2
+{
+  width: 5.0rem;
+  position: relative;
+  top: -36.1rem;
+  left: 14.3rem;
+}
+.world2 h1
+{
+  font-size: 0.5rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+}
+.world2 h2
+{
+  font-size: 0.3rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+}
+.world2 h3
+{
+  font-size: 0.35rem;
+  font-family: "Microsoft YaHei";
+  color: rgb(93, 93, 93);
+}
+.world2 h4
+{
+ font-size: 0.3rem;
+ color: #9fe2d4;
+}
+.world3
+{
+  width: 5.0rem;
+  position: relative;
+  top: -38rem;
+  left: 6.99rem;
+}
+.world3 h1
+{
+  font-size: 0.5rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+}
+.world3 h2
+{
+  font-size: 0.3rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+}
+.world3 h3
+{
+  font-size: 0.35rem;
+  font-family: "Microsoft YaHei";
+  color: rgb(93, 93, 93);
+}
+.world3 h4
+{
+ font-size: 0.3rem;
+ color: #9fe2d4;
+}
+
+.p12
+{
+  background-color: rgb(0, 202, 171);
+  width: 4.75rem;
+  height: 0.045rem;
+  position: absolute;
+  top: 46.5rem;
+  left: 15.05rem;
+}
+.p23
+{
+  background-color: rgb(0, 202, 171);
+  width: 4rem;
+  height: 0.035rem;
+  position: absolute;
+  top: 46.75rem;
+  left: 15.05rem;
+}
+.p34
+{
+  background-color: rgb(0, 202, 171);
+  width: 4.75rem;
+  height: 0.045rem;
+  position: absolute;
+  top: 46.5rem;
+  left: 4.05rem;
+}
+.p45
+{
+  background-color: rgb(0, 202, 171);
+  width: 4rem;
+  height: 0.035rem;
+  position:absolute;
+  top: 46.75rem;
+  left: 4.79rem;
+}
+.dream h1
+{
+  font-size: 0.9rem;
+  font-family: "PingFang";
+  color: rgb(0, 202, 171);
+  font-weight: bold;
+  position: absolute;
+  top: 46.05rem;
+  left: 10.15rem;
+}
+.dream h4
+{
+  font-size: 0.45rem;
+  font-family: "PingFang";
+  color: rgb(93, 93, 93);
+   position: absolute;
+  top: 47.4rem;
+  left: 9.15rem;
+}
+.xiaozhao1
+{
+  position: absolute;
+  top: 50.05rem;
+  left: 10.5rem;
+}
+.xiaozhao1 h1
+{
+  font-size: 0.6rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+  position: relative;
+  left: -0.5rem;
+  padding-bottom: 0.25rem;
+}
+.xiaozhao1 h2
+{
+  font-size: 0.4rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+  position: relative;
+  left: -0.9rem;
+  width: 3.8rem;
+  text-align: center;
+}
+.xiaozhao2
+{
+  position: absolute;
+  top: 56.05rem;
+  left: 10.5rem;
+}
+.xiaozhao2 h1
+{
+  font-size: 0.6rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+  position: relative;
+  left: -0.5rem;
+  padding-bottom: 0.25rem;
+}
+.xiaozhao2 h2
+{
+  font-size: 0.4rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+  position: relative;
+  left: -0.9rem;
+  width: 3.8rem;
+  text-align: center;
+}
+.xiaozhao3
+{
+  position: absolute;
+  top: 62.05rem;
+  left: 10.5rem;
+}
+.xiaozhao3 h1
+{
+  font-size: 0.6rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+  position: relative;
+  left: -0.5rem;
+  padding-bottom: 0.25rem;
+}
+.xiaozhao3 h2
+{
+  font-size: 0.4rem;
+  font-family: "PingFang";
+  color: rgb(92, 92, 92);
+  position: relative;
+  left: -0.9rem;
+  width: 3.8rem;
+  text-align: center;
+}
+footer img
+{
+  width: 25rem;
+  position: relative;
+  top: -7.95rem;
+}
+.footer1
+{
+  position: relative;
+  top: -20.4rem;
+  left: 10.5rem;
+  width: 8.0rem;
+}
+.footer1 h1
+{
+  font-size: 0.9rem;
+  font-family: "PingFang";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.footer1 h2
+{
+  font-size: 0.45rem;
+  font-family: "PingFang";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  position: relative;
+  top: 0.6rem;
+  left: -1.5rem;
+
+}
+#pic 
+{
+  height: 6.25rem;
+  width: 15.0rem;
+  position: absolute;
+  top: 83.025rem;
+  left: 5.025rem;
+}
+#pic img
+{ 
+  height: 2.8rem;
+  width: 4.7rem;
+  float:left;
+  padding-left: 0.05rem;
+  padding-bottom: 0.05rem;
+}
+
+.footer
+{
+  width: 25rem;
+  height: 11.5rem;
+  background-color: #243343;
+  position: absolute;
+  top: 84.85rem;
+}
+.footer img
+{
+  width: 3.5rem;
+  height: 1.5rem;
+  position: relative;
+  top: 2.025rem;
+  left: 10.025rem;
+}
+.footer h2
+{
+  font-size: 0.45rem;
+  font-family: "PingFang";
+  color: rgb(188, 188, 188);
+  position: relative;
+  left: 8.9rem;
+  top: 2.5rem;
+  width: 6rem;
+}
+.footer1 p
+{
+  font-size: 0.35rem;
+  font-family: "Microsoft YaHei";
+  color: rgb(188, 188, 188);
+  position: relative;
+  top: 18.05rem;
+  left: -0.95rem;
+
+}
+.footer1 a
+{
+  font-size: 0.35rem;
+  font-family: "PingFang";
+  color: rgb(188, 188, 188);
+  text-decoration: none;
+  position: relative;
+  top: 17.6rem;
+  left: 1.05rem;
+}
+.footer1 h2
+{
+  font-size: 0.35rem;
+  font-family: "PingFang";
+  color: rgb(188, 188, 188);
+  text-decoration: none;
+  position: relative;
+  top: 18rem;
+  left: -1.95rem;
+}
+.footer1 h3
+{
+  font-size: 0.35rem;
+  font-family: "PingFang";
+  color: rgb(188, 188, 188);
+  text-decoration: none;
+  width: 10rem;
+  position: relative;
+  top: 18.5rem;
+  left: -2.95rem;
+}
