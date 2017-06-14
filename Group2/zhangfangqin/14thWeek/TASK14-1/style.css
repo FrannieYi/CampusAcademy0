@@ -7,6 +7,7 @@ body,p,ul,li,a{
 }
 body{
 	background:#f7f7f7;
+width: 90%;
 }
 .clear{
 	zoom:1;
@@ -92,16 +93,20 @@ body{
 	font-size:20px;
 	line-height: 18px;
 }
-
+.Top-left span{display: block;
+	width: 88px;
+	height: 20px;
+margin-top: 0px;}
 .Top-left-change{
 	vertical-align: middle;
-	height:40px;
+	height:30px;
 	display:inline-block;
 	border-left:1px solid #ddd;
 	margin-left:20px;
 	padding-left:20px;
 }
 .Top-left-change span{
+	display: block;
 	font-size:14px;
 	line-height:14px;
 	color:#5c5c5c;
@@ -111,8 +116,8 @@ body{
 	
 	display:block;
 	width:52px;
-	height:20px;
-	margin-top:6px;
+	height:16px;
+	margin-top:-10px;
 	padding-left:4px;
 	font-size:12px;
 	line-height:20px;
